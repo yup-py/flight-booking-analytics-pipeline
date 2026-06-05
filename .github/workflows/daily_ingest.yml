@@ -1,17 +1,23 @@
 name: Daily Flight Data Ingest
 
+# Grant the bot permission to write back to the repository
+permissions:
+  contents: write
+
 on:
   schedule:
-    # Runs exactly 3 times a day: Midnight, 8 AM, and 4 PM UTC (90 calls/month)
+    # Runs 3 times a day: Midnight, 8 AM, and 4 PM UTC
     - cron: '0 0,8,16 * * *'
-  workflow_dispatch: # Allows manual trigger testing via GitHub UI
+  workflow_dispatch: # Allows manual testing via GitHub UI
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repo
+      - name: Checkout repository
         uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -19,17 +25,21 @@ jobs:
           python-version: '3.10'
 
       - name: Install dependencies
-        run: pip install requests pandas python-dotenv
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests pandas python-dotenv
 
-      - name: Run script
+      - name: Run ingestion script
         env:
           AVIATIONSTACK_API_KEY: ${{ secrets.AVIATIONSTACK_API_KEY }}
         run: python main.py
 
-      - name: Commit files
+      - name: Commit and push data
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add data/raw/raw_json/* data/raw/raw_csv/*
-          git commit -m "Auto-update raw data payloads [skip ci]" || echo "No changes to commit"
+          # Force add the new data files regardless of previous gitignore status
+          git add -f data/raw/raw_json/*.json data/raw/raw_csv/*.csv
+          # Commit only if there are changes
+          git commit -m "Auto-update raw data: $(date)" || echo "No changes to commit"
           git push
