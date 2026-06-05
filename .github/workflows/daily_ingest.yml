@@ -1,0 +1,35 @@
+name: Daily Flight Data Ingest
+
+on:
+  schedule:
+    # Runs exactly 3 times a day: Midnight, 8 AM, and 4 PM UTC (90 calls/month)
+    - cron: '0 0,8,16 * * *'
+  workflow_dispatch: # Allows manual trigger testing via GitHub UI
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: pip install requests pandas python-dotenv
+
+      - name: Run script
+        env:
+          AVIATIONSTACK_API_KEY: ${{ secrets.AVIATIONSTACK_API_KEY }}
+        run: python main.py
+
+      - name: Commit files
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add data/raw/raw_json/* data/raw/raw_csv/*
+          git commit -m "Auto-update raw data payloads [skip ci]" || echo "No changes to commit"
+          git push
