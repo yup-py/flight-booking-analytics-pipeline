@@ -1,0 +1,5163 @@
+{
+    "pagination": {
+        "limit": 100,
+        "offset": 0,
+        "count": 100,
+        "total": 10000
+    },
+    "data": [
+        {
+            "flight_date": "2026-07-09",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Port Macquarie",
+                "timezone": "Australia/Sydney",
+                "iata": "PQQ",
+                "icao": "YPMQ",
+                "terminal": null,
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-07-09T09:45:00+00:00",
+                "estimated": "2026-07-09T09:45:00+00:00",
+                "actual": "2026-07-08T10:36:00+00:00",
+                "estimated_runway": "2026-07-08T10:36:00+00:00",
+                "actual_runway": "2026-07-08T10:36:00+00:00"
+            },
+            "arrival": {
+                "airport": "Port Macquarie",
+                "timezone": "Australia/Sydney",
+                "iata": "PQQ",
+                "icao": "YPMQ",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-08T14:31:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "empty",
+                "iata": null,
+                "icao": null
+            },
+            "flight": {
+                "number": null,
+                "iata": null,
+                "icao": null,
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "7C013C"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-08",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Stuttgart Echterdingen",
+                "timezone": "Europe/Berlin",
+                "iata": "STR",
+                "icao": "EDDS",
+                "terminal": "3",
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-07-08T10:00:00+00:00",
+                "estimated": "2026-07-08T10:00:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Arlanda",
+                "timezone": "Europe/Stockholm",
+                "iata": "ARN",
+                "icao": "ESSA",
+                "terminal": "5",
+                "gate": null,
+                "baggage": "3",
+                "scheduled": "2026-07-08T12:10:00+00:00",
+                "delay": 11,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Eurowings",
+                "iata": "EW",
+                "icao": "EWG"
+            },
+            "flight": {
+                "number": "4607",
+                "iata": "EW4607",
+                "icao": "EWG4607",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "4D2085"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-08",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Stuttgart Echterdingen",
+                "timezone": "Europe/Berlin",
+                "iata": "STR",
+                "icao": "EDDS",
+                "terminal": "3",
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-07-08T10:00:00+00:00",
+                "estimated": "2026-07-08T10:00:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Arlanda",
+                "timezone": "Europe/Stockholm",
+                "iata": "ARN",
+                "icao": "ESSA",
+                "terminal": "5",
+                "gate": null,
+                "baggage": "3",
+                "scheduled": "2026-07-08T12:10:00+00:00",
+                "delay": 11,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Lufthansa",
+                "iata": "LH",
+                "icao": "DLH"
+            },
+            "flight": {
+                "number": "5347",
+                "iata": "LH5347",
+                "icao": "DLH5347",
+                "codeshared": {
+                    "airline_name": "eurowings",
+                    "airline_iata": "ew",
+                    "airline_icao": "ewg",
+                    "flight_number": "4607",
+                    "flight_iata": "ew4607",
+                    "flight_icao": "ewg4607"
+                }
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "4D2085"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-08",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Stuttgart Echterdingen",
+                "timezone": "Europe/Berlin",
+                "iata": "STR",
+                "icao": "EDDS",
+                "terminal": "2",
+                "gate": "T3",
+                "delay": null,
+                "scheduled": "2026-07-08T09:45:00+00:00",
+                "estimated": "2026-07-08T09:45:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Schiphol",
+                "timezone": "Europe/Amsterdam",
+                "iata": "AMS",
+                "icao": "EHAM",
+                "terminal": null,
+                "gate": "A04",
+                "baggage": null,
+                "scheduled": "2026-07-08T11:05:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "KLM",
+                "iata": "KL",
+                "icao": "KLM"
+            },
+            "flight": {
+                "number": "1828",
+                "iata": "KL1828",
+                "icao": "KLM1828",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-08",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Stuttgart Echterdingen",
+                "timezone": "Europe/Berlin",
+                "iata": "STR",
+                "icao": "EDDS",
+                "terminal": "2",
+                "gate": "T3",
+                "delay": null,
+                "scheduled": "2026-07-08T09:45:00+00:00",
+                "estimated": "2026-07-08T09:45:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Schiphol",
+                "timezone": "Europe/Amsterdam",
+                "iata": "AMS",
+                "icao": "EHAM",
+                "terminal": null,
+                "gate": "A04",
+                "baggage": null,
+                "scheduled": "2026-07-08T11:05:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "IndiGo",
+                "iata": "6E",
+                "icao": "IGO"
+            },
+            "flight": {
+                "number": "3375",
+                "iata": "6E3375",
+                "icao": "IGO3375",
+                "codeshared": {
+                    "airline_name": "klm",
+                    "airline_iata": "kl",
+                    "airline_icao": "klm",
+                    "flight_number": "1828",
+                    "flight_iata": "kl1828",
+                    "flight_icao": "klm1828"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-08",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Stuttgart Echterdingen",
+                "timezone": "Europe/Berlin",
+                "iata": "STR",
+                "icao": "EDDS",
+                "terminal": "2",
+                "gate": "T3",
+                "delay": null,
+                "scheduled": "2026-07-08T09:45:00+00:00",
+                "estimated": "2026-07-08T09:45:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Schiphol",
+                "timezone": "Europe/Amsterdam",
+                "iata": "AMS",
+                "icao": "EHAM",
+                "terminal": null,
+                "gate": "A04",
+                "baggage": null,
+                "scheduled": "2026-07-08T11:05:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "SAS",
+                "iata": "SK",
+                "icao": "SAS"
+            },
+            "flight": {
+                "number": "6697",
+                "iata": "SK6697",
+                "icao": "SAS6697",
+                "codeshared": {
+                    "airline_name": "klm",
+                    "airline_iata": "kl",
+                    "airline_icao": "klm",
+                    "flight_number": "1828",
+                    "flight_iata": "kl1828",
+                    "flight_icao": "klm1828"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-08",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Stuttgart Echterdingen",
+                "timezone": "Europe/Berlin",
+                "iata": "STR",
+                "icao": "EDDS",
+                "terminal": "2",
+                "gate": "T3",
+                "delay": null,
+                "scheduled": "2026-07-08T09:45:00+00:00",
+                "estimated": "2026-07-08T09:45:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Schiphol",
+                "timezone": "Europe/Amsterdam",
+                "iata": "AMS",
+                "icao": "EHAM",
+                "terminal": null,
+                "gate": "A04",
+                "baggage": null,
+                "scheduled": "2026-07-08T11:05:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Delta Air Lines",
+                "iata": "DL",
+                "icao": "DAL"
+            },
+            "flight": {
+                "number": "9249",
+                "iata": "DL9249",
+                "icao": "DAL9249",
+                "codeshared": {
+                    "airline_name": "klm",
+                    "airline_iata": "kl",
+                    "airline_icao": "klm",
+                    "flight_number": "1828",
+                    "flight_iata": "kl1828",
+                    "flight_icao": "klm1828"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-08",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Stuttgart Echterdingen",
+                "timezone": "Europe/Berlin",
+                "iata": "STR",
+                "icao": "EDDS",
+                "terminal": "2",
+                "gate": "T3",
+                "delay": null,
+                "scheduled": "2026-07-08T09:45:00+00:00",
+                "estimated": "2026-07-08T09:45:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Schiphol",
+                "timezone": "Europe/Amsterdam",
+                "iata": "AMS",
+                "icao": "EHAM",
+                "terminal": null,
+                "gate": "A04",
+                "baggage": null,
+                "scheduled": "2026-07-08T11:05:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Aeromexico",
+                "iata": "AM",
+                "icao": "AMX"
+            },
+            "flight": {
+                "number": "6434",
+                "iata": "AM6434",
+                "icao": "AMX6434",
+                "codeshared": {
+                    "airline_name": "klm",
+                    "airline_iata": "kl",
+                    "airline_icao": "klm",
+                    "flight_number": "1828",
+                    "flight_iata": "kl1828",
+                    "flight_icao": "klm1828"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-08",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Stuttgart Echterdingen",
+                "timezone": "Europe/Berlin",
+                "iata": "STR",
+                "icao": "EDDS",
+                "terminal": "3",
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-07-08T09:45:00+00:00",
+                "estimated": "2026-07-08T09:45:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Split",
+                "timezone": "Europe/Zagreb",
+                "iata": "SPU",
+                "icao": "LDSP",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-08T11:15:00+00:00",
+                "delay": 11,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Eurowings",
+                "iata": "EW",
+                "icao": "EWG"
+            },
+            "flight": {
+                "number": "2964",
+                "iata": "EW2964",
+                "icao": "EWG2964",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "3C49C8"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-08",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Stuttgart Echterdingen",
+                "timezone": "Europe/Berlin",
+                "iata": "STR",
+                "icao": "EDDS",
+                "terminal": "3",
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-07-08T09:35:00+00:00",
+                "estimated": "2026-07-08T09:35:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Son Sant Joan Airport",
+                "timezone": "Europe/Madrid",
+                "iata": "PMI",
+                "icao": "LEPA",
+                "terminal": "N",
+                "gate": null,
+                "baggage": "19",
+                "scheduled": "2026-07-08T11:35:00+00:00",
+                "delay": 11,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Eurowings",
+                "iata": "EW",
+                "icao": "EWG"
+            },
+            "flight": {
+                "number": "2584",
+                "iata": "EW2584",
+                "icao": "EWG2584",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "3C48F1"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-08",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Stuttgart Echterdingen",
+                "timezone": "Europe/Berlin",
+                "iata": "STR",
+                "icao": "EDDS",
+                "terminal": "3",
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-07-08T09:35:00+00:00",
+                "estimated": "2026-07-08T09:35:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Son Sant Joan Airport",
+                "timezone": "Europe/Madrid",
+                "iata": "PMI",
+                "icao": "LEPA",
+                "terminal": "N",
+                "gate": null,
+                "baggage": "19",
+                "scheduled": "2026-07-08T11:35:00+00:00",
+                "delay": 11,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "SunExpress",
+                "iata": "XQ",
+                "icao": "SXS"
+            },
+            "flight": {
+                "number": "4184",
+                "iata": "XQ4184",
+                "icao": "SXS4184",
+                "codeshared": {
+                    "airline_name": "eurowings",
+                    "airline_iata": "ew",
+                    "airline_icao": "ewg",
+                    "flight_number": "2584",
+                    "flight_iata": "ew2584",
+                    "flight_icao": "ewg2584"
+                }
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "3C48F1"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-08",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Stuttgart Echterdingen",
+                "timezone": "Europe/Berlin",
+                "iata": "STR",
+                "icao": "EDDS",
+                "terminal": "3",
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-07-08T09:30:00+00:00",
+                "estimated": "2026-07-08T09:30:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Franz Josef Strauss",
+                "timezone": "Europe/Berlin",
+                "iata": "MUC",
+                "icao": "EDDM",
+                "terminal": "2",
+                "gate": null,
+                "baggage": "21",
+                "scheduled": "2026-07-08T10:15:00+00:00",
+                "delay": 12,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Lufthansa",
+                "iata": "LH",
+                "icao": "DLH"
+            },
+            "flight": {
+                "number": "2145",
+                "iata": "LH2145",
+                "icao": "DLH2145",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "3C658C"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-08",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Stuttgart Echterdingen",
+                "timezone": "Europe/Berlin",
+                "iata": "STR",
+                "icao": "EDDS",
+                "terminal": "3",
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-07-08T09:30:00+00:00",
+                "estimated": "2026-07-08T09:30:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Franz Josef Strauss",
+                "timezone": "Europe/Berlin",
+                "iata": "MUC",
+                "icao": "EDDM",
+                "terminal": "2",
+                "gate": null,
+                "baggage": "21",
+                "scheduled": "2026-07-08T10:15:00+00:00",
+                "delay": 12,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "United Airlines",
+                "iata": "UA",
+                "icao": "UAL"
+            },
+            "flight": {
+                "number": "9429",
+                "iata": "UA9429",
+                "icao": "UAL9429",
+                "codeshared": {
+                    "airline_name": "lufthansa",
+                    "airline_iata": "lh",
+                    "airline_icao": "dlh",
+                    "flight_number": "2145",
+                    "flight_iata": "lh2145",
+                    "flight_icao": "dlh2145"
+                }
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "3C658C"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-08",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Stuttgart Echterdingen",
+                "timezone": "Europe/Berlin",
+                "iata": "STR",
+                "icao": "EDDS",
+                "terminal": "3",
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-07-08T09:30:00+00:00",
+                "estimated": "2026-07-08T09:30:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Franz Josef Strauss",
+                "timezone": "Europe/Berlin",
+                "iata": "MUC",
+                "icao": "EDDM",
+                "terminal": "2",
+                "gate": null,
+                "baggage": "21",
+                "scheduled": "2026-07-08T10:15:00+00:00",
+                "delay": 12,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Singapore Airlines",
+                "iata": "SQ",
+                "icao": "SIA"
+            },
+            "flight": {
+                "number": "2165",
+                "iata": "SQ2165",
+                "icao": "SIA2165",
+                "codeshared": {
+                    "airline_name": "lufthansa",
+                    "airline_iata": "lh",
+                    "airline_icao": "dlh",
+                    "flight_number": "2145",
+                    "flight_iata": "lh2145",
+                    "flight_icao": "dlh2145"
+                }
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "3C658C"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-08",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Stuttgart Echterdingen",
+                "timezone": "Europe/Berlin",
+                "iata": "STR",
+                "icao": "EDDS",
+                "terminal": "3",
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-07-08T09:30:00+00:00",
+                "estimated": "2026-07-08T09:30:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Franz Josef Strauss",
+                "timezone": "Europe/Berlin",
+                "iata": "MUC",
+                "icao": "EDDM",
+                "terminal": "2",
+                "gate": null,
+                "baggage": "21",
+                "scheduled": "2026-07-08T10:15:00+00:00",
+                "delay": 12,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "All Nippon Airways",
+                "iata": "NH",
+                "icao": "ANA"
+            },
+            "flight": {
+                "number": "6040",
+                "iata": "NH6040",
+                "icao": "ANA6040",
+                "codeshared": {
+                    "airline_name": "lufthansa",
+                    "airline_iata": "lh",
+                    "airline_icao": "dlh",
+                    "flight_number": "2145",
+                    "flight_iata": "lh2145",
+                    "flight_icao": "dlh2145"
+                }
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "3C658C"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-08",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Stuttgart Echterdingen",
+                "timezone": "Europe/Berlin",
+                "iata": "STR",
+                "icao": "EDDS",
+                "terminal": "3",
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-07-08T09:30:00+00:00",
+                "estimated": "2026-07-08T09:30:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Franz Josef Strauss",
+                "timezone": "Europe/Berlin",
+                "iata": "MUC",
+                "icao": "EDDM",
+                "terminal": "2",
+                "gate": null,
+                "baggage": "21",
+                "scheduled": "2026-07-08T10:15:00+00:00",
+                "delay": 12,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Air China",
+                "iata": "CA",
+                "icao": "CCA"
+            },
+            "flight": {
+                "number": "6154",
+                "iata": "CA6154",
+                "icao": "CCA6154",
+                "codeshared": {
+                    "airline_name": "lufthansa",
+                    "airline_iata": "lh",
+                    "airline_icao": "dlh",
+                    "flight_number": "2145",
+                    "flight_iata": "lh2145",
+                    "flight_icao": "dlh2145"
+                }
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "3C658C"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-08",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Stansted",
+                "timezone": "Europe/London",
+                "iata": "STN",
+                "icao": "EGSS",
+                "terminal": null,
+                "gate": "49",
+                "delay": null,
+                "scheduled": "2026-07-08T09:05:00+00:00",
+                "estimated": "2026-07-08T09:05:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Paphos International Airport",
+                "timezone": "Asia/Nicosia",
+                "iata": "PFO",
+                "icao": "LCPH",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-08T15:30:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Ryanair",
+                "iata": "FR",
+                "icao": "RYR"
+            },
+            "flight": {
+                "number": "3131",
+                "iata": "FR3131",
+                "icao": "RYR3131",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "4CAC1E"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-08",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Stansted",
+                "timezone": "Europe/London",
+                "iata": "STN",
+                "icao": "EGSS",
+                "terminal": null,
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-07-08T09:00:00+00:00",
+                "estimated": "2026-07-08T09:00:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Newquay Cornwall Airport",
+                "timezone": "Europe/London",
+                "iata": "NQY",
+                "icao": "EGHQ",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-08T09:56:00+00:00",
+                "delay": 15,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "empty",
+                "iata": null,
+                "icao": null
+            },
+            "flight": {
+                "number": null,
+                "iata": null,
+                "icao": null,
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "407A3E"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-08",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Stansted",
+                "timezone": "Europe/London",
+                "iata": "STN",
+                "icao": "EGSS",
+                "terminal": null,
+                "gate": "81",
+                "delay": null,
+                "scheduled": "2026-07-08T09:00:00+00:00",
+                "estimated": "2026-07-08T09:00:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Edinburgh",
+                "timezone": "Europe/London",
+                "iata": "EDI",
+                "icao": "EGPH",
+                "terminal": null,
+                "gate": null,
+                "baggage": "9",
+                "scheduled": "2026-07-08T10:20:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Ryanair",
+                "iata": "FR",
+                "icao": "RYR"
+            },
+            "flight": {
+                "number": "596",
+                "iata": "FR596",
+                "icao": "RYR596",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "407F0E"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-08",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Stansted",
+                "timezone": "Europe/London",
+                "iata": "STN",
+                "icao": "EGSS",
+                "terminal": null,
+                "gate": "38",
+                "delay": null,
+                "scheduled": "2026-07-08T09:00:00+00:00",
+                "estimated": "2026-07-08T09:00:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Santorini (Thira)",
+                "timezone": "Europe/Athens",
+                "iata": "JTR",
+                "icao": "LGSR",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-08T14:45:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Ryanair",
+                "iata": "FR",
+                "icao": "RYR"
+            },
+            "flight": {
+                "number": "2906",
+                "iata": "FR2906",
+                "icao": "RYR2906",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-08",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Stansted",
+                "timezone": "Europe/London",
+                "iata": "STN",
+                "icao": "EGSS",
+                "terminal": null,
+                "gate": "50",
+                "delay": null,
+                "scheduled": "2026-07-08T09:00:00+00:00",
+                "estimated": "2026-07-08T09:00:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Galileo Galilei",
+                "timezone": "Europe/Rome",
+                "iata": "PSA",
+                "icao": "LIRP",
+                "terminal": null,
+                "gate": null,
+                "baggage": "1",
+                "scheduled": "2026-07-08T12:05:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Ryanair",
+                "iata": "FR",
+                "icao": "RYR"
+            },
+            "flight": {
+                "number": "584",
+                "iata": "FR584",
+                "icao": "RYR584",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "4D2223"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-08",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Stansted",
+                "timezone": "Europe/London",
+                "iata": "STN",
+                "icao": "EGSS",
+                "terminal": null,
+                "gate": "84",
+                "delay": null,
+                "scheduled": "2026-07-08T08:55:00+00:00",
+                "estimated": "2026-07-08T08:55:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Glasgow International",
+                "timezone": "Europe/London",
+                "iata": "GLA",
+                "icao": "EGPF",
+                "terminal": "M",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-08T10:10:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "easyJet",
+                "iata": "U2",
+                "icao": "EZY"
+            },
+            "flight": {
+                "number": "410",
+                "iata": "U2410",
+                "icao": "EZY410",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "406539"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-08",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Stansted",
+                "timezone": "Europe/London",
+                "iata": "STN",
+                "icao": "EGSS",
+                "terminal": null,
+                "gate": "32",
+                "delay": null,
+                "scheduled": "2026-07-08T08:35:00+00:00",
+                "estimated": "2026-07-08T08:35:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Kos Island International Airport",
+                "timezone": "Europe/Athens",
+                "iata": "KGS",
+                "icao": "LGKO",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-08T14:25:00+00:00",
+                "delay": 14,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Ryanair",
+                "iata": "FR",
+                "icao": "RYR"
+            },
+            "flight": {
+                "number": "6291",
+                "iata": "FR6291",
+                "icao": "RYR6291",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "4CAC56"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-08",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Stansted",
+                "timezone": "Europe/London",
+                "iata": "STN",
+                "icao": "EGSS",
+                "terminal": null,
+                "gate": "47",
+                "delay": null,
+                "scheduled": "2026-07-08T08:35:00+00:00",
+                "estimated": "2026-07-08T08:35:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Cologne/bonn",
+                "timezone": "Europe/Berlin",
+                "iata": "CGN",
+                "icao": "EDDK",
+                "terminal": "2",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-08T10:55:00+00:00",
+                "delay": 14,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Ryanair",
+                "iata": "FR",
+                "icao": "RYR"
+            },
+            "flight": {
+                "number": "2816",
+                "iata": "FR2816",
+                "icao": "RYR2816",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "4CA25B"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-08",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Stansted",
+                "timezone": "Europe/London",
+                "iata": "STN",
+                "icao": "EGSS",
+                "terminal": null,
+                "gate": "83",
+                "delay": null,
+                "scheduled": "2026-07-08T08:30:00+00:00",
+                "estimated": "2026-07-08T08:30:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Rinas Mother Teresa",
+                "timezone": "Europe/Tirane",
+                "iata": "TIA",
+                "icao": "LATI",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-08T12:25:00+00:00",
+                "delay": 14,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Ryanair",
+                "iata": "FR",
+                "icao": "RYR"
+            },
+            "flight": {
+                "number": "8101",
+                "iata": "FR8101",
+                "icao": "RYR8101",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "4CA570"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-08",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Stansted",
+                "timezone": "Europe/London",
+                "iata": "STN",
+                "icao": "EGSS",
+                "terminal": null,
+                "gate": "29",
+                "delay": null,
+                "scheduled": "2026-07-08T08:30:00+00:00",
+                "estimated": "2026-07-08T08:30:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Valencia",
+                "timezone": "Europe/Madrid",
+                "iata": "VLC",
+                "icao": "LEVC",
+                "terminal": "1",
+                "gate": null,
+                "baggage": "11",
+                "scheduled": "2026-07-08T11:55:00+00:00",
+                "delay": 14,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Ryanair",
+                "iata": "FR",
+                "icao": "RYR"
+            },
+            "flight": {
+                "number": "1736",
+                "iata": "FR1736",
+                "icao": "RYR1736",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "4CA80E"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-08",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Stansted",
+                "timezone": "Europe/London",
+                "iata": "STN",
+                "icao": "EGSS",
+                "terminal": null,
+                "gate": "41",
+                "delay": null,
+                "scheduled": "2026-07-08T08:30:00+00:00",
+                "estimated": "2026-07-08T08:30:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Lech Walesa",
+                "timezone": "Europe/Warsaw",
+                "iata": "GDN",
+                "icao": "EPGD",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-08T11:35:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Ryanair",
+                "iata": "FR",
+                "icao": "RYR"
+            },
+            "flight": {
+                "number": "533",
+                "iata": "FR533",
+                "icao": "RYR533",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "48C12D"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-08",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Stansted",
+                "timezone": "Europe/London",
+                "iata": "STN",
+                "icao": "EGSS",
+                "terminal": null,
+                "gate": "48",
+                "delay": null,
+                "scheduled": "2026-07-08T08:30:00+00:00",
+                "estimated": "2026-07-08T08:30:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Dublin International",
+                "timezone": "Europe/Dublin",
+                "iata": "DUB",
+                "icao": "EIDW",
+                "terminal": "1",
+                "gate": null,
+                "baggage": "2",
+                "scheduled": "2026-07-08T09:50:00+00:00",
+                "delay": 15,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Ryanair",
+                "iata": "FR",
+                "icao": "RYR"
+            },
+            "flight": {
+                "number": "31",
+                "iata": "FR31",
+                "icao": "RYR31",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "4CA810"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-08",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Stansted",
+                "timezone": "Europe/London",
+                "iata": "STN",
+                "icao": "EGSS",
+                "terminal": null,
+                "gate": "27",
+                "delay": null,
+                "scheduled": "2026-07-08T08:25:00+00:00",
+                "estimated": "2026-07-08T08:25:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Eindhoven",
+                "timezone": "Europe/Amsterdam",
+                "iata": "EIN",
+                "icao": "EHEH",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-08T10:30:00+00:00",
+                "delay": 14,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Ryanair",
+                "iata": "FR",
+                "icao": "RYR"
+            },
+            "flight": {
+                "number": "2534",
+                "iata": "FR2534",
+                "icao": "RYR2534",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "4CA256"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-08",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Stansted",
+                "timezone": "Europe/London",
+                "iata": "STN",
+                "icao": "EGSS",
+                "terminal": null,
+                "gate": "59",
+                "delay": null,
+                "scheduled": "2026-07-08T08:20:00+00:00",
+                "estimated": "2026-07-08T08:20:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Pablo Ruiz Picasso",
+                "timezone": "Europe/Madrid",
+                "iata": "AGP",
+                "icao": "LEMG",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-08T12:15:00+00:00",
+                "delay": 14,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Ryanair",
+                "iata": "FR",
+                "icao": "RYR"
+            },
+            "flight": {
+                "number": "8164",
+                "iata": "FR8164",
+                "icao": "RYR8164",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "4CA850"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-08",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Stansted",
+                "timezone": "Europe/London",
+                "iata": "STN",
+                "icao": "EGSS",
+                "terminal": null,
+                "gate": "33",
+                "delay": null,
+                "scheduled": "2026-07-08T08:20:00+00:00",
+                "estimated": "2026-07-08T08:20:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Modlin",
+                "timezone": "Europe/Warsaw",
+                "iata": "WMI",
+                "icao": "EPMO",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-08T11:35:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Ryanair",
+                "iata": "FR",
+                "icao": "RYR"
+            },
+            "flight": {
+                "number": "1021",
+                "iata": "FR1021",
+                "icao": "RYR1021",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "48C2B7"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-08",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Stansted",
+                "timezone": "Europe/London",
+                "iata": "STN",
+                "icao": "EGSS",
+                "terminal": null,
+                "gate": "57",
+                "delay": null,
+                "scheduled": "2026-07-08T08:20:00+00:00",
+                "estimated": "2026-07-08T08:20:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Barajas",
+                "timezone": "Europe/Madrid",
+                "iata": "MAD",
+                "icao": "LEMD",
+                "terminal": "1",
+                "gate": null,
+                "baggage": "I103",
+                "scheduled": "2026-07-08T11:50:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Ryanair",
+                "iata": "FR",
+                "icao": "RYR"
+            },
+            "flight": {
+                "number": "347",
+                "iata": "FR347",
+                "icao": "RYR347",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "4D234F"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-08",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Stansted",
+                "timezone": "Europe/London",
+                "iata": "STN",
+                "icao": "EGSS",
+                "terminal": null,
+                "gate": "81",
+                "delay": null,
+                "scheduled": "2026-07-08T08:15:00+00:00",
+                "estimated": "2026-07-08T08:15:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Edinburgh",
+                "timezone": "Europe/London",
+                "iata": "EDI",
+                "icao": "EGPH",
+                "terminal": null,
+                "gate": null,
+                "baggage": "9",
+                "scheduled": "2026-07-08T09:35:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "easyJet",
+                "iata": "U2",
+                "icao": "EZY"
+            },
+            "flight": {
+                "number": "308",
+                "iata": "U2308",
+                "icao": "EZY308",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "406E65"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-08",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Stansted",
+                "timezone": "Europe/London",
+                "iata": "STN",
+                "icao": "EGSS",
+                "terminal": null,
+                "gate": "16",
+                "delay": null,
+                "scheduled": "2026-07-08T08:15:00+00:00",
+                "estimated": "2026-07-08T08:15:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Son Sant Joan Airport",
+                "timezone": "Europe/Madrid",
+                "iata": "PMI",
+                "icao": "LEPA",
+                "terminal": "N",
+                "gate": null,
+                "baggage": "08",
+                "scheduled": "2026-07-08T11:45:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Jet2",
+                "iata": "LS",
+                "icao": "EXS"
+            },
+            "flight": {
+                "number": "1529",
+                "iata": "LS1529",
+                "icao": "EXS1529",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "406C81"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-08",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Stansted",
+                "timezone": "Europe/London",
+                "iata": "STN",
+                "icao": "EGSS",
+                "terminal": null,
+                "gate": "53",
+                "delay": null,
+                "scheduled": "2026-07-08T08:15:00+00:00",
+                "estimated": "2026-07-08T08:15:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "John Paul II Balice International",
+                "timezone": "Europe/Warsaw",
+                "iata": "KRK",
+                "icao": "EPKK",
+                "terminal": "T",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-08T11:35:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Buzz",
+                "iata": "RR",
+                "icao": "RYS"
+            },
+            "flight": {
+                "number": "2362",
+                "iata": "RR2362",
+                "icao": "RYS2362",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "48C2A6"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-08",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Stansted",
+                "timezone": "Europe/London",
+                "iata": "STN",
+                "icao": "EGSS",
+                "terminal": null,
+                "gate": "56",
+                "delay": null,
+                "scheduled": "2026-07-08T08:15:00+00:00",
+                "estimated": "2026-07-08T08:15:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Lodz Lublinek",
+                "timezone": "Europe/Warsaw",
+                "iata": "LCJ",
+                "icao": "EPLL",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-08T11:25:00+00:00",
+                "delay": 14,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Ryanair",
+                "iata": "FR",
+                "icao": "RYR"
+            },
+            "flight": {
+                "number": "1844",
+                "iata": "FR1844",
+                "icao": "RYR1844",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "4D2274"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-08",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Stansted",
+                "timezone": "Europe/London",
+                "iata": "STN",
+                "icao": "EGSS",
+                "terminal": null,
+                "gate": "44",
+                "delay": null,
+                "scheduled": "2026-07-08T08:10:00+00:00",
+                "estimated": "2026-07-08T08:10:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Liszt Ferenc International",
+                "timezone": "Europe/Budapest",
+                "iata": "BUD",
+                "icao": "LHBP",
+                "terminal": "2B",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-08T11:35:00+00:00",
+                "delay": 14,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Ryanair",
+                "iata": "FR",
+                "icao": "RYR"
+            },
+            "flight": {
+                "number": "2518",
+                "iata": "FR2518",
+                "icao": "RYR2518",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "4CAC86"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-08",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Stansted",
+                "timezone": "Europe/London",
+                "iata": "STN",
+                "icao": "EGSS",
+                "terminal": null,
+                "gate": "36",
+                "delay": null,
+                "scheduled": "2026-07-08T08:10:00+00:00",
+                "estimated": "2026-07-08T08:10:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Vienna International",
+                "timezone": "Europe/Vienna",
+                "iata": "VIE",
+                "icao": "LOWW",
+                "terminal": "1",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-08T11:20:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Lauda Europe",
+                "iata": "LW",
+                "icao": "LDA"
+            },
+            "flight": {
+                "number": "730",
+                "iata": "LW730",
+                "icao": "LDA730",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "4D22B4"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-08",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Stansted",
+                "timezone": "Europe/London",
+                "iata": "STN",
+                "icao": "EGSS",
+                "terminal": null,
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-07-08T08:10:00+00:00",
+                "estimated": "2026-07-08T08:10:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Shanghai Pudong International",
+                "timezone": "Asia/Shanghai",
+                "iata": "PVG",
+                "icao": "ZSPD",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-09T02:00:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "China Cargo Airlines",
+                "iata": "CK",
+                "icao": "CKK"
+            },
+            "flight": {
+                "number": "214",
+                "iata": "CK214",
+                "icao": "CKK214",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-08",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Zhengzhou",
+                "timezone": "Asia/Shanghai",
+                "iata": "CGO",
+                "icao": "ZHCC",
+                "terminal": "2",
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-07-08T13:15:00+00:00",
+                "estimated": "2026-07-08T13:15:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Shantou",
+                "timezone": "Asia/Shanghai",
+                "iata": "SWA",
+                "icao": "ZGOW",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-08T15:30:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "West Air",
+                "iata": "PN",
+                "icao": "CHB"
+            },
+            "flight": {
+                "number": "6365",
+                "iata": "PN6365",
+                "icao": "CHB6365",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "780726"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-08",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Hangzhou",
+                "timezone": "Asia/Shanghai",
+                "iata": "HGH",
+                "icao": "ZSHC",
+                "terminal": "3",
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-07-08T13:40:00+00:00",
+                "estimated": "2026-07-08T13:40:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Shantou",
+                "timezone": "Asia/Shanghai",
+                "iata": "SWA",
+                "icao": "ZGOW",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-08T15:30:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Capital Airlines",
+                "iata": "JD",
+                "icao": "CBJ"
+            },
+            "flight": {
+                "number": "4021",
+                "iata": "JD4021",
+                "icao": "CBJ4021",
+                "codeshared": {
+                    "airline_name": "hainan airlines",
+                    "airline_iata": "hu",
+                    "airline_icao": "chh",
+                    "flight_number": "7415",
+                    "flight_iata": "hu7415",
+                    "flight_icao": "chh7415"
+                }
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "780D13"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-08",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Hangzhou",
+                "timezone": "Asia/Shanghai",
+                "iata": "HGH",
+                "icao": "ZSHC",
+                "terminal": "3",
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-07-08T13:40:00+00:00",
+                "estimated": "2026-07-08T13:40:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Shantou",
+                "timezone": "Asia/Shanghai",
+                "iata": "SWA",
+                "icao": "ZGOW",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-08T15:30:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Loong Air",
+                "iata": "GJ",
+                "icao": "CDC"
+            },
+            "flight": {
+                "number": "7137",
+                "iata": "GJ7137",
+                "icao": "CDC7137",
+                "codeshared": {
+                    "airline_name": "hainan airlines",
+                    "airline_iata": "hu",
+                    "airline_icao": "chh",
+                    "flight_number": "7415",
+                    "flight_iata": "hu7415",
+                    "flight_icao": "chh7415"
+                }
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "780D13"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-08",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Hangzhou",
+                "timezone": "Asia/Shanghai",
+                "iata": "HGH",
+                "icao": "ZSHC",
+                "terminal": "3",
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-07-08T13:40:00+00:00",
+                "estimated": "2026-07-08T13:40:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Shantou",
+                "timezone": "Asia/Shanghai",
+                "iata": "SWA",
+                "icao": "ZGOW",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-08T15:30:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "China Express Airlines",
+                "iata": "G5",
+                "icao": "HXA"
+            },
+            "flight": {
+                "number": "5019",
+                "iata": "G55019",
+                "icao": "HXA5019",
+                "codeshared": {
+                    "airline_name": "hainan airlines",
+                    "airline_iata": "hu",
+                    "airline_icao": "chh",
+                    "flight_number": "7415",
+                    "flight_iata": "hu7415",
+                    "flight_icao": "chh7415"
+                }
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "780D13"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-08",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Shantou",
+                "timezone": "Asia/Shanghai",
+                "iata": "SWA",
+                "icao": "ZGOW",
+                "terminal": null,
+                "gate": "18-2",
+                "delay": null,
+                "scheduled": "2026-07-08T16:00:00+00:00",
+                "estimated": "2026-07-08T16:00:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Shanghai Pudong International",
+                "timezone": "Asia/Shanghai",
+                "iata": "PVG",
+                "icao": "ZSPD",
+                "terminal": "2",
+                "gate": null,
+                "baggage": "41",
+                "scheduled": "2026-07-08T18:05:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Spring Airlines",
+                "iata": "9C",
+                "icao": "CQH"
+            },
+            "flight": {
+                "number": "6630",
+                "iata": "9C6630",
+                "icao": "CQH6630",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "780F73"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-08",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Shantou",
+                "timezone": "Asia/Shanghai",
+                "iata": "SWA",
+                "icao": "ZGOW",
+                "terminal": null,
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-07-08T15:55:00+00:00",
+                "estimated": "2026-07-08T15:55:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Kuala Lumpur International Airport (klia)",
+                "timezone": "Asia/Kuala_Lumpur",
+                "iata": "KUL",
+                "icao": "WMKK",
+                "terminal": "2",
+                "gate": "Q21",
+                "baggage": null,
+                "scheduled": "2026-07-08T20:10:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "AirAsia",
+                "iata": "AK",
+                "icao": "AXM"
+            },
+            "flight": {
+                "number": "141",
+                "iata": "AK141",
+                "icao": "AXM141",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "75043E"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-08",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Shantou",
+                "timezone": "Asia/Shanghai",
+                "iata": "SWA",
+                "icao": "ZGOW",
+                "terminal": null,
+                "gate": "18-2",
+                "delay": null,
+                "scheduled": "2026-07-08T15:50:00+00:00",
+                "estimated": "2026-07-08T15:50:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Hangzhou",
+                "timezone": "Asia/Shanghai",
+                "iata": "HGH",
+                "icao": "ZSHC",
+                "terminal": "3",
+                "gate": null,
+                "baggage": "B06",
+                "scheduled": "2026-07-08T17:40:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Spring Airlines",
+                "iata": "9C",
+                "icao": "CQH"
+            },
+            "flight": {
+                "number": "6359",
+                "iata": "9C6359",
+                "icao": "CQH6359",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "7821F4"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-08",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Shantou",
+                "timezone": "Asia/Shanghai",
+                "iata": "SWA",
+                "icao": "ZGOW",
+                "terminal": null,
+                "gate": "112",
+                "delay": null,
+                "scheduled": "2026-07-08T15:45:00+00:00",
+                "estimated": "2026-07-08T15:45:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Zhengzhou",
+                "timezone": "Asia/Shanghai",
+                "iata": "CGO",
+                "icao": "ZHCC",
+                "terminal": "2",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-08T18:25:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "China Southern Airlines",
+                "iata": "CZ",
+                "icao": "CSN"
+            },
+            "flight": {
+                "number": "5197",
+                "iata": "CZ5197",
+                "icao": "CSN5197",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-08",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Shantou",
+                "timezone": "Asia/Shanghai",
+                "iata": "SWA",
+                "icao": "ZGOW",
+                "terminal": null,
+                "gate": "1-15",
+                "delay": null,
+                "scheduled": "2026-07-08T15:10:00+00:00",
+                "estimated": "2026-07-08T15:10:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Shanghai Pudong International",
+                "timezone": "Asia/Shanghai",
+                "iata": "PVG",
+                "icao": "ZSPD",
+                "terminal": "1",
+                "gate": null,
+                "baggage": "4",
+                "scheduled": "2026-07-08T17:35:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Shanghai Airlines",
+                "iata": "FM",
+                "icao": "CSH"
+            },
+            "flight": {
+                "number": "9296",
+                "iata": "FM9296",
+                "icao": "CSH9296",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "780D2E"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-08",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Shantou",
+                "timezone": "Asia/Shanghai",
+                "iata": "SWA",
+                "icao": "ZGOW",
+                "terminal": null,
+                "gate": "1-15",
+                "delay": null,
+                "scheduled": "2026-07-08T15:10:00+00:00",
+                "estimated": "2026-07-08T15:10:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Shanghai Pudong International",
+                "timezone": "Asia/Shanghai",
+                "iata": "PVG",
+                "icao": "ZSPD",
+                "terminal": "1",
+                "gate": null,
+                "baggage": "4",
+                "scheduled": "2026-07-08T17:35:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "China Eastern Airlines",
+                "iata": "MU",
+                "icao": "CES"
+            },
+            "flight": {
+                "number": "8484",
+                "iata": "MU8484",
+                "icao": "CES8484",
+                "codeshared": {
+                    "airline_name": "shanghai airlines",
+                    "airline_iata": "fm",
+                    "airline_icao": "csh",
+                    "flight_number": "9296",
+                    "flight_iata": "fm9296",
+                    "flight_icao": "csh9296"
+                }
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "780D2E"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-08",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": null,
+                "timezone": null,
+                "iata": "TCR",
+                "icao": "VOTK",
+                "terminal": null,
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-07-08T13:10:00+00:00",
+                "estimated": "2026-07-08T13:10:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Bangalore International Airport",
+                "timezone": "Asia/Kolkata",
+                "iata": "BLR",
+                "icao": "VOBL",
+                "terminal": "1",
+                "gate": "A3",
+                "baggage": "4",
+                "scheduled": "2026-07-08T14:50:00+00:00",
+                "delay": 10,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "IndiGo",
+                "iata": "6E",
+                "icao": "IGO"
+            },
+            "flight": {
+                "number": "7736",
+                "iata": "6E7736",
+                "icao": "IGO7736",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "800CC2"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-08",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Juan Santamaría International",
+                "timezone": "America/Costa_Rica",
+                "iata": "SJO",
+                "icao": "MROC",
+                "terminal": "M",
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-07-08T01:50:00+00:00",
+                "estimated": "2026-07-08T01:50:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "El Nuevo Dorado International",
+                "timezone": "America/Bogota",
+                "iata": "BOG",
+                "icao": "SKBO",
+                "terminal": "1",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-08T05:00:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "avianca",
+                "iata": "AV",
+                "icao": "AVA"
+            },
+            "flight": {
+                "number": "693",
+                "iata": "AV693",
+                "icao": "AVA693",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-08",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Sarajevo",
+                "timezone": "Europe/Sarajevo",
+                "iata": "SJJ",
+                "icao": "LQSA",
+                "terminal": null,
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-07-08T09:35:00+00:00",
+                "estimated": "2026-07-08T09:35:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Zurich",
+                "timezone": "Europe/Zurich",
+                "iata": "ZRH",
+                "icao": "LSZH",
+                "terminal": "2",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-08T11:20:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Swiss",
+                "iata": "LX",
+                "icao": "SWR"
+            },
+            "flight": {
+                "number": "1451",
+                "iata": "LX1451",
+                "icao": "SWR1451",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "4B17FD"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-08",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Sarajevo",
+                "timezone": "Europe/Sarajevo",
+                "iata": "SJJ",
+                "icao": "LQSA",
+                "terminal": null,
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-07-08T09:35:00+00:00",
+                "estimated": "2026-07-08T09:35:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Zurich",
+                "timezone": "Europe/Zurich",
+                "iata": "ZRH",
+                "icao": "LSZH",
+                "terminal": "2",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-08T11:20:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Air Canada",
+                "iata": "AC",
+                "icao": "ACA"
+            },
+            "flight": {
+                "number": "6867",
+                "iata": "AC6867",
+                "icao": "ACA6867",
+                "codeshared": {
+                    "airline_name": "swiss",
+                    "airline_iata": "lx",
+                    "airline_icao": "swr",
+                    "flight_number": "1451",
+                    "flight_iata": "lx1451",
+                    "flight_icao": "swr1451"
+                }
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "4B17FD"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-08",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Sarajevo",
+                "timezone": "Europe/Sarajevo",
+                "iata": "SJJ",
+                "icao": "LQSA",
+                "terminal": null,
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-07-08T09:15:00+00:00",
+                "estimated": "2026-07-08T09:15:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Esenboga International",
+                "timezone": "Europe/Istanbul",
+                "iata": "ESB",
+                "icao": "LTAC",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-08T12:15:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "AJet",
+                "iata": "VF",
+                "icao": "TKJ"
+            },
+            "flight": {
+                "number": "624",
+                "iata": "VF624",
+                "icao": "TKJ624",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-08",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Sarajevo",
+                "timezone": "Europe/Sarajevo",
+                "iata": "SJJ",
+                "icao": "LQSA",
+                "terminal": null,
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-07-08T09:15:00+00:00",
+                "estimated": "2026-07-08T09:15:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Cologne/bonn",
+                "timezone": "Europe/Berlin",
+                "iata": "CGN",
+                "icao": "EDDK",
+                "terminal": "1",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-08T11:15:00+00:00",
+                "delay": 10,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Eurowings",
+                "iata": "EW",
+                "icao": "EWG"
+            },
+            "flight": {
+                "number": "493",
+                "iata": "EW493",
+                "icao": "EWG493",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "3C56EE"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-08",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Sarajevo",
+                "timezone": "Europe/Sarajevo",
+                "iata": "SJJ",
+                "icao": "LQSA",
+                "terminal": null,
+                "gate": "5",
+                "delay": null,
+                "scheduled": "2026-07-08T09:10:00+00:00",
+                "estimated": "2026-07-08T09:10:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Istanbul Airport",
+                "timezone": "Europe/Istanbul",
+                "iata": "IST",
+                "icao": "LTFM",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-08T12:10:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Turkish Airlines",
+                "iata": "TK",
+                "icao": "THY"
+            },
+            "flight": {
+                "number": "1022",
+                "iata": "TK1022",
+                "icao": "THY1022",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-08",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Samos",
+                "timezone": "Europe/Athens",
+                "iata": "SMI",
+                "icao": "LGSM",
+                "terminal": null,
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-07-08T10:25:00+00:00",
+                "estimated": "2026-07-08T10:25:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Frederic Chopin",
+                "timezone": "Europe/Warsaw",
+                "iata": "WAW",
+                "icao": "EPWA",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-08T12:06:00+00:00",
+                "delay": 10,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "LOT",
+                "iata": "LO",
+                "icao": "LOT"
+            },
+            "flight": {
+                "number": null,
+                "iata": "LO",
+                "icao": "LOT",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "48E958"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-08",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Samos",
+                "timezone": "Europe/Athens",
+                "iata": "SMI",
+                "icao": "LGSM",
+                "terminal": null,
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-07-08T11:00:00+00:00",
+                "estimated": "2026-07-08T11:00:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Athens International Airport \"Eleftherios Venizelos\"",
+                "timezone": "Europe/Athens",
+                "iata": "ATH",
+                "icao": "LGAV",
+                "terminal": null,
+                "gate": null,
+                "baggage": "08",
+                "scheduled": "2026-07-08T12:10:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Olympic Air",
+                "iata": "OA",
+                "icao": "OAL"
+            },
+            "flight": {
+                "number": "243",
+                "iata": "OA243",
+                "icao": "OAL243",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "46BC53"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-08",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Samos",
+                "timezone": "Europe/Athens",
+                "iata": "SMI",
+                "icao": "LGSM",
+                "terminal": null,
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-07-08T11:00:00+00:00",
+                "estimated": "2026-07-08T11:00:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Athens International Airport \"Eleftherios Venizelos\"",
+                "timezone": "Europe/Athens",
+                "iata": "ATH",
+                "icao": "LGAV",
+                "terminal": null,
+                "gate": null,
+                "baggage": "08",
+                "scheduled": "2026-07-08T12:10:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Emirates",
+                "iata": "EK",
+                "icao": "UAE"
+            },
+            "flight": {
+                "number": "4972",
+                "iata": "EK4972",
+                "icao": "UAE4972",
+                "codeshared": {
+                    "airline_name": "olympic air",
+                    "airline_iata": "oa",
+                    "airline_icao": "oal",
+                    "flight_number": "243",
+                    "flight_iata": "oa243",
+                    "flight_icao": "oal243"
+                }
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "46BC53"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-08",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Sacramento International",
+                "timezone": "America/Los_Angeles",
+                "iata": "SMF",
+                "icao": "KSMF",
+                "terminal": "B",
+                "gate": "B8",
+                "delay": null,
+                "scheduled": "2026-07-08T01:05:00+00:00",
+                "estimated": "2026-07-08T01:05:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Del Bajío International",
+                "timezone": "America/Mexico_City",
+                "iata": "BJX",
+                "icao": "MMLO",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-08T05:52:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Volaris",
+                "iata": "Y4",
+                "icao": "VOI"
+            },
+            "flight": {
+                "number": "7751",
+                "iata": "Y47751",
+                "icao": "VOI7751",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "0D0E3B"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-08",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Sacramento International",
+                "timezone": "America/Los_Angeles",
+                "iata": "SMF",
+                "icao": "KSMF",
+                "terminal": "B",
+                "gate": "B8",
+                "delay": null,
+                "scheduled": "2026-07-08T01:05:00+00:00",
+                "estimated": "2026-07-08T01:05:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Del Bajío International",
+                "timezone": "America/Mexico_City",
+                "iata": "BJX",
+                "icao": "MMLO",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-08T05:52:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Frontier",
+                "iata": "F9",
+                "icao": "FFT"
+            },
+            "flight": {
+                "number": "6651",
+                "iata": "F96651",
+                "icao": "FFT6651",
+                "codeshared": {
+                    "airline_name": "volaris",
+                    "airline_iata": "y4",
+                    "airline_icao": "voi",
+                    "flight_number": "7751",
+                    "flight_iata": "y47751",
+                    "flight_icao": "voi7751"
+                }
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "0D0E3B"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-08",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Sacramento International",
+                "timezone": "America/Los_Angeles",
+                "iata": "SMF",
+                "icao": "KSMF",
+                "terminal": "B",
+                "gate": "10",
+                "delay": null,
+                "scheduled": "2026-07-08T00:29:00+00:00",
+                "estimated": "2026-07-08T00:29:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Don Miguel Hidalgo y Costilla International",
+                "timezone": "America/Mexico_City",
+                "iata": "GDL",
+                "icao": "MMGL",
+                "terminal": "1",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-08T05:29:00+00:00",
+                "delay": 13,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Aeromexico",
+                "iata": "AM",
+                "icao": "AMX"
+            },
+            "flight": {
+                "number": "789",
+                "iata": "AM789",
+                "icao": "AMX789",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "0D112E"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-08",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Sacramento International",
+                "timezone": "America/Los_Angeles",
+                "iata": "SMF",
+                "icao": "KSMF",
+                "terminal": "B",
+                "gate": "10",
+                "delay": null,
+                "scheduled": "2026-07-08T00:29:00+00:00",
+                "estimated": "2026-07-08T00:29:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Don Miguel Hidalgo y Costilla International",
+                "timezone": "America/Mexico_City",
+                "iata": "GDL",
+                "icao": "MMGL",
+                "terminal": "1",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-08T05:29:00+00:00",
+                "delay": 13,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Delta Air Lines",
+                "iata": "DL",
+                "icao": "DAL"
+            },
+            "flight": {
+                "number": "9132",
+                "iata": "DL9132",
+                "icao": "DAL9132",
+                "codeshared": {
+                    "airline_name": "aeromexico",
+                    "airline_iata": "am",
+                    "airline_icao": "amx",
+                    "flight_number": "789",
+                    "flight_iata": "am789",
+                    "flight_icao": "amx789"
+                }
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "0D112E"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-08",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Marechal Cunha Machado",
+                "timezone": "America/Fortaleza",
+                "iata": "SLZ",
+                "icao": "SBSL",
+                "terminal": "1",
+                "gate": "7",
+                "delay": null,
+                "scheduled": "2026-07-08T04:45:00+00:00",
+                "estimated": "2026-07-08T04:45:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Presidente Juscelino Kubitschek",
+                "timezone": "America/Sao_Paulo",
+                "iata": "BSB",
+                "icao": "SBBR",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-08T07:15:00+00:00",
+                "delay": 11,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "LATAM Airlines",
+                "iata": "LA",
+                "icao": "LAN"
+            },
+            "flight": {
+                "number": "3313",
+                "iata": "LA3313",
+                "icao": "LAN3313",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-08",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Marechal Cunha Machado",
+                "timezone": "America/Fortaleza",
+                "iata": "SLZ",
+                "icao": "SBSL",
+                "terminal": null,
+                "gate": "7",
+                "delay": null,
+                "scheduled": "2026-07-08T04:30:00+00:00",
+                "estimated": "2026-07-08T04:30:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Aeroporto Internacional Guarulhos",
+                "timezone": "America/Sao_Paulo",
+                "iata": "GRU",
+                "icao": "SBGR",
+                "terminal": "2",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-08T08:10:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "GOL",
+                "iata": "G3",
+                "icao": "GLO"
+            },
+            "flight": {
+                "number": "1567",
+                "iata": "G31567",
+                "icao": "GLO1567",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-08",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Marechal Cunha Machado",
+                "timezone": "America/Fortaleza",
+                "iata": "SLZ",
+                "icao": "SBSL",
+                "terminal": null,
+                "gate": "7",
+                "delay": null,
+                "scheduled": "2026-07-08T04:30:00+00:00",
+                "estimated": "2026-07-08T04:30:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Aeroporto Internacional Guarulhos",
+                "timezone": "America/Sao_Paulo",
+                "iata": "GRU",
+                "icao": "SBGR",
+                "terminal": "2",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-08T08:10:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Air France",
+                "iata": "AF",
+                "icao": "AFR"
+            },
+            "flight": {
+                "number": "4181",
+                "iata": "AF4181",
+                "icao": "AFR4181",
+                "codeshared": {
+                    "airline_name": "gol",
+                    "airline_iata": "g3",
+                    "airline_icao": "glo",
+                    "flight_number": "1567",
+                    "flight_iata": "g31567",
+                    "flight_icao": "glo1567"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-08",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Marechal Cunha Machado",
+                "timezone": "America/Fortaleza",
+                "iata": "SLZ",
+                "icao": "SBSL",
+                "terminal": null,
+                "gate": "7",
+                "delay": null,
+                "scheduled": "2026-07-08T04:30:00+00:00",
+                "estimated": "2026-07-08T04:30:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Aeroporto Internacional Guarulhos",
+                "timezone": "America/Sao_Paulo",
+                "iata": "GRU",
+                "icao": "SBGR",
+                "terminal": "2",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-08T08:10:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "TAP Air Portugal",
+                "iata": "TP",
+                "icao": "TAP"
+            },
+            "flight": {
+                "number": "4211",
+                "iata": "TP4211",
+                "icao": "TAP4211",
+                "codeshared": {
+                    "airline_name": "gol",
+                    "airline_iata": "g3",
+                    "airline_icao": "glo",
+                    "flight_number": "1567",
+                    "flight_iata": "g31567",
+                    "flight_icao": "glo1567"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-08",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Marechal Cunha Machado",
+                "timezone": "America/Fortaleza",
+                "iata": "SLZ",
+                "icao": "SBSL",
+                "terminal": null,
+                "gate": "7",
+                "delay": null,
+                "scheduled": "2026-07-08T04:30:00+00:00",
+                "estimated": "2026-07-08T04:30:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Aeroporto Internacional Guarulhos",
+                "timezone": "America/Sao_Paulo",
+                "iata": "GRU",
+                "icao": "SBGR",
+                "terminal": "2",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-08T08:10:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "KLM",
+                "iata": "KL",
+                "icao": "KLM"
+            },
+            "flight": {
+                "number": "9409",
+                "iata": "KL9409",
+                "icao": "KLM9409",
+                "codeshared": {
+                    "airline_name": "gol",
+                    "airline_iata": "g3",
+                    "airline_icao": "glo",
+                    "flight_number": "1567",
+                    "flight_iata": "g31567",
+                    "flight_icao": "glo1567"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-08",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Marechal Cunha Machado",
+                "timezone": "America/Fortaleza",
+                "iata": "SLZ",
+                "icao": "SBSL",
+                "terminal": null,
+                "gate": "7",
+                "delay": null,
+                "scheduled": "2026-07-08T04:30:00+00:00",
+                "estimated": "2026-07-08T04:30:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Aeroporto Internacional Guarulhos",
+                "timezone": "America/Sao_Paulo",
+                "iata": "GRU",
+                "icao": "SBGR",
+                "terminal": "2",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-08T08:10:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "TAAG Angola Airlines",
+                "iata": "DT",
+                "icao": "DTA"
+            },
+            "flight": {
+                "number": "6765",
+                "iata": "DT6765",
+                "icao": "DTA6765",
+                "codeshared": {
+                    "airline_name": "gol",
+                    "airline_iata": "g3",
+                    "airline_icao": "glo",
+                    "flight_number": "1567",
+                    "flight_iata": "g31567",
+                    "flight_icao": "glo1567"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-08",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Marechal Cunha Machado",
+                "timezone": "America/Fortaleza",
+                "iata": "SLZ",
+                "icao": "SBSL",
+                "terminal": null,
+                "gate": "7",
+                "delay": null,
+                "scheduled": "2026-07-08T04:30:00+00:00",
+                "estimated": "2026-07-08T04:30:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Aeroporto Internacional Guarulhos",
+                "timezone": "America/Sao_Paulo",
+                "iata": "GRU",
+                "icao": "SBGR",
+                "terminal": "2",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-08T08:10:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Aerolineas Argentinas",
+                "iata": "AR",
+                "icao": "ARG"
+            },
+            "flight": {
+                "number": "7655",
+                "iata": "AR7655",
+                "icao": "ARG7655",
+                "codeshared": {
+                    "airline_name": "gol",
+                    "airline_iata": "g3",
+                    "airline_icao": "glo",
+                    "flight_number": "1567",
+                    "flight_iata": "g31567",
+                    "flight_icao": "glo1567"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-08",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Marechal Cunha Machado",
+                "timezone": "America/Fortaleza",
+                "iata": "SLZ",
+                "icao": "SBSL",
+                "terminal": null,
+                "gate": "7",
+                "delay": null,
+                "scheduled": "2026-07-08T04:30:00+00:00",
+                "estimated": "2026-07-08T04:30:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Aeroporto Internacional Guarulhos",
+                "timezone": "America/Sao_Paulo",
+                "iata": "GRU",
+                "icao": "SBGR",
+                "terminal": "2",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-08T08:10:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Aeromexico",
+                "iata": "AM",
+                "icao": "AMX"
+            },
+            "flight": {
+                "number": "8146",
+                "iata": "AM8146",
+                "icao": "AMX8146",
+                "codeshared": {
+                    "airline_name": "gol",
+                    "airline_iata": "g3",
+                    "airline_icao": "glo",
+                    "flight_number": "1567",
+                    "flight_iata": "g31567",
+                    "flight_icao": "glo1567"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-08",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Marechal Cunha Machado",
+                "timezone": "America/Fortaleza",
+                "iata": "SLZ",
+                "icao": "SBSL",
+                "terminal": null,
+                "gate": "7",
+                "delay": null,
+                "scheduled": "2026-07-08T04:30:00+00:00",
+                "estimated": "2026-07-08T04:30:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Aeroporto Internacional Guarulhos",
+                "timezone": "America/Sao_Paulo",
+                "iata": "GRU",
+                "icao": "SBGR",
+                "terminal": "2",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-08T08:10:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Air France",
+                "iata": "AF",
+                "icao": "AFR"
+            },
+            "flight": {
+                "number": "1904",
+                "iata": "AF1904",
+                "icao": "AFR1904",
+                "codeshared": {
+                    "airline_name": "gol",
+                    "airline_iata": "g3",
+                    "airline_icao": "glo",
+                    "flight_number": "1567",
+                    "flight_iata": "g31567",
+                    "flight_icao": "glo1567"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-08",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Marechal Cunha Machado",
+                "timezone": "America/Fortaleza",
+                "iata": "SLZ",
+                "icao": "SBSL",
+                "terminal": null,
+                "gate": "3",
+                "delay": null,
+                "scheduled": "2026-07-08T04:10:00+00:00",
+                "estimated": "2026-07-08T04:10:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Viracopos (Campinas International)",
+                "timezone": "America/Sao_Paulo",
+                "iata": "VCP",
+                "icao": "SBKP",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-08T07:35:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Azul",
+                "iata": "AD",
+                "icao": "AZU"
+            },
+            "flight": {
+                "number": "4872",
+                "iata": "AD4872",
+                "icao": "AZU4872",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "E493B9"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-08",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Soekarno-Hatta International",
+                "timezone": "Asia/Jakarta",
+                "iata": "CGK",
+                "icao": "WIII",
+                "terminal": "2",
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-07-08T11:30:00+00:00",
+                "estimated": "2026-07-08T11:30:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Adi Sumarmo",
+                "timezone": "Asia/Jakarta",
+                "iata": "SOC",
+                "icao": "WAHQ",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-08T12:45:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Emirates",
+                "iata": "EK",
+                "icao": "UAE"
+            },
+            "flight": {
+                "number": "3561",
+                "iata": "EK3561",
+                "icao": "UAE3561",
+                "codeshared": {
+                    "airline_name": "batik air",
+                    "airline_iata": "id",
+                    "airline_icao": "btk",
+                    "flight_number": "7531",
+                    "flight_iata": "id7531",
+                    "flight_icao": "btk7531"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-08",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Barajas",
+                "timezone": "Europe/Madrid",
+                "iata": "MAD",
+                "icao": "LEMD",
+                "terminal": "4",
+                "gate": "K",
+                "delay": null,
+                "scheduled": "2026-07-08T08:25:00+00:00",
+                "estimated": "2026-07-08T08:25:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Santander",
+                "timezone": "Europe/Madrid",
+                "iata": "SDR",
+                "icao": "LEXJ",
+                "terminal": "N",
+                "gate": null,
+                "baggage": "2",
+                "scheduled": "2026-07-08T09:30:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Finnair",
+                "iata": "AY",
+                "icao": "FIN"
+            },
+            "flight": {
+                "number": "5621",
+                "iata": "AY5621",
+                "icao": "FIN5621",
+                "codeshared": {
+                    "airline_name": "iberia",
+                    "airline_iata": "ib",
+                    "airline_icao": "ibe",
+                    "flight_number": "1059",
+                    "flight_iata": "ib1059",
+                    "flight_icao": "ibe1059"
+                }
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "3453D3"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-08",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Barajas",
+                "timezone": "Europe/Madrid",
+                "iata": "MAD",
+                "icao": "LEMD",
+                "terminal": "4",
+                "gate": "K",
+                "delay": null,
+                "scheduled": "2026-07-08T08:25:00+00:00",
+                "estimated": "2026-07-08T08:25:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Santander",
+                "timezone": "Europe/Madrid",
+                "iata": "SDR",
+                "icao": "LEXJ",
+                "terminal": "N",
+                "gate": null,
+                "baggage": "2",
+                "scheduled": "2026-07-08T09:30:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Vueling",
+                "iata": "VY",
+                "icao": "VLG"
+            },
+            "flight": {
+                "number": "5617",
+                "iata": "VY5617",
+                "icao": "VLG5617",
+                "codeshared": {
+                    "airline_name": "iberia",
+                    "airline_iata": "ib",
+                    "airline_icao": "ibe",
+                    "flight_number": "1059",
+                    "flight_iata": "ib1059",
+                    "flight_icao": "ibe1059"
+                }
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "3453D3"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-08",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Santander",
+                "timezone": "Europe/Madrid",
+                "iata": "SDR",
+                "icao": "LEXJ",
+                "terminal": "N",
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-07-08T10:05:00+00:00",
+                "estimated": "2026-07-08T10:05:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Barajas",
+                "timezone": "Europe/Madrid",
+                "iata": "MAD",
+                "icao": "LEMD",
+                "terminal": "4",
+                "gate": null,
+                "baggage": "1019",
+                "scheduled": "2026-07-08T11:15:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Iberia",
+                "iata": "IB",
+                "icao": "IBE"
+            },
+            "flight": {
+                "number": "1060",
+                "iata": "IB1060",
+                "icao": "IBE1060",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "3453D3"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-08",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Santander",
+                "timezone": "Europe/Madrid",
+                "iata": "SDR",
+                "icao": "LEXJ",
+                "terminal": "N",
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-07-08T10:05:00+00:00",
+                "estimated": "2026-07-08T10:05:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Barajas",
+                "timezone": "Europe/Madrid",
+                "iata": "MAD",
+                "icao": "LEMD",
+                "terminal": "4",
+                "gate": null,
+                "baggage": "1019",
+                "scheduled": "2026-07-08T11:15:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Finnair",
+                "iata": "AY",
+                "icao": "FIN"
+            },
+            "flight": {
+                "number": "4812",
+                "iata": "AY4812",
+                "icao": "FIN4812",
+                "codeshared": {
+                    "airline_name": "iberia",
+                    "airline_iata": "ib",
+                    "airline_icao": "ibe",
+                    "flight_number": "1060",
+                    "flight_iata": "ib1060",
+                    "flight_icao": "ibe1060"
+                }
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "3453D3"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-08",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Santander",
+                "timezone": "Europe/Madrid",
+                "iata": "SDR",
+                "icao": "LEXJ",
+                "terminal": "N",
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-07-08T10:05:00+00:00",
+                "estimated": "2026-07-08T10:05:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Barajas",
+                "timezone": "Europe/Madrid",
+                "iata": "MAD",
+                "icao": "LEMD",
+                "terminal": "4",
+                "gate": null,
+                "baggage": "1019",
+                "scheduled": "2026-07-08T11:15:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "British Airways",
+                "iata": "BA",
+                "icao": "BAW"
+            },
+            "flight": {
+                "number": "7269",
+                "iata": "BA7269",
+                "icao": "BAW7269",
+                "codeshared": {
+                    "airline_name": "iberia",
+                    "airline_iata": "ib",
+                    "airline_icao": "ibe",
+                    "flight_number": "1060",
+                    "flight_iata": "ib1060",
+                    "flight_icao": "ibe1060"
+                }
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "3453D3"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-08",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Santander",
+                "timezone": "Europe/Madrid",
+                "iata": "SDR",
+                "icao": "LEXJ",
+                "terminal": "N",
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-07-08T10:05:00+00:00",
+                "estimated": "2026-07-08T10:05:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Barajas",
+                "timezone": "Europe/Madrid",
+                "iata": "MAD",
+                "icao": "LEMD",
+                "terminal": "4",
+                "gate": null,
+                "baggage": "1019",
+                "scheduled": "2026-07-08T11:15:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Japan Airlines",
+                "iata": "JL",
+                "icao": "JTL"
+            },
+            "flight": {
+                "number": "9440",
+                "iata": "JL9440",
+                "icao": "JTL9440",
+                "codeshared": {
+                    "airline_name": "iberia",
+                    "airline_iata": "ib",
+                    "airline_icao": "ibe",
+                    "flight_number": "1060",
+                    "flight_iata": "ib1060",
+                    "flight_icao": "ibe1060"
+                }
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "3453D3"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-08",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Santander",
+                "timezone": "Europe/Madrid",
+                "iata": "SDR",
+                "icao": "LEXJ",
+                "terminal": "N",
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-07-08T10:05:00+00:00",
+                "estimated": "2026-07-08T10:05:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Barajas",
+                "timezone": "Europe/Madrid",
+                "iata": "MAD",
+                "icao": "LEMD",
+                "terminal": "4",
+                "gate": null,
+                "baggage": "1019",
+                "scheduled": "2026-07-08T11:15:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Vueling",
+                "iata": "VY",
+                "icao": "VLG"
+            },
+            "flight": {
+                "number": "5618",
+                "iata": "VY5618",
+                "icao": "VLG5618",
+                "codeshared": {
+                    "airline_name": "iberia",
+                    "airline_iata": "ib",
+                    "airline_icao": "ibe",
+                    "flight_number": "1060",
+                    "flight_iata": "ib1060",
+                    "flight_icao": "ibe1060"
+                }
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "3453D3"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-08",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Santander",
+                "timezone": "Europe/Madrid",
+                "iata": "SDR",
+                "icao": "LEXJ",
+                "terminal": "N",
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-07-08T10:05:00+00:00",
+                "estimated": "2026-07-08T10:05:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Barajas",
+                "timezone": "Europe/Madrid",
+                "iata": "MAD",
+                "icao": "LEMD",
+                "terminal": "4",
+                "gate": null,
+                "baggage": "1019",
+                "scheduled": "2026-07-08T11:15:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "LATAM Airlines",
+                "iata": "LA",
+                "icao": "LAN"
+            },
+            "flight": {
+                "number": "1806",
+                "iata": "LA1806",
+                "icao": "LAN1806",
+                "codeshared": {
+                    "airline_name": "iberia",
+                    "airline_iata": "ib",
+                    "airline_icao": "ibe",
+                    "flight_number": "1060",
+                    "flight_iata": "ib1060",
+                    "flight_icao": "ibe1060"
+                }
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "3453D3"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-08",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Santander",
+                "timezone": "Europe/Madrid",
+                "iata": "SDR",
+                "icao": "LEXJ",
+                "terminal": "N",
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-07-08T10:05:00+00:00",
+                "estimated": "2026-07-08T10:05:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Barajas",
+                "timezone": "Europe/Madrid",
+                "iata": "MAD",
+                "icao": "LEMD",
+                "terminal": "4",
+                "gate": null,
+                "baggage": "1019",
+                "scheduled": "2026-07-08T11:15:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Royal Air Maroc",
+                "iata": "AT",
+                "icao": "RAM"
+            },
+            "flight": {
+                "number": "5444",
+                "iata": "AT5444",
+                "icao": "RAM5444",
+                "codeshared": {
+                    "airline_name": "iberia",
+                    "airline_iata": "ib",
+                    "airline_icao": "ibe",
+                    "flight_number": "1060",
+                    "flight_iata": "ib1060",
+                    "flight_icao": "ibe1060"
+                }
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "3453D3"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-08",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Aeropuerto de las Américas",
+                "timezone": "America/Santo_Domingo",
+                "iata": "SDQ",
+                "icao": "MDSD",
+                "terminal": null,
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-07-08T03:35:00+00:00",
+                "estimated": "2026-07-08T03:35:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Newark Liberty International",
+                "timezone": "America/New_York",
+                "iata": "EWR",
+                "icao": "KEWR",
+                "terminal": "B",
+                "gate": "56",
+                "baggage": null,
+                "scheduled": "2026-07-08T07:30:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "JetBlue",
+                "iata": "B6",
+                "icao": "JBU"
+            },
+            "flight": {
+                "number": "1204",
+                "iata": "B61204",
+                "icao": "JBU1204",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "A8712A"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-08",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Sendai",
+                "timezone": "Asia/Tokyo",
+                "iata": "SDJ",
+                "icao": "RJSS",
+                "terminal": "7",
+                "gate": "7",
+                "delay": null,
+                "scheduled": "2026-07-08T16:50:00+00:00",
+                "estimated": "2026-07-08T16:50:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Chitose",
+                "timezone": "Asia/Tokyo",
+                "iata": "CTS",
+                "icao": "RJCC",
+                "terminal": "D",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-08T18:10:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Peach",
+                "iata": "MM",
+                "icao": "APJ"
+            },
+            "flight": {
+                "number": "419",
+                "iata": "MM419",
+                "icao": "APJ419",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-08",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Sendai",
+                "timezone": "Asia/Tokyo",
+                "iata": "SDJ",
+                "icao": "RJSS",
+                "terminal": null,
+                "gate": "6",
+                "delay": null,
+                "scheduled": "2026-07-08T16:10:00+00:00",
+                "estimated": "2026-07-08T16:10:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Itami",
+                "timezone": "Asia/Tokyo",
+                "iata": "ITM",
+                "icao": "RJOO",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-08T17:30:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Japan Airlines",
+                "iata": "JL",
+                "icao": "JTL"
+            },
+            "flight": {
+                "number": "2212",
+                "iata": "JL2212",
+                "icao": "JTL2212",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-08",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Louisville International (Standiford Field)",
+                "timezone": "America/Kentucky/Louisville",
+                "iata": "SDF",
+                "icao": "KSDF",
+                "terminal": null,
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-07-08T04:09:00+00:00",
+                "estimated": "2026-07-08T04:09:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Ted Stevens Anchorage International Airport",
+                "timezone": "America/Anchorage",
+                "iata": "ANC",
+                "icao": "PANC",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-08T06:50:00+00:00",
+                "delay": 14,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "UPS",
+                "iata": "5X",
+                "icao": "UPS"
+            },
+            "flight": {
+                "number": "104",
+                "iata": "5X104",
+                "icao": "UPS104",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-08",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Louisville International (Standiford Field)",
+                "timezone": "America/Kentucky/Louisville",
+                "iata": "SDF",
+                "icao": "KSDF",
+                "terminal": null,
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-07-08T04:06:00+00:00",
+                "estimated": "2026-07-08T04:06:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Rickenbacker",
+                "timezone": "America/New_York",
+                "iata": "LCK",
+                "icao": "KLCK",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-08T04:52:00+00:00",
+                "delay": 13,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "UPS",
+                "iata": "5X",
+                "icao": "UPS"
+            },
+            "flight": {
+                "number": "1444",
+                "iata": "5X1444",
+                "icao": "UPS1444",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-08",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Louisville International (Standiford Field)",
+                "timezone": "America/Kentucky/Louisville",
+                "iata": "SDF",
+                "icao": "KSDF",
+                "terminal": null,
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-07-08T04:06:00+00:00",
+                "estimated": "2026-07-08T04:06:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Stewart",
+                "timezone": "America/New_York",
+                "iata": "SWF",
+                "icao": "KSWF",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-08T05:45:00+00:00",
+                "delay": 14,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "UPS",
+                "iata": "5X",
+                "icao": "UPS"
+            },
+            "flight": {
+                "number": "1088",
+                "iata": "5X1088",
+                "icao": "UPS1088",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-08",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Louisville International (Standiford Field)",
+                "timezone": "America/Kentucky/Louisville",
+                "iata": "SDF",
+                "icao": "KSDF",
+                "terminal": null,
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-07-08T04:06:00+00:00",
+                "estimated": "2026-07-08T04:06:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Newark Liberty International",
+                "timezone": "America/New_York",
+                "iata": "EWR",
+                "icao": "KEWR",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-08T05:45:00+00:00",
+                "delay": 13,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "UPS",
+                "iata": "5X",
+                "icao": "UPS"
+            },
+            "flight": {
+                "number": "1084",
+                "iata": "5X1084",
+                "icao": "UPS1084",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-08",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Louisville International (Standiford Field)",
+                "timezone": "America/Kentucky/Louisville",
+                "iata": "SDF",
+                "icao": "KSDF",
+                "terminal": null,
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-07-08T04:05:00+00:00",
+                "estimated": "2026-07-08T04:05:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Dougherty County",
+                "timezone": "America/New_York",
+                "iata": "ABY",
+                "icao": "KABY",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-08T05:22:00+00:00",
+                "delay": 13,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "UPS",
+                "iata": "5X",
+                "icao": "UPS"
+            },
+            "flight": {
+                "number": "1366",
+                "iata": "5X1366",
+                "icao": "UPS1366",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-08",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Louisville International (Standiford Field)",
+                "timezone": "America/Kentucky/Louisville",
+                "iata": "SDF",
+                "icao": "KSDF",
+                "terminal": null,
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-07-08T04:04:00+00:00",
+                "estimated": "2026-07-08T04:04:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Baltimore/Washington International Thurgood Marshall",
+                "timezone": "America/New_York",
+                "iata": "BWI",
+                "icao": "KBWI",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-08T05:29:00+00:00",
+                "delay": 14,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "UPS",
+                "iata": "5X",
+                "icao": "UPS"
+            },
+            "flight": {
+                "number": "1214",
+                "iata": "5X1214",
+                "icao": "UPS1214",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-08",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Louisville International (Standiford Field)",
+                "timezone": "America/Kentucky/Louisville",
+                "iata": "SDF",
+                "icao": "KSDF",
+                "terminal": null,
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-07-08T04:03:00+00:00",
+                "estimated": "2026-07-08T04:03:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Raleigh-durham International Airport",
+                "timezone": "America/New_York",
+                "iata": "RDU",
+                "icao": "KRDU",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-08T05:13:00+00:00",
+                "delay": 13,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "UPS",
+                "iata": "5X",
+                "icao": "UPS"
+            },
+            "flight": {
+                "number": "1276",
+                "iata": "5X1276",
+                "icao": "UPS1276",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-08",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Louisville International (Standiford Field)",
+                "timezone": "America/Kentucky/Louisville",
+                "iata": "SDF",
+                "icao": "KSDF",
+                "terminal": null,
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-07-08T04:03:00+00:00",
+                "estimated": "2026-07-08T04:03:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Philadelphia International",
+                "timezone": "America/New_York",
+                "iata": "PHL",
+                "icao": "KPHL",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-08T05:35:00+00:00",
+                "delay": 14,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "UPS",
+                "iata": "5X",
+                "icao": "UPS"
+            },
+            "flight": {
+                "number": "1194",
+                "iata": "5X1194",
+                "icao": "UPS1194",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-08",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Louisville International (Standiford Field)",
+                "timezone": "America/Kentucky/Louisville",
+                "iata": "SDF",
+                "icao": "KSDF",
+                "terminal": null,
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-07-08T04:02:00+00:00",
+                "estimated": "2026-07-08T04:02:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Pittsburgh International",
+                "timezone": "America/New_York",
+                "iata": "PIT",
+                "icao": "KPIT",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-08T05:06:00+00:00",
+                "delay": 12,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "UPS",
+                "iata": "5X",
+                "icao": "UPS"
+            },
+            "flight": {
+                "number": "1152",
+                "iata": "5X1152",
+                "icao": "UPS1152",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-08",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Louisville International (Standiford Field)",
+                "timezone": "America/Kentucky/Louisville",
+                "iata": "SDF",
+                "icao": "KSDF",
+                "terminal": null,
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-07-08T04:01:00+00:00",
+                "estimated": "2026-07-08T04:01:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Capital City",
+                "timezone": "America/Detroit",
+                "iata": "LAN",
+                "icao": "KLAN",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-08T05:03:00+00:00",
+                "delay": 12,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "UPS",
+                "iata": "5X",
+                "icao": "UPS"
+            },
+            "flight": {
+                "number": "1478",
+                "iata": "5X1478",
+                "icao": "UPS1478",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-08",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Louisville International (Standiford Field)",
+                "timezone": "America/Kentucky/Louisville",
+                "iata": "SDF",
+                "icao": "KSDF",
+                "terminal": null,
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-07-08T04:01:00+00:00",
+                "estimated": "2026-07-08T04:01:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Miami International Airport",
+                "timezone": "America/New_York",
+                "iata": "MIA",
+                "icao": "KMIA",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-08T06:11:00+00:00",
+                "delay": 14,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "UPS",
+                "iata": "5X",
+                "icao": "UPS"
+            },
+            "flight": {
+                "number": "1332",
+                "iata": "5X1332",
+                "icao": "UPS1332",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-08",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Louisville International (Standiford Field)",
+                "timezone": "America/Kentucky/Louisville",
+                "iata": "SDF",
+                "icao": "KSDF",
+                "terminal": null,
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-07-08T04:00:00+00:00",
+                "estimated": "2026-07-08T04:00:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Hartsfield-jackson Atlanta International",
+                "timezone": "America/New_York",
+                "iata": "ATL",
+                "icao": "KATL",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-08T05:02:00+00:00",
+                "delay": 13,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "UPS",
+                "iata": "5X",
+                "icao": "UPS"
+            },
+            "flight": {
+                "number": "1304",
+                "iata": "5X1304",
+                "icao": "UPS1304",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-08",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Louisville International (Standiford Field)",
+                "timezone": "America/Kentucky/Louisville",
+                "iata": "SDF",
+                "icao": "KSDF",
+                "terminal": null,
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-07-08T03:59:00+00:00",
+                "estimated": "2026-07-08T03:59:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Buffalo Niagara International",
+                "timezone": "America/New_York",
+                "iata": "BUF",
+                "icao": "KBUF",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-08T05:21:00+00:00",
+                "delay": 15,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "UPS",
+                "iata": "5X",
+                "icao": "UPS"
+            },
+            "flight": {
+                "number": "1142",
+                "iata": "5X1142",
+                "icao": "UPS1142",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-07-08",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Louisville International (Standiford Field)",
+                "timezone": "America/Kentucky/Louisville",
+                "iata": "SDF",
+                "icao": "KSDF",
+                "terminal": null,
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-07-08T03:58:00+00:00",
+                "estimated": "2026-07-08T03:58:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Orlando International",
+                "timezone": "America/New_York",
+                "iata": "MCO",
+                "icao": "KMCO",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-07-08T05:43:00+00:00",
+                "delay": 14,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "UPS",
+                "iata": "5X",
+                "icao": "UPS"
+            },
+            "flight": {
+                "number": "1326",
+                "iata": "5X1326",
+                "icao": "UPS1326",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        }
+    ]
+}
