@@ -1,0 +1,5397 @@
+{
+    "pagination": {
+        "limit": 100,
+        "offset": 0,
+        "count": 100,
+        "total": 10000
+    },
+    "data": [
+        {
+            "flight_date": "2026-10-04",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Kiunga",
+                "timezone": "Pacific/Port_Moresby",
+                "iata": "UNG",
+                "icao": "AYKI",
+                "terminal": null,
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-10-04T09:25:00+00:00",
+                "estimated": "2026-10-04T09:25:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Kagamuga",
+                "timezone": "Pacific/Port_Moresby",
+                "iata": "HGU",
+                "icao": "AYMH",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-10-04T10:35:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "PNG Air",
+                "iata": "CG",
+                "icao": "TOK"
+            },
+            "flight": {
+                "number": "1436",
+                "iata": "CG1436",
+                "icao": "TOK1436",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-10-04",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Magadan",
+                "timezone": "Asia/Magadan",
+                "iata": "GDX",
+                "icao": "UHMM",
+                "terminal": null,
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-10-04T10:10:00+00:00",
+                "estimated": "2026-10-04T10:10:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Tolmachevo",
+                "timezone": "Asia/Novosibirsk",
+                "iata": "OVB",
+                "icao": "UNNT",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-10-04T11:40:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "S7 Airlines",
+                "iata": "S7",
+                "icao": "SBI"
+            },
+            "flight": {
+                "number": "5220",
+                "iata": "S75220",
+                "icao": "SBI5220",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-10-04",
+            "flight_status": "active",
+            "departure": {
+                "airport": "Da Nang",
+                "timezone": "Asia/Ho_Chi_Minh",
+                "iata": "DAD",
+                "icao": "VVDN",
+                "terminal": "2",
+                "gate": "9",
+                "delay": 15,
+                "scheduled": "2026-10-04T00:55:00+00:00",
+                "estimated": "2026-10-04T00:55:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-10-04T01:10:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Cheongju",
+                "timezone": "Asia/Seoul",
+                "iata": "CJJ",
+                "icao": "RKTU",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-10-04T07:10:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Aero K",
+                "iata": "RF",
+                "icao": "EOK"
+            },
+            "flight": {
+                "number": "532",
+                "iata": "RF532",
+                "icao": "EOK532",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "71C743"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-10-04",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Dubai",
+                "timezone": "Asia/Dubai",
+                "iata": "DXB",
+                "icao": "OMDB",
+                "terminal": "3",
+                "gate": "C17",
+                "delay": 0,
+                "scheduled": "2026-10-04T02:50:00+00:00",
+                "estimated": "2026-10-04T02:50:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-10-04T02:50:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Suvarnabhumi International",
+                "timezone": "Asia/Bangkok",
+                "iata": "BKK",
+                "icao": "VTBS",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-10-04T12:30:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "TAP Air Portugal",
+                "iata": "TP",
+                "icao": "TAP"
+            },
+            "flight": {
+                "number": "6372",
+                "iata": "TP6372",
+                "icao": "TAP6372",
+                "codeshared": {
+                    "airline_name": "emirates",
+                    "airline_iata": "ek",
+                    "airline_icao": "uae",
+                    "flight_number": "384",
+                    "flight_iata": "ek384",
+                    "flight_icao": "uae384"
+                }
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "89618C"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-10-04",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Dubai",
+                "timezone": "Asia/Dubai",
+                "iata": "DXB",
+                "icao": "OMDB",
+                "terminal": "3",
+                "gate": "C17",
+                "delay": 0,
+                "scheduled": "2026-10-04T02:50:00+00:00",
+                "estimated": "2026-10-04T02:50:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-10-04T02:50:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Suvarnabhumi International",
+                "timezone": "Asia/Bangkok",
+                "iata": "BKK",
+                "icao": "VTBS",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-10-04T12:30:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Qantas",
+                "iata": "QF",
+                "icao": "QFA"
+            },
+            "flight": {
+                "number": "8384",
+                "iata": "QF8384",
+                "icao": "QFA8384",
+                "codeshared": {
+                    "airline_name": "emirates",
+                    "airline_iata": "ek",
+                    "airline_icao": "uae",
+                    "flight_number": "384",
+                    "flight_iata": "ek384",
+                    "flight_icao": "uae384"
+                }
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "89618C"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-10-04",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Dubai",
+                "timezone": "Asia/Dubai",
+                "iata": "DXB",
+                "icao": "OMDB",
+                "terminal": "3",
+                "gate": "C17",
+                "delay": 0,
+                "scheduled": "2026-10-04T02:50:00+00:00",
+                "estimated": "2026-10-04T02:50:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-10-04T02:50:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Suvarnabhumi International",
+                "timezone": "Asia/Bangkok",
+                "iata": "BKK",
+                "icao": "VTBS",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-10-04T12:30:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Condor",
+                "iata": "DE",
+                "icao": "CFG"
+            },
+            "flight": {
+                "number": "5909",
+                "iata": "DE5909",
+                "icao": "CFG5909",
+                "codeshared": {
+                    "airline_name": "emirates",
+                    "airline_iata": "ek",
+                    "airline_icao": "uae",
+                    "flight_number": "384",
+                    "flight_iata": "ek384",
+                    "flight_icao": "uae384"
+                }
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "89618C"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-10-04",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Dubai",
+                "timezone": "Asia/Dubai",
+                "iata": "DXB",
+                "icao": "OMDB",
+                "terminal": "3",
+                "gate": "C17",
+                "delay": 0,
+                "scheduled": "2026-10-04T02:50:00+00:00",
+                "estimated": "2026-10-04T02:50:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-10-04T02:50:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Suvarnabhumi International",
+                "timezone": "Asia/Bangkok",
+                "iata": "BKK",
+                "icao": "VTBS",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-10-04T12:30:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Air Canada",
+                "iata": "AC",
+                "icao": "ACA"
+            },
+            "flight": {
+                "number": "7603",
+                "iata": "AC7603",
+                "icao": "ACA7603",
+                "codeshared": {
+                    "airline_name": "emirates",
+                    "airline_iata": "ek",
+                    "airline_icao": "uae",
+                    "flight_number": "384",
+                    "flight_iata": "ek384",
+                    "flight_icao": "uae384"
+                }
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "89618C"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-10-04",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Dubai",
+                "timezone": "Asia/Dubai",
+                "iata": "DXB",
+                "icao": "OMDB",
+                "terminal": "3",
+                "gate": "C23",
+                "delay": 0,
+                "scheduled": "2026-10-04T02:50:00+00:00",
+                "estimated": "2026-10-04T02:50:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-10-04T02:50:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Sir Seewoosagur Ramgoolam International",
+                "timezone": "Indian/Mauritius",
+                "iata": "MRU",
+                "icao": "FIMP",
+                "terminal": "MAIN",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-10-04T09:25:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Air Mauritius",
+                "iata": "MK",
+                "icao": "MAU"
+            },
+            "flight": {
+                "number": "911",
+                "iata": "MK911",
+                "icao": "MAU911",
+                "codeshared": {
+                    "airline_name": "emirates",
+                    "airline_iata": "ek",
+                    "airline_icao": "uae",
+                    "flight_number": "701",
+                    "flight_iata": "ek701",
+                    "flight_icao": "uae701"
+                }
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "89639B"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-10-04",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Dubai",
+                "timezone": "Asia/Dubai",
+                "iata": "DXB",
+                "icao": "OMDB",
+                "terminal": "3",
+                "gate": "C23",
+                "delay": 0,
+                "scheduled": "2026-10-04T02:50:00+00:00",
+                "estimated": "2026-10-04T02:50:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-10-04T02:50:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Sir Seewoosagur Ramgoolam International",
+                "timezone": "Indian/Mauritius",
+                "iata": "MRU",
+                "icao": "FIMP",
+                "terminal": "MAIN",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-10-04T09:25:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Air Canada",
+                "iata": "AC",
+                "icao": "ACA"
+            },
+            "flight": {
+                "number": "7596",
+                "iata": "AC7596",
+                "icao": "ACA7596",
+                "codeshared": {
+                    "airline_name": "emirates",
+                    "airline_iata": "ek",
+                    "airline_icao": "uae",
+                    "flight_number": "701",
+                    "flight_iata": "ek701",
+                    "flight_icao": "uae701"
+                }
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "89639B"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-10-04",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Dubai",
+                "timezone": "Asia/Dubai",
+                "iata": "DXB",
+                "icao": "OMDB",
+                "terminal": "3",
+                "gate": "B23",
+                "delay": 0,
+                "scheduled": "2026-10-04T02:45:00+00:00",
+                "estimated": "2026-10-04T02:45:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-10-04T02:45:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Gatwick",
+                "timezone": "Europe/London",
+                "iata": "LGW",
+                "icao": "EGKK",
+                "terminal": "N",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-10-04T07:20:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Qantas",
+                "iata": "QF",
+                "icao": "QFA"
+            },
+            "flight": {
+                "number": "8011",
+                "iata": "QF8011",
+                "icao": "QFA8011",
+                "codeshared": {
+                    "airline_name": "emirates",
+                    "airline_iata": "ek",
+                    "airline_icao": "uae",
+                    "flight_number": "11",
+                    "flight_iata": "ek11",
+                    "flight_icao": "uae11"
+                }
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "8963D4"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-10-04",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Dubai",
+                "timezone": "Asia/Dubai",
+                "iata": "DXB",
+                "icao": "OMDB",
+                "terminal": "3",
+                "gate": "B23",
+                "delay": 0,
+                "scheduled": "2026-10-04T02:45:00+00:00",
+                "estimated": "2026-10-04T02:45:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-10-04T02:45:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Gatwick",
+                "timezone": "Europe/London",
+                "iata": "LGW",
+                "icao": "EGKK",
+                "terminal": "N",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-10-04T07:20:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Icelandair",
+                "iata": "FI",
+                "icao": "ICE"
+            },
+            "flight": {
+                "number": "6029",
+                "iata": "FI6029",
+                "icao": "ICE6029",
+                "codeshared": {
+                    "airline_name": "emirates",
+                    "airline_iata": "ek",
+                    "airline_icao": "uae",
+                    "flight_number": "11",
+                    "flight_iata": "ek11",
+                    "flight_icao": "uae11"
+                }
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "8963D4"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-10-04",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Dubai",
+                "timezone": "Asia/Dubai",
+                "iata": "DXB",
+                "icao": "OMDB",
+                "terminal": "3",
+                "gate": "A14",
+                "delay": 0,
+                "scheduled": "2026-10-04T02:45:00+00:00",
+                "estimated": "2026-10-04T02:45:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-10-04T02:45:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Perth International",
+                "timezone": "Australia/Perth",
+                "iata": "PER",
+                "icao": "YPPH",
+                "terminal": "1",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-10-04T17:35:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Qantas",
+                "iata": "QF",
+                "icao": "QFA"
+            },
+            "flight": {
+                "number": "8420",
+                "iata": "QF8420",
+                "icao": "QFA8420",
+                "codeshared": {
+                    "airline_name": "emirates",
+                    "airline_iata": "ek",
+                    "airline_icao": "uae",
+                    "flight_number": "420",
+                    "flight_iata": "ek420",
+                    "flight_icao": "uae420"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-10-04",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Dubai",
+                "timezone": "Asia/Dubai",
+                "iata": "DXB",
+                "icao": "OMDB",
+                "terminal": "3",
+                "gate": "A14",
+                "delay": 0,
+                "scheduled": "2026-10-04T02:45:00+00:00",
+                "estimated": "2026-10-04T02:45:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-10-04T02:45:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Perth International",
+                "timezone": "Australia/Perth",
+                "iata": "PER",
+                "icao": "YPPH",
+                "terminal": "1",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-10-04T17:35:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Condor",
+                "iata": "DE",
+                "icao": "CFG"
+            },
+            "flight": {
+                "number": "5939",
+                "iata": "DE5939",
+                "icao": "CFG5939",
+                "codeshared": {
+                    "airline_name": "emirates",
+                    "airline_iata": "ek",
+                    "airline_icao": "uae",
+                    "flight_number": "420",
+                    "flight_iata": "ek420",
+                    "flight_icao": "uae420"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-10-04",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Dubai",
+                "timezone": "Asia/Dubai",
+                "iata": "DXB",
+                "icao": "OMDB",
+                "terminal": "3",
+                "gate": "A14",
+                "delay": 0,
+                "scheduled": "2026-10-04T02:45:00+00:00",
+                "estimated": "2026-10-04T02:45:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-10-04T02:45:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Perth International",
+                "timezone": "Australia/Perth",
+                "iata": "PER",
+                "icao": "YPPH",
+                "terminal": "1",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-10-04T17:35:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Alitalia",
+                "iata": "AZ",
+                "icao": "AZA"
+            },
+            "flight": {
+                "number": "5641",
+                "iata": "AZ5641",
+                "icao": "AZA5641",
+                "codeshared": {
+                    "airline_name": "emirates",
+                    "airline_iata": "ek",
+                    "airline_icao": "uae",
+                    "flight_number": "420",
+                    "flight_iata": "ek420",
+                    "flight_icao": "uae420"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-10-04",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Dubai",
+                "timezone": "Asia/Dubai",
+                "iata": "DXB",
+                "icao": "OMDB",
+                "terminal": "1",
+                "gate": "D15",
+                "delay": 0,
+                "scheduled": "2026-10-04T01:55:00+00:00",
+                "estimated": "2026-10-04T01:55:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-10-04T01:55:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Sanganeer",
+                "timezone": "Asia/Kolkata",
+                "iata": "JAI",
+                "icao": "VIJP",
+                "terminal": "1",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-10-04T06:55:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Sky Angkor Airlines",
+                "iata": "ZA",
+                "icao": "SWM"
+            },
+            "flight": {
+                "number": "5158",
+                "iata": "ZA5158",
+                "icao": "SWM5158",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "70E085"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-10-04",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Doha International",
+                "timezone": "Asia/Qatar",
+                "iata": "DOH",
+                "icao": "OTHH",
+                "terminal": null,
+                "gate": "C8",
+                "delay": 0,
+                "scheduled": "2026-10-04T01:00:00+00:00",
+                "estimated": "2026-10-04T01:00:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-10-04T01:00:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Manchester Airport",
+                "timezone": "Europe/London",
+                "iata": "MAN",
+                "icao": "EGCC",
+                "terminal": "2",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-10-04T06:20:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Malaysia Airlines",
+                "iata": "MH",
+                "icao": "MAS"
+            },
+            "flight": {
+                "number": "4100",
+                "iata": "MH4100",
+                "icao": "MAS4100",
+                "codeshared": {
+                    "airline_name": "qatar airways",
+                    "airline_iata": "qr",
+                    "airline_icao": "qtr",
+                    "flight_number": "21",
+                    "flight_iata": "qr21",
+                    "flight_icao": "qtr21"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-10-04",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Doha International",
+                "timezone": "Asia/Qatar",
+                "iata": "DOH",
+                "icao": "OTHH",
+                "terminal": null,
+                "gate": "C8",
+                "delay": 0,
+                "scheduled": "2026-10-04T01:00:00+00:00",
+                "estimated": "2026-10-04T01:00:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-10-04T01:00:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Manchester Airport",
+                "timezone": "Europe/London",
+                "iata": "MAN",
+                "icao": "EGCC",
+                "terminal": "2",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-10-04T06:20:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Philippine Airlines",
+                "iata": "PR",
+                "icao": "PAL"
+            },
+            "flight": {
+                "number": "3456",
+                "iata": "PR3456",
+                "icao": "PAL3456",
+                "codeshared": {
+                    "airline_name": "qatar airways",
+                    "airline_iata": "qr",
+                    "airline_icao": "qtr",
+                    "flight_number": "21",
+                    "flight_iata": "qr21",
+                    "flight_icao": "qtr21"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-10-04",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Doha International",
+                "timezone": "Asia/Qatar",
+                "iata": "DOH",
+                "icao": "OTHH",
+                "terminal": null,
+                "gate": "C8",
+                "delay": 0,
+                "scheduled": "2026-10-04T01:00:00+00:00",
+                "estimated": "2026-10-04T01:00:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-10-04T01:00:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Manchester Airport",
+                "timezone": "Europe/London",
+                "iata": "MAN",
+                "icao": "EGCC",
+                "terminal": "2",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-10-04T06:20:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "RwandAir",
+                "iata": "WB",
+                "icao": "RWD"
+            },
+            "flight": {
+                "number": "1140",
+                "iata": "WB1140",
+                "icao": "RWD1140",
+                "codeshared": {
+                    "airline_name": "qatar airways",
+                    "airline_iata": "qr",
+                    "airline_icao": "qtr",
+                    "flight_number": "21",
+                    "flight_iata": "qr21",
+                    "flight_icao": "qtr21"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-10-04",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Doha International",
+                "timezone": "Asia/Qatar",
+                "iata": "DOH",
+                "icao": "OTHH",
+                "terminal": null,
+                "gate": "C8",
+                "delay": 0,
+                "scheduled": "2026-10-04T01:00:00+00:00",
+                "estimated": "2026-10-04T01:00:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-10-04T01:00:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Manchester Airport",
+                "timezone": "Europe/London",
+                "iata": "MAN",
+                "icao": "EGCC",
+                "terminal": "2",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-10-04T06:20:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "SriLankan Airlines",
+                "iata": "UL",
+                "icao": "ALK"
+            },
+            "flight": {
+                "number": "3521",
+                "iata": "UL3521",
+                "icao": "ALK3521",
+                "codeshared": {
+                    "airline_name": "qatar airways",
+                    "airline_iata": "qr",
+                    "airline_icao": "qtr",
+                    "flight_number": "21",
+                    "flight_iata": "qr21",
+                    "flight_icao": "qtr21"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-10-04",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Doha International",
+                "timezone": "Asia/Qatar",
+                "iata": "DOH",
+                "icao": "OTHH",
+                "terminal": null,
+                "gate": "C8",
+                "delay": 0,
+                "scheduled": "2026-10-04T01:00:00+00:00",
+                "estimated": "2026-10-04T01:00:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-10-04T01:00:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Manchester Airport",
+                "timezone": "Europe/London",
+                "iata": "MAN",
+                "icao": "EGCC",
+                "terminal": "2",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-10-04T06:20:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "British Airways",
+                "iata": "BA",
+                "icao": "BAW"
+            },
+            "flight": {
+                "number": "5811",
+                "iata": "BA5811",
+                "icao": "BAW5811",
+                "codeshared": {
+                    "airline_name": "qatar airways",
+                    "airline_iata": "qr",
+                    "airline_icao": "qtr",
+                    "flight_number": "21",
+                    "flight_iata": "qr21",
+                    "flight_icao": "qtr21"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-10-04",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Doha International",
+                "timezone": "Asia/Qatar",
+                "iata": "DOH",
+                "icao": "OTHH",
+                "terminal": null,
+                "gate": "C8",
+                "delay": 0,
+                "scheduled": "2026-10-04T01:00:00+00:00",
+                "estimated": "2026-10-04T01:00:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-10-04T01:00:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Manchester Airport",
+                "timezone": "Europe/London",
+                "iata": "MAN",
+                "icao": "EGCC",
+                "terminal": "2",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-10-04T06:20:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Oman Air",
+                "iata": "WY",
+                "icao": "OMA"
+            },
+            "flight": {
+                "number": "6063",
+                "iata": "WY6063",
+                "icao": "OMA6063",
+                "codeshared": {
+                    "airline_name": "qatar airways",
+                    "airline_iata": "qr",
+                    "airline_icao": "qtr",
+                    "flight_number": "21",
+                    "flight_iata": "qr21",
+                    "flight_icao": "qtr21"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-10-04",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Doha International",
+                "timezone": "Asia/Qatar",
+                "iata": "DOH",
+                "icao": "OTHH",
+                "terminal": null,
+                "gate": "A8",
+                "delay": 10,
+                "scheduled": "2026-10-04T00:50:00+00:00",
+                "estimated": "2026-10-04T00:50:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-10-04T01:00:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Franz Josef Strauss",
+                "timezone": "Europe/Berlin",
+                "iata": "MUC",
+                "icao": "EDDM",
+                "terminal": "1",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-10-04T07:00:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Virgin Australia",
+                "iata": "VA",
+                "icao": "VOZ"
+            },
+            "flight": {
+                "number": "6159",
+                "iata": "VA6159",
+                "icao": "VOZ6159",
+                "codeshared": {
+                    "airline_name": "qatar airways",
+                    "airline_iata": "qr",
+                    "airline_icao": "qtr",
+                    "flight_number": "59",
+                    "flight_iata": "qr59",
+                    "flight_icao": "qtr59"
+                }
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "06A0AE"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-10-04",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Doha International",
+                "timezone": "Asia/Qatar",
+                "iata": "DOH",
+                "icao": "OTHH",
+                "terminal": null,
+                "gate": "A8",
+                "delay": 10,
+                "scheduled": "2026-10-04T00:50:00+00:00",
+                "estimated": "2026-10-04T00:50:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-10-04T01:00:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Franz Josef Strauss",
+                "timezone": "Europe/Berlin",
+                "iata": "MUC",
+                "icao": "EDDM",
+                "terminal": "1",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-10-04T07:00:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "SriLankan Airlines",
+                "iata": "UL",
+                "icao": "ALK"
+            },
+            "flight": {
+                "number": "3594",
+                "iata": "UL3594",
+                "icao": "ALK3594",
+                "codeshared": {
+                    "airline_name": "qatar airways",
+                    "airline_iata": "qr",
+                    "airline_icao": "qtr",
+                    "flight_number": "59",
+                    "flight_iata": "qr59",
+                    "flight_icao": "qtr59"
+                }
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "06A0AE"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-10-04",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Doha International",
+                "timezone": "Asia/Qatar",
+                "iata": "DOH",
+                "icao": "OTHH",
+                "terminal": null,
+                "gate": "A8",
+                "delay": 10,
+                "scheduled": "2026-10-04T00:50:00+00:00",
+                "estimated": "2026-10-04T00:50:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-10-04T01:00:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Franz Josef Strauss",
+                "timezone": "Europe/Berlin",
+                "iata": "MUC",
+                "icao": "EDDM",
+                "terminal": "1",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-10-04T07:00:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "China Southern Airlines",
+                "iata": "CZ",
+                "icao": "CSN"
+            },
+            "flight": {
+                "number": "726",
+                "iata": "CZ726",
+                "icao": "CSN726",
+                "codeshared": {
+                    "airline_name": "qatar airways",
+                    "airline_iata": "qr",
+                    "airline_icao": "qtr",
+                    "flight_number": "59",
+                    "flight_iata": "qr59",
+                    "flight_icao": "qtr59"
+                }
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "06A0AE"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-10-04",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Doha International",
+                "timezone": "Asia/Qatar",
+                "iata": "DOH",
+                "icao": "OTHH",
+                "terminal": null,
+                "gate": "A8",
+                "delay": 10,
+                "scheduled": "2026-10-04T00:50:00+00:00",
+                "estimated": "2026-10-04T00:50:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-10-04T01:00:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Franz Josef Strauss",
+                "timezone": "Europe/Berlin",
+                "iata": "MUC",
+                "icao": "EDDM",
+                "terminal": "1",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-10-04T07:00:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Malaysia Airlines",
+                "iata": "MH",
+                "icao": "MAS"
+            },
+            "flight": {
+                "number": "9221",
+                "iata": "MH9221",
+                "icao": "MAS9221",
+                "codeshared": {
+                    "airline_name": "qatar airways",
+                    "airline_iata": "qr",
+                    "airline_icao": "qtr",
+                    "flight_number": "59",
+                    "flight_iata": "qr59",
+                    "flight_icao": "qtr59"
+                }
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "06A0AE"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-10-04",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Doha International",
+                "timezone": "Asia/Qatar",
+                "iata": "DOH",
+                "icao": "OTHH",
+                "terminal": null,
+                "gate": "A8",
+                "delay": 10,
+                "scheduled": "2026-10-04T00:50:00+00:00",
+                "estimated": "2026-10-04T00:50:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-10-04T01:00:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Franz Josef Strauss",
+                "timezone": "Europe/Berlin",
+                "iata": "MUC",
+                "icao": "EDDM",
+                "terminal": "1",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-10-04T07:00:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Philippine Airlines",
+                "iata": "PR",
+                "icao": "PAL"
+            },
+            "flight": {
+                "number": "3452",
+                "iata": "PR3452",
+                "icao": "PAL3452",
+                "codeshared": {
+                    "airline_name": "qatar airways",
+                    "airline_iata": "qr",
+                    "airline_icao": "qtr",
+                    "flight_number": "59",
+                    "flight_iata": "qr59",
+                    "flight_icao": "qtr59"
+                }
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "06A0AE"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-10-04",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Doha International",
+                "timezone": "Asia/Qatar",
+                "iata": "DOH",
+                "icao": "OTHH",
+                "terminal": null,
+                "gate": "A8",
+                "delay": 10,
+                "scheduled": "2026-10-04T00:50:00+00:00",
+                "estimated": "2026-10-04T00:50:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-10-04T01:00:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Franz Josef Strauss",
+                "timezone": "Europe/Berlin",
+                "iata": "MUC",
+                "icao": "EDDM",
+                "terminal": "1",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-10-04T07:00:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Iberia",
+                "iata": "IB",
+                "icao": "IBE"
+            },
+            "flight": {
+                "number": "6142",
+                "iata": "IB6142",
+                "icao": "IBE6142",
+                "codeshared": {
+                    "airline_name": "qatar airways",
+                    "airline_iata": "qr",
+                    "airline_icao": "qtr",
+                    "flight_number": "59",
+                    "flight_iata": "qr59",
+                    "flight_icao": "qtr59"
+                }
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "06A0AE"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-10-04",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Doha International",
+                "timezone": "Asia/Qatar",
+                "iata": "DOH",
+                "icao": "OTHH",
+                "terminal": null,
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-10-04T00:40:00+00:00",
+                "estimated": "2026-10-04T00:40:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Mosnov",
+                "timezone": "Europe/Prague",
+                "iata": "OSR",
+                "icao": "LKMT",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-10-04T05:24:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Qatar Airways",
+                "iata": "QR",
+                "icao": "QTR"
+            },
+            "flight": {
+                "number": "3254",
+                "iata": "QR3254",
+                "icao": "QTR3254",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "06A1C5"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-10-04",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "King Fahd International Airport",
+                "timezone": "Asia/Riyadh",
+                "iata": "DMM",
+                "icao": "OEDF",
+                "terminal": null,
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-10-04T01:00:00+00:00",
+                "estimated": "2026-10-04T01:00:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Vitoria",
+                "timezone": "Europe/Madrid",
+                "iata": "VIT",
+                "icao": "LEVT",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-10-04T07:41:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Silk Way Airlines",
+                "iata": "ZP",
+                "icao": "AZQ"
+            },
+            "flight": {
+                "number": "4885",
+                "iata": "ZP4885",
+                "icao": "AZQ4885",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "600865"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-10-04",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Don Muang",
+                "timezone": "Asia/Bangkok",
+                "iata": "DMK",
+                "icao": "VTBD",
+                "terminal": "2",
+                "gate": "44",
+                "delay": null,
+                "scheduled": "2026-10-04T08:05:00+00:00",
+                "estimated": "2026-10-04T08:05:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Trang",
+                "timezone": "Asia/Bangkok",
+                "iata": "TST",
+                "icao": "VTST",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-10-04T09:30:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Thai Lion Air",
+                "iata": "SL",
+                "icao": "TLM"
+            },
+            "flight": {
+                "number": "824",
+                "iata": "SL824",
+                "icao": "TLM824",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-10-04",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Don Muang",
+                "timezone": "Asia/Bangkok",
+                "iata": "DMK",
+                "icao": "VTBD",
+                "terminal": "2",
+                "gate": "41",
+                "delay": null,
+                "scheduled": "2026-10-04T08:00:00+00:00",
+                "estimated": "2026-10-04T08:00:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Udon Thani",
+                "timezone": "Asia/Bangkok",
+                "iata": "UTH",
+                "icao": "VTUD",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-10-04T09:00:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Thai Lion Air",
+                "iata": "SL",
+                "icao": "TLM"
+            },
+            "flight": {
+                "number": "600",
+                "iata": "SL600",
+                "icao": "TLM600",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-10-04",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Don Muang",
+                "timezone": "Asia/Bangkok",
+                "iata": "DMK",
+                "icao": "VTBD",
+                "terminal": "2",
+                "gate": "43",
+                "delay": null,
+                "scheduled": "2026-10-04T07:45:00+00:00",
+                "estimated": "2026-10-04T07:45:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Phuket International",
+                "timezone": "Asia/Bangkok",
+                "iata": "HKT",
+                "icao": "VTSP",
+                "terminal": "D",
+                "gate": null,
+                "baggage": "8",
+                "scheduled": "2026-10-04T09:10:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Thai Lion Air",
+                "iata": "SL",
+                "icao": "TLM"
+            },
+            "flight": {
+                "number": "752",
+                "iata": "SL752",
+                "icao": "TLM752",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-10-04",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Don Muang",
+                "timezone": "Asia/Bangkok",
+                "iata": "DMK",
+                "icao": "VTBD",
+                "terminal": "1",
+                "gate": "23",
+                "delay": null,
+                "scheduled": "2026-10-04T07:45:00+00:00",
+                "estimated": "2026-10-04T07:45:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Singapore Changi",
+                "timezone": "Asia/Singapore",
+                "iata": "SIN",
+                "icao": "WSSS",
+                "terminal": "4",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-10-04T11:10:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Thai Lion Air",
+                "iata": "SL",
+                "icao": "TLM"
+            },
+            "flight": {
+                "number": "100",
+                "iata": "SL100",
+                "icao": "TLM100",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-10-04",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Don Muang",
+                "timezone": "Asia/Bangkok",
+                "iata": "DMK",
+                "icao": "VTBD",
+                "terminal": "2",
+                "gate": "72",
+                "delay": null,
+                "scheduled": "2026-10-04T07:30:00+00:00",
+                "estimated": "2026-10-04T07:30:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Muang Ubon",
+                "timezone": "Asia/Bangkok",
+                "iata": "UBP",
+                "icao": "VTUU",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-10-04T08:40:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Thai Lion Air",
+                "iata": "SL",
+                "icao": "TLM"
+            },
+            "flight": {
+                "number": "620",
+                "iata": "SL620",
+                "icao": "TLM620",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-10-04",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Don Muang",
+                "timezone": "Asia/Bangkok",
+                "iata": "DMK",
+                "icao": "VTBD",
+                "terminal": "2",
+                "gate": "46",
+                "delay": null,
+                "scheduled": "2026-10-04T07:25:00+00:00",
+                "estimated": "2026-10-04T07:25:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Surat Thani",
+                "timezone": "Asia/Bangkok",
+                "iata": "URT",
+                "icao": "VTSB",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-10-04T08:40:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Thai Lion Air",
+                "iata": "SL",
+                "icao": "TLM"
+            },
+            "flight": {
+                "number": "734",
+                "iata": "SL734",
+                "icao": "TLM734",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-10-04",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Chongqing Jiangbei International",
+                "timezone": "Asia/Shanghai",
+                "iata": "CKG",
+                "icao": "ZUCK",
+                "terminal": "T3",
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-10-04T05:55:00+00:00",
+                "estimated": "2026-10-04T05:55:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Almaty",
+                "timezone": "Asia/Almaty",
+                "iata": "ALA",
+                "icao": "UAAA",
+                "terminal": "T1",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-10-04T08:25:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "FlyArystan",
+                "iata": "FS",
+                "icao": "AYN"
+            },
+            "flight": {
+                "number": "7870",
+                "iata": "FS7870",
+                "icao": "AYN7870",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-10-04",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "International Airport Chisinau",
+                "timezone": "Europe/Chisinau",
+                "iata": "RMO",
+                "icao": "LUKK",
+                "terminal": null,
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-10-04T00:20:00+00:00",
+                "estimated": "2026-10-04T00:20:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Kastrup",
+                "timezone": "Europe/Copenhagen",
+                "iata": "CPH",
+                "icao": "EKCH",
+                "terminal": "ALL",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-10-04T01:45:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Atlantic Airways",
+                "iata": "RC",
+                "icao": "FLI"
+            },
+            "flight": {
+                "number": "9855",
+                "iata": "RC9855",
+                "icao": "FLI9855",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "45C86A"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-10-04",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Abu Dhabi International",
+                "timezone": "Asia/Dubai",
+                "iata": "AUH",
+                "icao": "OMAA",
+                "terminal": "A",
+                "gate": "C34",
+                "delay": 24,
+                "scheduled": "2026-10-04T02:25:00+00:00",
+                "estimated": "2026-10-04T02:25:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-10-04T02:49:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Barajas",
+                "timezone": "Europe/Madrid",
+                "iata": "MAD",
+                "icao": "LEMD",
+                "terminal": "4",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-10-04T08:10:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "STARLUX",
+                "iata": "JX",
+                "icao": "SJX"
+            },
+            "flight": {
+                "number": "7309",
+                "iata": "JX7309",
+                "icao": "SJX7309",
+                "codeshared": {
+                    "airline_name": "etihad airways",
+                    "airline_iata": "ey",
+                    "airline_icao": "etd",
+                    "flight_number": "101",
+                    "flight_iata": "ey101",
+                    "flight_icao": "etd101"
+                }
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "89653D"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-10-04",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Abu Dhabi International",
+                "timezone": "Asia/Dubai",
+                "iata": "AUH",
+                "icao": "OMAA",
+                "terminal": "A",
+                "gate": "C34",
+                "delay": 24,
+                "scheduled": "2026-10-04T02:25:00+00:00",
+                "estimated": "2026-10-04T02:25:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-10-04T02:49:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Barajas",
+                "timezone": "Europe/Madrid",
+                "iata": "MAD",
+                "icao": "LEMD",
+                "terminal": "4",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-10-04T08:10:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Garuda Indonesia",
+                "iata": "GA",
+                "icao": "GIA"
+            },
+            "flight": {
+                "number": "9058",
+                "iata": "GA9058",
+                "icao": "GIA9058",
+                "codeshared": {
+                    "airline_name": "etihad airways",
+                    "airline_iata": "ey",
+                    "airline_icao": "etd",
+                    "flight_number": "101",
+                    "flight_iata": "ey101",
+                    "flight_icao": "etd101"
+                }
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "89653D"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-10-04",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Abu Dhabi International",
+                "timezone": "Asia/Dubai",
+                "iata": "AUH",
+                "icao": "OMAA",
+                "terminal": "A",
+                "gate": "C34",
+                "delay": 24,
+                "scheduled": "2026-10-04T02:25:00+00:00",
+                "estimated": "2026-10-04T02:25:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-10-04T02:49:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Barajas",
+                "timezone": "Europe/Madrid",
+                "iata": "MAD",
+                "icao": "LEMD",
+                "terminal": "4",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-10-04T08:10:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "avianca",
+                "iata": "AV",
+                "icao": "AVA"
+            },
+            "flight": {
+                "number": "2415",
+                "iata": "AV2415",
+                "icao": "AVA2415",
+                "codeshared": {
+                    "airline_name": "etihad airways",
+                    "airline_iata": "ey",
+                    "airline_icao": "etd",
+                    "flight_number": "101",
+                    "flight_iata": "ey101",
+                    "flight_icao": "etd101"
+                }
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "89653D"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-10-04",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Abu Dhabi International",
+                "timezone": "Asia/Dubai",
+                "iata": "AUH",
+                "icao": "OMAA",
+                "terminal": "A",
+                "gate": "C29",
+                "delay": 21,
+                "scheduled": "2026-10-04T02:20:00+00:00",
+                "estimated": "2026-10-04T02:20:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-10-04T02:41:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Heathrow",
+                "timezone": "Europe/London",
+                "iata": "LHR",
+                "icao": "EGLL",
+                "terminal": "4",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-10-04T07:00:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "TAP Air Portugal",
+                "iata": "TP",
+                "icao": "TAP"
+            },
+            "flight": {
+                "number": "6916",
+                "iata": "TP6916",
+                "icao": "TAP6916",
+                "codeshared": {
+                    "airline_name": "etihad airways",
+                    "airline_iata": "ey",
+                    "airline_icao": "etd",
+                    "flight_number": "61",
+                    "flight_iata": "ey61",
+                    "flight_icao": "etd61"
+                }
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "89649E"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-10-04",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Abu Dhabi International",
+                "timezone": "Asia/Dubai",
+                "iata": "AUH",
+                "icao": "OMAA",
+                "terminal": "A",
+                "gate": "C29",
+                "delay": 21,
+                "scheduled": "2026-10-04T02:20:00+00:00",
+                "estimated": "2026-10-04T02:20:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-10-04T02:41:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Heathrow",
+                "timezone": "Europe/London",
+                "iata": "LHR",
+                "icao": "EGLL",
+                "terminal": "4",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-10-04T07:00:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "SAS",
+                "iata": "SK",
+                "icao": "SAS"
+            },
+            "flight": {
+                "number": "6548",
+                "iata": "SK6548",
+                "icao": "SAS6548",
+                "codeshared": {
+                    "airline_name": "etihad airways",
+                    "airline_iata": "ey",
+                    "airline_icao": "etd",
+                    "flight_number": "61",
+                    "flight_iata": "ey61",
+                    "flight_icao": "etd61"
+                }
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "89649E"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-10-04",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Abu Dhabi International",
+                "timezone": "Asia/Dubai",
+                "iata": "AUH",
+                "icao": "OMAA",
+                "terminal": "A",
+                "gate": "C29",
+                "delay": 21,
+                "scheduled": "2026-10-04T02:20:00+00:00",
+                "estimated": "2026-10-04T02:20:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-10-04T02:41:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Heathrow",
+                "timezone": "Europe/London",
+                "iata": "LHR",
+                "icao": "EGLL",
+                "terminal": "4",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-10-04T07:00:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Air New Zealand",
+                "iata": "NZ",
+                "icao": "ANZ"
+            },
+            "flight": {
+                "number": "4291",
+                "iata": "NZ4291",
+                "icao": "ANZ4291",
+                "codeshared": {
+                    "airline_name": "etihad airways",
+                    "airline_iata": "ey",
+                    "airline_icao": "etd",
+                    "flight_number": "61",
+                    "flight_iata": "ey61",
+                    "flight_icao": "etd61"
+                }
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "89649E"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-10-04",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Abu Dhabi International",
+                "timezone": "Asia/Dubai",
+                "iata": "AUH",
+                "icao": "OMAA",
+                "terminal": "A",
+                "gate": "C29",
+                "delay": 21,
+                "scheduled": "2026-10-04T02:20:00+00:00",
+                "estimated": "2026-10-04T02:20:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-10-04T02:41:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Heathrow",
+                "timezone": "Europe/London",
+                "iata": "LHR",
+                "icao": "EGLL",
+                "terminal": "4",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-10-04T07:00:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Garuda Indonesia",
+                "iata": "GA",
+                "icao": "GIA"
+            },
+            "flight": {
+                "number": "9056",
+                "iata": "GA9056",
+                "icao": "GIA9056",
+                "codeshared": {
+                    "airline_name": "etihad airways",
+                    "airline_iata": "ey",
+                    "airline_icao": "etd",
+                    "flight_number": "61",
+                    "flight_iata": "ey61",
+                    "flight_icao": "etd61"
+                }
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "89649E"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-10-04",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Abu Dhabi International",
+                "timezone": "Asia/Dubai",
+                "iata": "AUH",
+                "icao": "OMAA",
+                "terminal": "A",
+                "gate": "C29",
+                "delay": 21,
+                "scheduled": "2026-10-04T02:20:00+00:00",
+                "estimated": "2026-10-04T02:20:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-10-04T02:41:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Heathrow",
+                "timezone": "Europe/London",
+                "iata": "LHR",
+                "icao": "EGLL",
+                "terminal": "4",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-10-04T07:00:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Air Canada",
+                "iata": "AC",
+                "icao": "ACA"
+            },
+            "flight": {
+                "number": "6671",
+                "iata": "AC6671",
+                "icao": "ACA6671",
+                "codeshared": {
+                    "airline_name": "etihad airways",
+                    "airline_iata": "ey",
+                    "airline_icao": "etd",
+                    "flight_number": "61",
+                    "flight_iata": "ey61",
+                    "flight_icao": "etd61"
+                }
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "89649E"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-10-04",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Abu Dhabi International",
+                "timezone": "Asia/Dubai",
+                "iata": "AUH",
+                "icao": "OMAA",
+                "terminal": "A",
+                "gate": "C32",
+                "delay": 23,
+                "scheduled": "2026-10-04T02:05:00+00:00",
+                "estimated": "2026-10-04T02:05:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-10-04T02:28:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Schiphol",
+                "timezone": "Europe/Amsterdam",
+                "iata": "AMS",
+                "icao": "EHAM",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-10-04T08:00:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Garuda Indonesia",
+                "iata": "GA",
+                "icao": "GIA"
+            },
+            "flight": {
+                "number": "9832",
+                "iata": "GA9832",
+                "icao": "GIA9832",
+                "codeshared": {
+                    "airline_name": "etihad airways",
+                    "airline_iata": "ey",
+                    "airline_icao": "etd",
+                    "flight_number": "43",
+                    "flight_iata": "ey43",
+                    "flight_icao": "etd43"
+                }
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "896713"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-10-04",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "El Prat De Llobregat",
+                "timezone": "Europe/Madrid",
+                "iata": "BCN",
+                "icao": "LEBL",
+                "terminal": null,
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-10-04T02:25:00+00:00",
+                "estimated": "2026-10-04T02:25:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Ouarzazate",
+                "timezone": "Africa/Casablanca",
+                "iata": "OZZ",
+                "icao": "GMMZ",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-10-04T02:44:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "empty",
+                "iata": "VY",
+                "icao": "VLG"
+            },
+            "flight": {
+                "number": null,
+                "iata": "VY",
+                "icao": "VLG",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-10-04",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Yohannes IV",
+                "timezone": "Africa/Asmara",
+                "iata": "ASM",
+                "icao": "HHAS",
+                "terminal": null,
+                "gate": null,
+                "delay": 10,
+                "scheduled": "2026-10-04T00:05:00+00:00",
+                "estimated": "2026-10-04T00:05:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-10-04T00:15:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Istanbul Airport",
+                "timezone": "Europe/Istanbul",
+                "iata": "IST",
+                "icao": "LTFM",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-10-04T04:40:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Turkish Airlines",
+                "iata": "TK",
+                "icao": "THY"
+            },
+            "flight": {
+                "number": "577",
+                "iata": "TK577",
+                "icao": "THY577",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "4BB28F"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-10-04",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Yohannes IV",
+                "timezone": "Africa/Asmara",
+                "iata": "ASM",
+                "icao": "HHAS",
+                "terminal": null,
+                "gate": null,
+                "delay": 0,
+                "scheduled": "2026-10-04T03:55:00+00:00",
+                "estimated": "2026-10-04T03:55:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-10-04T03:55:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Cairo International Airport",
+                "timezone": "Africa/Cairo",
+                "iata": "CAI",
+                "icao": "HECA",
+                "terminal": "3",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-10-04T07:05:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Egyptair",
+                "iata": "MS",
+                "icao": "MSR"
+            },
+            "flight": {
+                "number": "834",
+                "iata": "MS834",
+                "icao": "MSR834",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-10-04",
+            "flight_status": "active",
+            "departure": {
+                "airport": "Auckland International",
+                "timezone": "Pacific/Auckland",
+                "iata": "AKL",
+                "icao": "NZAA",
+                "terminal": "D",
+                "gate": "50",
+                "delay": 0,
+                "scheduled": "2026-10-04T08:30:00+00:00",
+                "estimated": "2026-10-04T08:30:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-10-04T08:30:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Gisborne",
+                "timezone": "Pacific/Auckland",
+                "iata": "GIS",
+                "icao": "NZGS",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-10-04T09:40:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Air China",
+                "iata": "CA",
+                "icao": "CCA"
+            },
+            "flight": {
+                "number": "5939",
+                "iata": "CA5939",
+                "icao": "CCA5939",
+                "codeshared": {
+                    "airline_name": "air new zealand",
+                    "airline_iata": "nz",
+                    "airline_icao": "anz",
+                    "flight_number": "5163",
+                    "flight_iata": "nz5163",
+                    "flight_icao": "anz5163"
+                }
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "C81A5A"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-10-04",
+            "flight_status": "active",
+            "departure": {
+                "airport": "Auckland International",
+                "timezone": "Pacific/Auckland",
+                "iata": "AKL",
+                "icao": "NZAA",
+                "terminal": "I",
+                "gate": "16",
+                "delay": 0,
+                "scheduled": "2026-10-04T08:20:00+00:00",
+                "estimated": "2026-10-04T08:20:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-10-04T08:20:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Sydney Kingsford Smith Airport",
+                "timezone": "Australia/Sydney",
+                "iata": "SYD",
+                "icao": "YSSY",
+                "terminal": "1",
+                "gate": "63",
+                "baggage": "2",
+                "scheduled": "2026-10-04T10:10:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "China Southern Airlines",
+                "iata": "CZ",
+                "icao": "CSN"
+            },
+            "flight": {
+                "number": "7576",
+                "iata": "CZ7576",
+                "icao": "CSN7576",
+                "codeshared": {
+                    "airline_name": "qantas",
+                    "airline_iata": "qf",
+                    "airline_icao": "qfa",
+                    "flight_number": "142",
+                    "flight_iata": "qf142",
+                    "flight_icao": "qfa142"
+                }
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "7C6DEC"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-10-04",
+            "flight_status": "active",
+            "departure": {
+                "airport": "Auckland International",
+                "timezone": "Pacific/Auckland",
+                "iata": "AKL",
+                "icao": "NZAA",
+                "terminal": "I",
+                "gate": "16",
+                "delay": 0,
+                "scheduled": "2026-10-04T08:20:00+00:00",
+                "estimated": "2026-10-04T08:20:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-10-04T08:20:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Sydney Kingsford Smith Airport",
+                "timezone": "Australia/Sydney",
+                "iata": "SYD",
+                "icao": "YSSY",
+                "terminal": "1",
+                "gate": "63",
+                "baggage": "2",
+                "scheduled": "2026-10-04T10:10:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "China Eastern Airlines",
+                "iata": "MU",
+                "icao": "CES"
+            },
+            "flight": {
+                "number": "4137",
+                "iata": "MU4137",
+                "icao": "CES4137",
+                "codeshared": {
+                    "airline_name": "qantas",
+                    "airline_iata": "qf",
+                    "airline_icao": "qfa",
+                    "flight_number": "142",
+                    "flight_iata": "qf142",
+                    "flight_icao": "qfa142"
+                }
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "7C6DEC"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-10-04",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "New Ulaanbaator International Airport",
+                "timezone": null,
+                "iata": "UBN",
+                "icao": "ZMCK",
+                "terminal": null,
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-10-04T08:45:00+00:00",
+                "estimated": "2026-10-04T08:45:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Saiwusu International",
+                "timezone": "Asia/Shanghai",
+                "iata": "ERL",
+                "icao": "ZBER",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-10-04T10:00:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Hunnu Air",
+                "iata": "MR",
+                "icao": "MML"
+            },
+            "flight": {
+                "number": "861",
+                "iata": "MR861",
+                "icao": "MML861",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-10-04",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Toowoomba Wellcamp Airport\r\n",
+                "timezone": null,
+                "iata": "WTB",
+                "icao": "YBWW",
+                "terminal": null,
+                "gate": null,
+                "delay": 0,
+                "scheduled": "2026-10-04T09:00:00+00:00",
+                "estimated": "2026-10-04T09:00:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-10-04T09:00:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "St George",
+                "timezone": "Australia/Brisbane",
+                "iata": "SGO",
+                "icao": "YSGE",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-10-04T10:00:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Rex",
+                "iata": "ZL",
+                "icao": "RXA"
+            },
+            "flight": {
+                "number": "5631",
+                "iata": "ZL5631",
+                "icao": "RXA5631",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "7C80FC"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-10-04",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Beijing Daxing International Airport",
+                "timezone": "+8",
+                "iata": "PKX",
+                "icao": "ZBAD",
+                "terminal": null,
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-10-04T08:00:00+00:00",
+                "estimated": "2026-10-04T08:00:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Guangzhou Baiyun International",
+                "timezone": "Asia/Shanghai",
+                "iata": "CAN",
+                "icao": "ZGGG",
+                "terminal": "2",
+                "gate": null,
+                "baggage": "34",
+                "scheduled": "2026-10-04T11:10:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Sichuan Airlines",
+                "iata": "3U",
+                "icao": "CSC"
+            },
+            "flight": {
+                "number": "2515",
+                "iata": "3U2515",
+                "icao": "CSC2515",
+                "codeshared": {
+                    "airline_name": "xiamen air",
+                    "airline_iata": "mf",
+                    "airline_icao": "cxa",
+                    "flight_number": "8395",
+                    "flight_iata": "mf8395",
+                    "flight_icao": "cxa8395"
+                }
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "781F4B"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-10-04",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Beijing Daxing International Airport",
+                "timezone": "+8",
+                "iata": "PKX",
+                "icao": "ZBAD",
+                "terminal": null,
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-10-04T08:00:00+00:00",
+                "estimated": "2026-10-04T08:00:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Guangzhou Baiyun International",
+                "timezone": "Asia/Shanghai",
+                "iata": "CAN",
+                "icao": "ZGGG",
+                "terminal": "2",
+                "gate": null,
+                "baggage": "34",
+                "scheduled": "2026-10-04T11:10:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "China Eastern Airlines",
+                "iata": "MU",
+                "icao": "CES"
+            },
+            "flight": {
+                "number": "4798",
+                "iata": "MU4798",
+                "icao": "CES4798",
+                "codeshared": {
+                    "airline_name": "xiamen air",
+                    "airline_iata": "mf",
+                    "airline_icao": "cxa",
+                    "flight_number": "8395",
+                    "flight_iata": "mf8395",
+                    "flight_icao": "cxa8395"
+                }
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "781F4B"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-10-04",
+            "flight_status": "active",
+            "departure": {
+                "airport": "Beijing Daxing International Airport",
+                "timezone": "+8",
+                "iata": "PKX",
+                "icao": "ZBAD",
+                "terminal": null,
+                "gate": null,
+                "delay": 5,
+                "scheduled": "2026-10-04T02:10:00+00:00",
+                "estimated": "2026-10-04T02:10:00+00:00",
+                "actual": "2026-10-04T02:15:00+00:00",
+                "estimated_runway": "2026-10-04T02:15:00+00:00",
+                "actual_runway": "2026-10-04T02:15:00+00:00"
+            },
+            "arrival": {
+                "airport": "Vladivostok",
+                "timezone": "Asia/Vladivostok",
+                "iata": "VVO",
+                "icao": "UHWW",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-10-04T06:40:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Aurora",
+                "iata": "HZ",
+                "icao": "SHU"
+            },
+            "flight": {
+                "number": "5467",
+                "iata": "HZ5467",
+                "icao": "SHU5467",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "151FC9"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-10-04",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Copernicus Airport",
+                "timezone": "Europe/Warsaw",
+                "iata": "WRO",
+                "icao": "EPWR",
+                "terminal": null,
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-10-04T02:25:00+00:00",
+                "estimated": "2026-10-04T02:25:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Zakinthos International Airport",
+                "timezone": "Europe/Athens",
+                "iata": "ZTH",
+                "icao": "LGZA",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-10-04T05:56:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Enter Air",
+                "iata": "E4",
+                "icao": "ENT"
+            },
+            "flight": {
+                "number": null,
+                "iata": "E4",
+                "icao": "ENT",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "4891AB"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-10-04",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Copernicus Airport",
+                "timezone": "Europe/Warsaw",
+                "iata": "WRO",
+                "icao": "EPWR",
+                "terminal": null,
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-10-04T02:20:00+00:00",
+                "estimated": "2026-10-04T02:20:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Antalya",
+                "timezone": "Europe/Istanbul",
+                "iata": "AYT",
+                "icao": "LTAI",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-10-04T06:17:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Ryanair",
+                "iata": "RR",
+                "icao": "RYS"
+            },
+            "flight": {
+                "number": null,
+                "iata": "RR",
+                "icao": "RYS",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "48E9F2"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-10-04",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Copernicus Airport",
+                "timezone": "Europe/Warsaw",
+                "iata": "WRO",
+                "icao": "EPWR",
+                "terminal": null,
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-10-04T02:15:00+00:00",
+                "estimated": "2026-10-04T02:15:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Son Sant Joan Airport",
+                "timezone": "Europe/Madrid",
+                "iata": "PMI",
+                "icao": "LEPA",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-10-04T05:00:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Ryanair",
+                "iata": "RR",
+                "icao": "RYS"
+            },
+            "flight": {
+                "number": "7725",
+                "iata": "RR7725",
+                "icao": "RYS7725",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "48C231"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-10-04",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Copernicus Airport",
+                "timezone": "Europe/Warsaw",
+                "iata": "WRO",
+                "icao": "EPWR",
+                "terminal": null,
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-10-04T00:55:00+00:00",
+                "estimated": "2026-10-04T00:55:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Antalya",
+                "timezone": "Europe/Istanbul",
+                "iata": "AYT",
+                "icao": "LTAI",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-10-04T05:03:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Pegasus",
+                "iata": "PC",
+                "icao": "PGT"
+            },
+            "flight": {
+                "number": "6266",
+                "iata": "PC6266",
+                "icao": "PGT6266",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "4BB848"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-10-04",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Shenzhen",
+                "timezone": "Asia/Shanghai",
+                "iata": "SZX",
+                "icao": "ZGSZ",
+                "terminal": "T3",
+                "gate": null,
+                "delay": 0,
+                "scheduled": "2026-10-04T07:15:00+00:00",
+                "estimated": "2026-10-04T07:15:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-10-04T07:15:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Shanghai Pudong International",
+                "timezone": "Asia/Shanghai",
+                "iata": "PVG",
+                "icao": "ZSPD",
+                "terminal": "1",
+                "gate": null,
+                "baggage": "07",
+                "scheduled": "2026-10-04T09:40:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "KLM",
+                "iata": "KL",
+                "icao": "KLM"
+            },
+            "flight": {
+                "number": "8699",
+                "iata": "KL8699",
+                "icao": "KLM8699",
+                "codeshared": {
+                    "airline_name": "china eastern airlines",
+                    "airline_iata": "mu",
+                    "airline_icao": "ces",
+                    "flight_number": "5332",
+                    "flight_iata": "mu5332",
+                    "flight_icao": "ces5332"
+                }
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "782152"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-10-04",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Shenzhen",
+                "timezone": "Asia/Shanghai",
+                "iata": "SZX",
+                "icao": "ZGSZ",
+                "terminal": "T3",
+                "gate": null,
+                "delay": 0,
+                "scheduled": "2026-10-04T07:15:00+00:00",
+                "estimated": "2026-10-04T07:15:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-10-04T07:15:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Shanghai Pudong International",
+                "timezone": "Asia/Shanghai",
+                "iata": "PVG",
+                "icao": "ZSPD",
+                "terminal": "1",
+                "gate": null,
+                "baggage": "07",
+                "scheduled": "2026-10-04T09:40:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Air France",
+                "iata": "AF",
+                "icao": "AFR"
+            },
+            "flight": {
+                "number": "5268",
+                "iata": "AF5268",
+                "icao": "AFR5268",
+                "codeshared": {
+                    "airline_name": "china eastern airlines",
+                    "airline_iata": "mu",
+                    "airline_icao": "ces",
+                    "flight_number": "5332",
+                    "flight_iata": "mu5332",
+                    "flight_icao": "ces5332"
+                }
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "782152"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-10-04",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Shenzhen",
+                "timezone": "Asia/Shanghai",
+                "iata": "SZX",
+                "icao": "ZGSZ",
+                "terminal": "T3",
+                "gate": null,
+                "delay": 0,
+                "scheduled": "2026-10-04T07:15:00+00:00",
+                "estimated": "2026-10-04T07:15:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-10-04T07:15:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Shanghai Pudong International",
+                "timezone": "Asia/Shanghai",
+                "iata": "PVG",
+                "icao": "ZSPD",
+                "terminal": "1",
+                "gate": null,
+                "baggage": "07",
+                "scheduled": "2026-10-04T09:40:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Etihad Airways",
+                "iata": "EY",
+                "icao": "ETD"
+            },
+            "flight": {
+                "number": "5720",
+                "iata": "EY5720",
+                "icao": "ETD5720",
+                "codeshared": {
+                    "airline_name": "china eastern airlines",
+                    "airline_iata": "mu",
+                    "airline_icao": "ces",
+                    "flight_number": "5332",
+                    "flight_iata": "mu5332",
+                    "flight_icao": "ces5332"
+                }
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "782152"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-10-04",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Shenzhen",
+                "timezone": "Asia/Shanghai",
+                "iata": "SZX",
+                "icao": "ZGSZ",
+                "terminal": "T3",
+                "gate": null,
+                "delay": 0,
+                "scheduled": "2026-10-04T07:15:00+00:00",
+                "estimated": "2026-10-04T07:15:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-10-04T07:15:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Shanghai Pudong International",
+                "timezone": "Asia/Shanghai",
+                "iata": "PVG",
+                "icao": "ZSPD",
+                "terminal": "1",
+                "gate": null,
+                "baggage": "07",
+                "scheduled": "2026-10-04T09:40:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Delta Air Lines",
+                "iata": "DL",
+                "icao": "DAL"
+            },
+            "flight": {
+                "number": "6403",
+                "iata": "DL6403",
+                "icao": "DAL6403",
+                "codeshared": {
+                    "airline_name": "china eastern airlines",
+                    "airline_iata": "mu",
+                    "airline_icao": "ces",
+                    "flight_number": "5332",
+                    "flight_iata": "mu5332",
+                    "flight_icao": "ces5332"
+                }
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "782152"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-10-04",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Shenzhen",
+                "timezone": "Asia/Shanghai",
+                "iata": "SZX",
+                "icao": "ZGSZ",
+                "terminal": "T3",
+                "gate": null,
+                "delay": 0,
+                "scheduled": "2026-10-04T07:15:00+00:00",
+                "estimated": "2026-10-04T07:15:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-10-04T07:15:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Shanghai Pudong International",
+                "timezone": "Asia/Shanghai",
+                "iata": "PVG",
+                "icao": "ZSPD",
+                "terminal": "1",
+                "gate": null,
+                "baggage": "07",
+                "scheduled": "2026-10-04T09:40:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Juneyao Air",
+                "iata": "HO",
+                "icao": "DKH"
+            },
+            "flight": {
+                "number": "5521",
+                "iata": "HO5521",
+                "icao": "DKH5521",
+                "codeshared": {
+                    "airline_name": "china eastern airlines",
+                    "airline_iata": "mu",
+                    "airline_icao": "ces",
+                    "flight_number": "5332",
+                    "flight_iata": "mu5332",
+                    "flight_icao": "ces5332"
+                }
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "782152"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-10-04",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Shenzhen",
+                "timezone": "Asia/Shanghai",
+                "iata": "SZX",
+                "icao": "ZGSZ",
+                "terminal": "T3",
+                "gate": null,
+                "delay": 0,
+                "scheduled": "2026-10-04T07:15:00+00:00",
+                "estimated": "2026-10-04T07:15:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-10-04T07:15:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Shanghai Pudong International",
+                "timezone": "Asia/Shanghai",
+                "iata": "PVG",
+                "icao": "ZSPD",
+                "terminal": "1",
+                "gate": null,
+                "baggage": "07",
+                "scheduled": "2026-10-04T09:40:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Xiamen Air",
+                "iata": "MF",
+                "icao": "CXA"
+            },
+            "flight": {
+                "number": "3736",
+                "iata": "MF3736",
+                "icao": "CXA3736",
+                "codeshared": {
+                    "airline_name": "china eastern airlines",
+                    "airline_iata": "mu",
+                    "airline_icao": "ces",
+                    "flight_number": "5332",
+                    "flight_iata": "mu5332",
+                    "flight_icao": "ces5332"
+                }
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "782152"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-10-04",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Singapore Changi",
+                "timezone": "Asia/Singapore",
+                "iata": "SIN",
+                "icao": "WSSS",
+                "terminal": "1",
+                "gate": "C19",
+                "delay": 0,
+                "scheduled": "2026-10-04T07:00:00+00:00",
+                "estimated": "2026-10-04T07:00:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-10-04T07:00:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Haikou",
+                "timezone": "Asia/Shanghai",
+                "iata": "HAK",
+                "icao": "ZJHK",
+                "terminal": "2",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-10-04T10:40:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Singapore Airlines",
+                "iata": "SQ",
+                "icao": "SIA"
+            },
+            "flight": {
+                "number": "8312",
+                "iata": "SQ8312",
+                "icao": "SIA8312",
+                "codeshared": {
+                    "airline_name": "scoot",
+                    "airline_iata": "tr",
+                    "airline_icao": "tgw",
+                    "flight_number": "118",
+                    "flight_iata": "tr118",
+                    "flight_icao": "tgw118"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-10-04",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Singapore Changi",
+                "timezone": "Asia/Singapore",
+                "iata": "SIN",
+                "icao": "WSSS",
+                "terminal": "2",
+                "gate": "F52",
+                "delay": 0,
+                "scheduled": "2026-10-04T07:00:00+00:00",
+                "estimated": "2026-10-04T07:00:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-10-04T07:00:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Kuala Lumpur International Airport (klia)",
+                "timezone": "Asia/Kuala_Lumpur",
+                "iata": "KUL",
+                "icao": "WMKK",
+                "terminal": "1",
+                "gate": "C13",
+                "baggage": null,
+                "scheduled": "2026-10-04T08:10:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Virgin Australia",
+                "iata": "VA",
+                "icao": "VOZ"
+            },
+            "flight": {
+                "number": "5424",
+                "iata": "VA5424",
+                "icao": "VOZ5424",
+                "codeshared": {
+                    "airline_name": "singapore airlines",
+                    "airline_iata": "sq",
+                    "airline_icao": "sia",
+                    "flight_number": "104",
+                    "flight_iata": "sq104",
+                    "flight_icao": "sia104"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-10-04",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Singapore Changi",
+                "timezone": "Asia/Singapore",
+                "iata": "SIN",
+                "icao": "WSSS",
+                "terminal": "2",
+                "gate": "F52",
+                "delay": 0,
+                "scheduled": "2026-10-04T07:00:00+00:00",
+                "estimated": "2026-10-04T07:00:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-10-04T07:00:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Kuala Lumpur International Airport (klia)",
+                "timezone": "Asia/Kuala_Lumpur",
+                "iata": "KUL",
+                "icao": "WMKK",
+                "terminal": "1",
+                "gate": "C13",
+                "baggage": null,
+                "scheduled": "2026-10-04T08:10:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Asiana Airlines",
+                "iata": "OZ",
+                "icao": "AAR"
+            },
+            "flight": {
+                "number": "6734",
+                "iata": "OZ6734",
+                "icao": "AAR6734",
+                "codeshared": {
+                    "airline_name": "singapore airlines",
+                    "airline_iata": "sq",
+                    "airline_icao": "sia",
+                    "flight_number": "104",
+                    "flight_iata": "sq104",
+                    "flight_icao": "sia104"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-10-04",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Singapore Changi",
+                "timezone": "Asia/Singapore",
+                "iata": "SIN",
+                "icao": "WSSS",
+                "terminal": "2",
+                "gate": "F52",
+                "delay": 0,
+                "scheduled": "2026-10-04T07:00:00+00:00",
+                "estimated": "2026-10-04T07:00:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-10-04T07:00:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Kuala Lumpur International Airport (klia)",
+                "timezone": "Asia/Kuala_Lumpur",
+                "iata": "KUL",
+                "icao": "WMKK",
+                "terminal": "1",
+                "gate": "C13",
+                "baggage": null,
+                "scheduled": "2026-10-04T08:10:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Air New Zealand",
+                "iata": "NZ",
+                "icao": "ANZ"
+            },
+            "flight": {
+                "number": "3404",
+                "iata": "NZ3404",
+                "icao": "ANZ3404",
+                "codeshared": {
+                    "airline_name": "singapore airlines",
+                    "airline_iata": "sq",
+                    "airline_icao": "sia",
+                    "flight_number": "104",
+                    "flight_iata": "sq104",
+                    "flight_icao": "sia104"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-10-04",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Singapore Changi",
+                "timezone": "Asia/Singapore",
+                "iata": "SIN",
+                "icao": "WSSS",
+                "terminal": "2",
+                "gate": "F52",
+                "delay": 0,
+                "scheduled": "2026-10-04T07:00:00+00:00",
+                "estimated": "2026-10-04T07:00:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-10-04T07:00:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Kuala Lumpur International Airport (klia)",
+                "timezone": "Asia/Kuala_Lumpur",
+                "iata": "KUL",
+                "icao": "WMKK",
+                "terminal": "1",
+                "gate": "C13",
+                "baggage": null,
+                "scheduled": "2026-10-04T08:10:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Malaysia Airlines",
+                "iata": "MH",
+                "icao": "MAS"
+            },
+            "flight": {
+                "number": "5722",
+                "iata": "MH5722",
+                "icao": "MAS5722",
+                "codeshared": {
+                    "airline_name": "singapore airlines",
+                    "airline_iata": "sq",
+                    "airline_icao": "sia",
+                    "flight_number": "104",
+                    "flight_iata": "sq104",
+                    "flight_icao": "sia104"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-10-04",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Singapore Changi",
+                "timezone": "Asia/Singapore",
+                "iata": "SIN",
+                "icao": "WSSS",
+                "terminal": "2",
+                "gate": "F52",
+                "delay": 0,
+                "scheduled": "2026-10-04T07:00:00+00:00",
+                "estimated": "2026-10-04T07:00:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-10-04T07:00:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Kuala Lumpur International Airport (klia)",
+                "timezone": "Asia/Kuala_Lumpur",
+                "iata": "KUL",
+                "icao": "WMKK",
+                "terminal": "1",
+                "gate": "C13",
+                "baggage": null,
+                "scheduled": "2026-10-04T08:10:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Swiss",
+                "iata": "LX",
+                "icao": "SWR"
+            },
+            "flight": {
+                "number": "9044",
+                "iata": "LX9044",
+                "icao": "SWR9044",
+                "codeshared": {
+                    "airline_name": "singapore airlines",
+                    "airline_iata": "sq",
+                    "airline_icao": "sia",
+                    "flight_number": "104",
+                    "flight_iata": "sq104",
+                    "flight_icao": "sia104"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-10-04",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Singapore Changi",
+                "timezone": "Asia/Singapore",
+                "iata": "SIN",
+                "icao": "WSSS",
+                "terminal": "2",
+                "gate": "F52",
+                "delay": 0,
+                "scheduled": "2026-10-04T07:00:00+00:00",
+                "estimated": "2026-10-04T07:00:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-10-04T07:00:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Kuala Lumpur International Airport (klia)",
+                "timezone": "Asia/Kuala_Lumpur",
+                "iata": "KUL",
+                "icao": "WMKK",
+                "terminal": "1",
+                "gate": "C13",
+                "baggage": null,
+                "scheduled": "2026-10-04T08:10:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Air India",
+                "iata": "AI",
+                "icao": "AIC"
+            },
+            "flight": {
+                "number": "8186",
+                "iata": "AI8186",
+                "icao": "AIC8186",
+                "codeshared": {
+                    "airline_name": "singapore airlines",
+                    "airline_iata": "sq",
+                    "airline_icao": "sia",
+                    "flight_number": "104",
+                    "flight_iata": "sq104",
+                    "flight_icao": "sia104"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-10-04",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Singapore Changi",
+                "timezone": "Asia/Singapore",
+                "iata": "SIN",
+                "icao": "WSSS",
+                "terminal": "2",
+                "gate": "F52",
+                "delay": 0,
+                "scheduled": "2026-10-04T07:00:00+00:00",
+                "estimated": "2026-10-04T07:00:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-10-04T07:00:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Kuala Lumpur International Airport (klia)",
+                "timezone": "Asia/Kuala_Lumpur",
+                "iata": "KUL",
+                "icao": "WMKK",
+                "terminal": "1",
+                "gate": "C13",
+                "baggage": null,
+                "scheduled": "2026-10-04T08:10:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Air Canada",
+                "iata": "AC",
+                "icao": "ACA"
+            },
+            "flight": {
+                "number": "5905",
+                "iata": "AC5905",
+                "icao": "ACA5905",
+                "codeshared": {
+                    "airline_name": "singapore airlines",
+                    "airline_iata": "sq",
+                    "airline_icao": "sia",
+                    "flight_number": "104",
+                    "flight_iata": "sq104",
+                    "flight_icao": "sia104"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-10-04",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Singapore Changi",
+                "timezone": "Asia/Singapore",
+                "iata": "SIN",
+                "icao": "WSSS",
+                "terminal": "2",
+                "gate": "F54",
+                "delay": 0,
+                "scheduled": "2026-10-04T07:00:00+00:00",
+                "estimated": "2026-10-04T07:00:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-10-04T07:00:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Vancouver International",
+                "timezone": "America/Vancouver",
+                "iata": "YVR",
+                "icao": "CYVR",
+                "terminal": "M",
+                "gate": "D74",
+                "baggage": null,
+                "scheduled": "2026-10-04T06:25:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Singapore Airlines",
+                "iata": "SQ",
+                "icao": "SIA"
+            },
+            "flight": {
+                "number": "1050",
+                "iata": "SQ1050",
+                "icao": "SIA1050",
+                "codeshared": {
+                    "airline_name": "air canada",
+                    "airline_iata": "ac",
+                    "airline_icao": "aca",
+                    "flight_number": "20",
+                    "flight_iata": "ac20",
+                    "flight_icao": "aca20"
+                }
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "C038CA"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-10-04",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Singapore Changi",
+                "timezone": "Asia/Singapore",
+                "iata": "SIN",
+                "icao": "WSSS",
+                "terminal": "1",
+                "gate": "C13",
+                "delay": 0,
+                "scheduled": "2026-10-04T06:55:00+00:00",
+                "estimated": "2026-10-04T06:55:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-10-04T06:55:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Kansai International",
+                "timezone": "Asia/Tokyo",
+                "iata": "KIX",
+                "icao": "RJBB",
+                "terminal": "1",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-10-04T14:35:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Singapore Airlines",
+                "iata": "SQ",
+                "icao": "SIA"
+            },
+            "flight": {
+                "number": "8640",
+                "iata": "SQ8640",
+                "icao": "SIA8640",
+                "codeshared": {
+                    "airline_name": "scoot",
+                    "airline_iata": "tr",
+                    "airline_icao": "tgw",
+                    "flight_number": "820",
+                    "flight_iata": "tr820",
+                    "flight_icao": "tgw820"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-10-04",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Singapore Changi",
+                "timezone": "Asia/Singapore",
+                "iata": "SIN",
+                "icao": "WSSS",
+                "terminal": "2",
+                "gate": "F58",
+                "delay": 0,
+                "scheduled": "2026-10-04T06:40:00+00:00",
+                "estimated": "2026-10-04T06:40:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-10-04T06:40:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Suvarnabhumi International",
+                "timezone": "Asia/Bangkok",
+                "iata": "BKK",
+                "icao": "VTBS",
+                "terminal": null,
+                "gate": null,
+                "baggage": "11",
+                "scheduled": "2026-10-04T08:05:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Virgin Australia",
+                "iata": "VA",
+                "icao": "VOZ"
+            },
+            "flight": {
+                "number": "5716",
+                "iata": "VA5716",
+                "icao": "VOZ5716",
+                "codeshared": {
+                    "airline_name": "singapore airlines",
+                    "airline_iata": "sq",
+                    "airline_icao": "sia",
+                    "flight_number": "706",
+                    "flight_iata": "sq706",
+                    "flight_icao": "sia706"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-10-04",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Singapore Changi",
+                "timezone": "Asia/Singapore",
+                "iata": "SIN",
+                "icao": "WSSS",
+                "terminal": "2",
+                "gate": "F58",
+                "delay": 0,
+                "scheduled": "2026-10-04T06:40:00+00:00",
+                "estimated": "2026-10-04T06:40:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-10-04T06:40:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Suvarnabhumi International",
+                "timezone": "Asia/Bangkok",
+                "iata": "BKK",
+                "icao": "VTBS",
+                "terminal": null,
+                "gate": null,
+                "baggage": "11",
+                "scheduled": "2026-10-04T08:05:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Bangkok Airways",
+                "iata": "PG",
+                "icao": "BKP"
+            },
+            "flight": {
+                "number": "4702",
+                "iata": "PG4702",
+                "icao": "BKP4702",
+                "codeshared": {
+                    "airline_name": "singapore airlines",
+                    "airline_iata": "sq",
+                    "airline_icao": "sia",
+                    "flight_number": "706",
+                    "flight_iata": "sq706",
+                    "flight_icao": "sia706"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-10-04",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Singapore Changi",
+                "timezone": "Asia/Singapore",
+                "iata": "SIN",
+                "icao": "WSSS",
+                "terminal": "2",
+                "gate": "F58",
+                "delay": 0,
+                "scheduled": "2026-10-04T06:40:00+00:00",
+                "estimated": "2026-10-04T06:40:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-10-04T06:40:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Suvarnabhumi International",
+                "timezone": "Asia/Bangkok",
+                "iata": "BKK",
+                "icao": "VTBS",
+                "terminal": null,
+                "gate": null,
+                "baggage": "11",
+                "scheduled": "2026-10-04T08:05:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Air New Zealand",
+                "iata": "NZ",
+                "icao": "ANZ"
+            },
+            "flight": {
+                "number": "3446",
+                "iata": "NZ3446",
+                "icao": "ANZ3446",
+                "codeshared": {
+                    "airline_name": "singapore airlines",
+                    "airline_iata": "sq",
+                    "airline_icao": "sia",
+                    "flight_number": "706",
+                    "flight_iata": "sq706",
+                    "flight_icao": "sia706"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-10-04",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Singapore Changi",
+                "timezone": "Asia/Singapore",
+                "iata": "SIN",
+                "icao": "WSSS",
+                "terminal": "2",
+                "gate": "F58",
+                "delay": 0,
+                "scheduled": "2026-10-04T06:40:00+00:00",
+                "estimated": "2026-10-04T06:40:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-10-04T06:40:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Suvarnabhumi International",
+                "timezone": "Asia/Bangkok",
+                "iata": "BKK",
+                "icao": "VTBS",
+                "terminal": null,
+                "gate": null,
+                "baggage": "11",
+                "scheduled": "2026-10-04T08:05:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Swiss",
+                "iata": "LX",
+                "icao": "SWR"
+            },
+            "flight": {
+                "number": "9066",
+                "iata": "LX9066",
+                "icao": "SWR9066",
+                "codeshared": {
+                    "airline_name": "singapore airlines",
+                    "airline_iata": "sq",
+                    "airline_icao": "sia",
+                    "flight_number": "706",
+                    "flight_iata": "sq706",
+                    "flight_icao": "sia706"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-10-04",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Singapore Changi",
+                "timezone": "Asia/Singapore",
+                "iata": "SIN",
+                "icao": "WSSS",
+                "terminal": "2",
+                "gate": "F58",
+                "delay": 0,
+                "scheduled": "2026-10-04T06:40:00+00:00",
+                "estimated": "2026-10-04T06:40:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-10-04T06:40:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Suvarnabhumi International",
+                "timezone": "Asia/Bangkok",
+                "iata": "BKK",
+                "icao": "VTBS",
+                "terminal": null,
+                "gate": null,
+                "baggage": "11",
+                "scheduled": "2026-10-04T08:05:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Air Canada",
+                "iata": "AC",
+                "icao": "ACA"
+            },
+            "flight": {
+                "number": "5887",
+                "iata": "AC5887",
+                "icao": "ACA5887",
+                "codeshared": {
+                    "airline_name": "singapore airlines",
+                    "airline_iata": "sq",
+                    "airline_icao": "sia",
+                    "flight_number": "706",
+                    "flight_iata": "sq706",
+                    "flight_icao": "sia706"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-10-04",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Singapore Changi",
+                "timezone": "Asia/Singapore",
+                "iata": "SIN",
+                "icao": "WSSS",
+                "terminal": "1",
+                "gate": "C11",
+                "delay": 0,
+                "scheduled": "2026-10-04T06:35:00+00:00",
+                "estimated": "2026-10-04T06:35:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-10-04T06:35:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Sultan Azlan Shah Airport",
+                "timezone": "Asia/Kuala_Lumpur",
+                "iata": "IPH",
+                "icao": "WMKI",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-10-04T07:50:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Singapore Airlines",
+                "iata": "SQ",
+                "icao": "SIA"
+            },
+            "flight": {
+                "number": "8404",
+                "iata": "SQ8404",
+                "icao": "SIA8404",
+                "codeshared": {
+                    "airline_name": "scoot",
+                    "airline_iata": "tr",
+                    "airline_icao": "tgw",
+                    "flight_number": "480",
+                    "flight_iata": "tr480",
+                    "flight_icao": "tgw480"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-10-04",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Singapore Changi",
+                "timezone": "Asia/Singapore",
+                "iata": "SIN",
+                "icao": "WSSS",
+                "terminal": "1",
+                "gate": "D37",
+                "delay": 0,
+                "scheduled": "2026-10-04T06:30:00+00:00",
+                "estimated": "2026-10-04T06:30:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-10-04T06:30:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Suvarnabhumi International",
+                "timezone": "Asia/Bangkok",
+                "iata": "BKK",
+                "icao": "VTBS",
+                "terminal": null,
+                "gate": null,
+                "baggage": "14",
+                "scheduled": "2026-10-04T08:05:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Singapore Airlines",
+                "iata": "SQ",
+                "icao": "SIA"
+            },
+            "flight": {
+                "number": "8614",
+                "iata": "SQ8614",
+                "icao": "SIA8614",
+                "codeshared": {
+                    "airline_name": "scoot",
+                    "airline_iata": "tr",
+                    "airline_icao": "tgw",
+                    "flight_number": "608",
+                    "flight_iata": "tr608",
+                    "flight_icao": "tgw608"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-10-04",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Singapore Changi",
+                "timezone": "Asia/Singapore",
+                "iata": "SIN",
+                "icao": "WSSS",
+                "terminal": "2",
+                "gate": "E12",
+                "delay": 0,
+                "scheduled": "2026-10-04T06:15:00+00:00",
+                "estimated": "2026-10-04T06:15:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-10-04T06:15:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Narita International Airport",
+                "timezone": "Asia/Tokyo",
+                "iata": "NRT",
+                "icao": "RJAA",
+                "terminal": "1",
+                "gate": "55",
+                "baggage": null,
+                "scheduled": "2026-10-04T14:30:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "United Airlines",
+                "iata": "UA",
+                "icao": "UAL"
+            },
+            "flight": {
+                "number": "7934",
+                "iata": "UA7934",
+                "icao": "UAL7934",
+                "codeshared": {
+                    "airline_name": "all nippon airways",
+                    "airline_iata": "nh",
+                    "airline_icao": "ana",
+                    "flight_number": "802",
+                    "flight_iata": "nh802",
+                    "flight_icao": "ana802"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-10-04",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Singapore Changi",
+                "timezone": "Asia/Singapore",
+                "iata": "SIN",
+                "icao": "WSSS",
+                "terminal": "2",
+                "gate": "E12",
+                "delay": 0,
+                "scheduled": "2026-10-04T06:15:00+00:00",
+                "estimated": "2026-10-04T06:15:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-10-04T06:15:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Narita International Airport",
+                "timezone": "Asia/Tokyo",
+                "iata": "NRT",
+                "icao": "RJAA",
+                "terminal": "1",
+                "gate": "55",
+                "baggage": null,
+                "scheduled": "2026-10-04T14:30:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Air Canada",
+                "iata": "AC",
+                "icao": "ACA"
+            },
+            "flight": {
+                "number": "6247",
+                "iata": "AC6247",
+                "icao": "ACA6247",
+                "codeshared": {
+                    "airline_name": "all nippon airways",
+                    "airline_iata": "nh",
+                    "airline_icao": "ana",
+                    "flight_number": "802",
+                    "flight_iata": "nh802",
+                    "flight_icao": "ana802"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-10-04",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Singapore Changi",
+                "timezone": "Asia/Singapore",
+                "iata": "SIN",
+                "icao": "WSSS",
+                "terminal": "2",
+                "gate": "E12",
+                "delay": 0,
+                "scheduled": "2026-10-04T06:15:00+00:00",
+                "estimated": "2026-10-04T06:15:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-10-04T06:15:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Narita International Airport",
+                "timezone": "Asia/Tokyo",
+                "iata": "NRT",
+                "icao": "RJAA",
+                "terminal": "1",
+                "gate": "55",
+                "baggage": null,
+                "scheduled": "2026-10-04T14:30:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Singapore Airlines",
+                "iata": "SQ",
+                "icao": "SIA"
+            },
+            "flight": {
+                "number": "5904",
+                "iata": "SQ5904",
+                "icao": "SIA5904",
+                "codeshared": {
+                    "airline_name": "all nippon airways",
+                    "airline_iata": "nh",
+                    "airline_icao": "ana",
+                    "flight_number": "802",
+                    "flight_iata": "nh802",
+                    "flight_icao": "ana802"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-10-04",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Singapore Changi",
+                "timezone": "Asia/Singapore",
+                "iata": "SIN",
+                "icao": "WSSS",
+                "terminal": "2",
+                "gate": "E10",
+                "delay": 15,
+                "scheduled": "2026-10-04T05:55:00+00:00",
+                "estimated": "2026-10-04T05:55:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-10-04T06:10:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Civil",
+                "timezone": "Asia/Kolkata",
+                "iata": "TRZ",
+                "icao": "VOTR",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-10-04T07:30:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Qantas",
+                "iata": "QF",
+                "icao": "QFA"
+            },
+            "flight": {
+                "number": "5989",
+                "iata": "QF5989",
+                "icao": "QFA5989",
+                "codeshared": {
+                    "airline_name": "indigo",
+                    "airline_iata": "6e",
+                    "airline_icao": "igo",
+                    "flight_number": "1024",
+                    "flight_iata": "6e1024",
+                    "flight_icao": "igo1024"
+                }
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "801648"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-10-04",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Singapore Changi",
+                "timezone": "Asia/Singapore",
+                "iata": "SIN",
+                "icao": "WSSS",
+                "terminal": "2",
+                "gate": "E20",
+                "delay": 15,
+                "scheduled": "2026-10-04T05:40:00+00:00",
+                "estimated": "2026-10-04T05:40:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-10-04T05:55:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Bangalore International Airport",
+                "timezone": "Asia/Kolkata",
+                "iata": "BLR",
+                "icao": "VOBL",
+                "terminal": "2",
+                "gate": "D3",
+                "baggage": "3A",
+                "scheduled": "2026-10-04T07:40:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Qantas",
+                "iata": "QF",
+                "icao": "QFA"
+            },
+            "flight": {
+                "number": "5983",
+                "iata": "QF5983",
+                "icao": "QFA5983",
+                "codeshared": {
+                    "airline_name": "indigo",
+                    "airline_iata": "6e",
+                    "airline_icao": "igo",
+                    "flight_number": "1248",
+                    "flight_iata": "6e1248",
+                    "flight_icao": "igo1248"
+                }
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "8017A0"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-10-04",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Singapore Changi",
+                "timezone": "Asia/Singapore",
+                "iata": "SIN",
+                "icao": "WSSS",
+                "terminal": "1",
+                "gate": "D36",
+                "delay": 115,
+                "scheduled": "2026-10-04T05:35:00+00:00",
+                "estimated": "2026-10-04T05:35:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-10-04T07:30:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Raja Sansi International Airport",
+                "timezone": "Asia/Kolkata",
+                "iata": "ATQ",
+                "icao": "VIAR",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-10-04T09:05:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Singapore Airlines",
+                "iata": "SQ",
+                "icao": "SIA"
+            },
+            "flight": {
+                "number": "8302",
+                "iata": "SQ8302",
+                "icao": "SIA8302",
+                "codeshared": {
+                    "airline_name": "scoot",
+                    "airline_iata": "tr",
+                    "airline_icao": "tgw",
+                    "flight_number": "750",
+                    "flight_iata": "tr750",
+                    "flight_icao": "tgw750"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-10-04",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Singapore Changi",
+                "timezone": "Asia/Singapore",
+                "iata": "SIN",
+                "icao": "WSSS",
+                "terminal": "1",
+                "gate": "D36",
+                "delay": 115,
+                "scheduled": "2026-10-04T05:35:00+00:00",
+                "estimated": "2026-10-04T05:35:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-10-04T07:30:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Raja Sansi International Airport",
+                "timezone": "Asia/Kolkata",
+                "iata": "ATQ",
+                "icao": "VIAR",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-10-04T09:05:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Air Canada",
+                "iata": "AC",
+                "icao": "ACA"
+            },
+            "flight": {
+                "number": "5919",
+                "iata": "AC5919",
+                "icao": "ACA5919",
+                "codeshared": {
+                    "airline_name": "scoot",
+                    "airline_iata": "tr",
+                    "airline_icao": "tgw",
+                    "flight_number": "750",
+                    "flight_iata": "tr750",
+                    "flight_icao": "tgw750"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-10-04",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Singapore Changi",
+                "timezone": "Asia/Singapore",
+                "iata": "SIN",
+                "icao": "WSSS",
+                "terminal": "1",
+                "gate": "C22",
+                "delay": 0,
+                "scheduled": "2026-10-04T05:15:00+00:00",
+                "estimated": "2026-10-04T05:15:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-10-04T05:15:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Guangzhou Baiyun International",
+                "timezone": "Asia/Shanghai",
+                "iata": "CAN",
+                "icao": "ZGGG",
+                "terminal": "3",
+                "gate": null,
+                "baggage": "72",
+                "scheduled": "2026-10-04T09:25:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Singapore Airlines",
+                "iata": "SQ",
+                "icao": "SIA"
+            },
+            "flight": {
+                "number": "8430",
+                "iata": "SQ8430",
+                "icao": "SIA8430",
+                "codeshared": {
+                    "airline_name": "scoot",
+                    "airline_iata": "tr",
+                    "airline_icao": "tgw",
+                    "flight_number": "100",
+                    "flight_iata": "tr100",
+                    "flight_icao": "tgw100"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-10-04",
+            "flight_status": "active",
+            "departure": {
+                "airport": "Singapore Changi",
+                "timezone": "Asia/Singapore",
+                "iata": "SIN",
+                "icao": "WSSS",
+                "terminal": "1",
+                "gate": "C20",
+                "delay": 0,
+                "scheduled": "2026-10-04T03:15:00+00:00",
+                "estimated": "2026-10-04T03:15:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-10-04T03:15:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Doha International",
+                "timezone": "Asia/Qatar",
+                "iata": "DOH",
+                "icao": "OTHH",
+                "terminal": null,
+                "gate": null,
+                "baggage": "7",
+                "scheduled": "2026-10-04T06:00:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Iberia",
+                "iata": "IB",
+                "icao": "IBE"
+            },
+            "flight": {
+                "number": "6278",
+                "iata": "IB6278",
+                "icao": "IBE6278",
+                "codeshared": {
+                    "airline_name": "qatar airways",
+                    "airline_iata": "qr",
+                    "airline_icao": "qtr",
+                    "flight_number": "945",
+                    "flight_iata": "qr945",
+                    "flight_icao": "qtr945"
+                }
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "06A0EB"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-10-04",
+            "flight_status": "active",
+            "departure": {
+                "airport": "Singapore Changi",
+                "timezone": "Asia/Singapore",
+                "iata": "SIN",
+                "icao": "WSSS",
+                "terminal": "1",
+                "gate": "C20",
+                "delay": 0,
+                "scheduled": "2026-10-04T03:15:00+00:00",
+                "estimated": "2026-10-04T03:15:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-10-04T03:15:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Doha International",
+                "timezone": "Asia/Qatar",
+                "iata": "DOH",
+                "icao": "OTHH",
+                "terminal": null,
+                "gate": null,
+                "baggage": "7",
+                "scheduled": "2026-10-04T06:00:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "British Airways",
+                "iata": "BA",
+                "icao": "BAW"
+            },
+            "flight": {
+                "number": "4495",
+                "iata": "BA4495",
+                "icao": "BAW4495",
+                "codeshared": {
+                    "airline_name": "qatar airways",
+                    "airline_iata": "qr",
+                    "airline_icao": "qtr",
+                    "flight_number": "945",
+                    "flight_iata": "qr945",
+                    "flight_icao": "qtr945"
+                }
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "06A0EB"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-10-04",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Tan Son Nhat International",
+                "timezone": "Asia/Ho_Chi_Minh",
+                "iata": "SGN",
+                "icao": "VVTS",
+                "terminal": "1",
+                "gate": null,
+                "delay": 0,
+                "scheduled": "2026-10-04T07:30:00+00:00",
+                "estimated": "2026-10-04T07:30:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-10-04T07:30:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Da Nang",
+                "timezone": "Asia/Ho_Chi_Minh",
+                "iata": "DAD",
+                "icao": "VVDN",
+                "terminal": "1",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-10-04T08:50:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Japan Airlines",
+                "iata": "JL",
+                "icao": "JTL"
+            },
+            "flight": {
+                "number": "5759",
+                "iata": "JL5759",
+                "icao": "JTL5759",
+                "codeshared": {
+                    "airline_name": "vietjet air",
+                    "airline_iata": "vj",
+                    "airline_icao": "vjc",
+                    "flight_number": "632",
+                    "flight_iata": "vj632",
+                    "flight_icao": "vjc632"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-10-04",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Tan Son Nhat International",
+                "timezone": "Asia/Ho_Chi_Minh",
+                "iata": "SGN",
+                "icao": "VVTS",
+                "terminal": "1",
+                "gate": null,
+                "delay": 0,
+                "scheduled": "2026-10-04T07:30:00+00:00",
+                "estimated": "2026-10-04T07:30:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-10-04T07:30:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Noibai International",
+                "timezone": "Asia/Ho_Chi_Minh",
+                "iata": "HAN",
+                "icao": "VVNB",
+                "terminal": "T1",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-10-04T09:40:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Flexflight",
+                "iata": "W2",
+                "icao": "FXT"
+            },
+            "flight": {
+                "number": "4126",
+                "iata": "W24126",
+                "icao": "FXT4126",
+                "codeshared": {
+                    "airline_name": "vietjet air",
+                    "airline_iata": "vj",
+                    "airline_icao": "vjc",
+                    "flight_number": "126",
+                    "flight_iata": "vj126",
+                    "flight_icao": "vjc126"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-10-04",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Tan Son Nhat International",
+                "timezone": "Asia/Ho_Chi_Minh",
+                "iata": "SGN",
+                "icao": "VVTS",
+                "terminal": "1",
+                "gate": null,
+                "delay": 0,
+                "scheduled": "2026-10-04T07:30:00+00:00",
+                "estimated": "2026-10-04T07:30:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-10-04T07:30:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Noibai International",
+                "timezone": "Asia/Ho_Chi_Minh",
+                "iata": "HAN",
+                "icao": "VVNB",
+                "terminal": "T1",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-10-04T09:40:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "vietjet air",
+                "iata": "A1",
+                "icao": "A1"
+            },
+            "flight": {
+                "number": "2126",
+                "iata": "A12126",
+                "icao": "A12126",
+                "codeshared": {
+                    "airline_name": "vietjet air",
+                    "airline_iata": "vj",
+                    "airline_icao": "vjc",
+                    "flight_number": "126",
+                    "flight_iata": "vj126",
+                    "flight_icao": "vjc126"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-10-04",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Tan Son Nhat International",
+                "timezone": "Asia/Ho_Chi_Minh",
+                "iata": "SGN",
+                "icao": "VVTS",
+                "terminal": "1",
+                "gate": null,
+                "delay": 0,
+                "scheduled": "2026-10-04T07:30:00+00:00",
+                "estimated": "2026-10-04T07:30:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-10-04T07:30:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Noibai International",
+                "timezone": "Asia/Ho_Chi_Minh",
+                "iata": "HAN",
+                "icao": "VVNB",
+                "terminal": "T1",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-10-04T09:40:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "vietjet air",
+                "iata": "H1",
+                "icao": "H1"
+            },
+            "flight": {
+                "number": "4183",
+                "iata": "H14183",
+                "icao": "H14183",
+                "codeshared": {
+                    "airline_name": "vietjet air",
+                    "airline_iata": "vj",
+                    "airline_icao": "vjc",
+                    "flight_number": "126",
+                    "flight_iata": "vj126",
+                    "flight_icao": "vjc126"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-10-04",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Tan Son Nhat International",
+                "timezone": "Asia/Ho_Chi_Minh",
+                "iata": "SGN",
+                "icao": "VVTS",
+                "terminal": "1",
+                "gate": null,
+                "delay": 0,
+                "scheduled": "2026-10-04T07:30:00+00:00",
+                "estimated": "2026-10-04T07:30:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-10-04T07:30:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Noibai International",
+                "timezone": "Asia/Ho_Chi_Minh",
+                "iata": "HAN",
+                "icao": "VVNB",
+                "terminal": "T1",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-10-04T09:40:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Japan Airlines",
+                "iata": "JL",
+                "icao": "JTL"
+            },
+            "flight": {
+                "number": "5751",
+                "iata": "JL5751",
+                "icao": "JTL5751",
+                "codeshared": {
+                    "airline_name": "vietjet air",
+                    "airline_iata": "vj",
+                    "airline_icao": "vjc",
+                    "flight_number": "126",
+                    "flight_iata": "vj126",
+                    "flight_icao": "vjc126"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-10-04",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Tan Son Nhat International",
+                "timezone": "Asia/Ho_Chi_Minh",
+                "iata": "SGN",
+                "icao": "VVTS",
+                "terminal": "2",
+                "gate": null,
+                "delay": 0,
+                "scheduled": "2026-10-04T07:30:00+00:00",
+                "estimated": "2026-10-04T07:30:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-10-04T07:30:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Seoul (Incheon)",
+                "timezone": "Asia/Seoul",
+                "iata": "ICN",
+                "icao": "RKSI",
+                "terminal": "2",
+                "gate": "242",
+                "baggage": "3",
+                "scheduled": "2026-10-04T14:55:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "AlphaSky",
+                "iata": "AS",
+                "icao": "JAG"
+            },
+            "flight": {
+                "number": "7808",
+                "iata": "AS7808",
+                "icao": "JAG7808",
+                "codeshared": {
+                    "airline_name": "korean air",
+                    "airline_iata": "ke",
+                    "airline_icao": "kal",
+                    "flight_number": "480",
+                    "flight_iata": "ke480",
+                    "flight_icao": "kal480"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        }
+    ]
+}
