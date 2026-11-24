@@ -1,0 +1,5367 @@
+{
+    "pagination": {
+        "limit": 100,
+        "offset": 0,
+        "count": 100,
+        "total": 10000
+    },
+    "data": [
+        {
+            "flight_date": "2026-11-26",
+            "flight_status": "active",
+            "departure": {
+                "airport": "Williamtown",
+                "timezone": "Australia/Sydney",
+                "iata": "NTL",
+                "icao": "YWLM",
+                "terminal": null,
+                "gate": null,
+                "delay": 0,
+                "scheduled": "2026-11-26T17:20:00+00:00",
+                "estimated": "2026-11-26T17:20:00+00:00",
+                "actual": "2026-11-24T17:25:00+00:00",
+                "estimated_runway": "2026-11-24T17:25:00+00:00",
+                "actual_runway": "2026-11-24T17:25:00+00:00"
+            },
+            "arrival": {
+                "airport": "Canberra",
+                "timezone": "Australia/Sydney",
+                "iata": "CBR",
+                "icao": "YSCB",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-11-24T18:14:00+00:00",
+                "delay": 9,
+                "estimated": "2026-11-24T18:23:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-11-24T18:23:00+00:00",
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "empty",
+                "iata": null,
+                "icao": null
+            },
+            "flight": {
+                "number": null,
+                "iata": null,
+                "icao": null,
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "7C6AE9"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-11-25",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Sydney Kingsford Smith Airport",
+                "timezone": "Australia/Sydney",
+                "iata": "SYD",
+                "icao": "YSSY",
+                "terminal": null,
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-11-25T00:25:00+00:00",
+                "estimated": "2026-11-25T00:25:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Brisbane International",
+                "timezone": "Australia/Brisbane",
+                "iata": "BNE",
+                "icao": "YBBN",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-11-24T23:55:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Qantas",
+                "iata": "QF",
+                "icao": "QFA"
+            },
+            "flight": {
+                "number": "7412",
+                "iata": "QF7412",
+                "icao": "QFA7412",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-11-25",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Auckland International",
+                "timezone": "Pacific/Auckland",
+                "iata": "AKL",
+                "icao": "NZAA",
+                "terminal": "I",
+                "gate": "10",
+                "delay": 0,
+                "scheduled": "2026-11-25T01:35:00+00:00",
+                "estimated": "2026-11-25T01:35:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-11-25T01:35:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Kuala Lumpur International Airport (klia)",
+                "timezone": "Asia/Kuala_Lumpur",
+                "iata": "KUL",
+                "icao": "WMKK",
+                "terminal": "1",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-11-25T07:55:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Oman Air",
+                "iata": "WY",
+                "icao": "OMA"
+            },
+            "flight": {
+                "number": "5585",
+                "iata": "WY5585",
+                "icao": "OMA5585",
+                "codeshared": {
+                    "airline_name": "malaysia airlines",
+                    "airline_iata": "mh",
+                    "airline_icao": "mas",
+                    "flight_number": "132",
+                    "flight_iata": "mh132",
+                    "flight_icao": "mas132"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-11-25",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Auckland International",
+                "timezone": "Pacific/Auckland",
+                "iata": "AKL",
+                "icao": "NZAA",
+                "terminal": "I",
+                "gate": "10",
+                "delay": 0,
+                "scheduled": "2026-11-25T01:35:00+00:00",
+                "estimated": "2026-11-25T01:35:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-11-25T01:35:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Kuala Lumpur International Airport (klia)",
+                "timezone": "Asia/Kuala_Lumpur",
+                "iata": "KUL",
+                "icao": "WMKK",
+                "terminal": "1",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-11-25T07:55:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "SriLankan Airlines",
+                "iata": "UL",
+                "icao": "ALK"
+            },
+            "flight": {
+                "number": "2919",
+                "iata": "UL2919",
+                "icao": "ALK2919",
+                "codeshared": {
+                    "airline_name": "malaysia airlines",
+                    "airline_iata": "mh",
+                    "airline_icao": "mas",
+                    "flight_number": "132",
+                    "flight_iata": "mh132",
+                    "flight_icao": "mas132"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-11-25",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Auckland International",
+                "timezone": "Pacific/Auckland",
+                "iata": "AKL",
+                "icao": "NZAA",
+                "terminal": "I",
+                "gate": "10",
+                "delay": 0,
+                "scheduled": "2026-11-25T01:35:00+00:00",
+                "estimated": "2026-11-25T01:35:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-11-25T01:35:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Kuala Lumpur International Airport (klia)",
+                "timezone": "Asia/Kuala_Lumpur",
+                "iata": "KUL",
+                "icao": "WMKK",
+                "terminal": "1",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-11-25T07:55:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Turkish Airlines",
+                "iata": "TK",
+                "icao": "THY"
+            },
+            "flight": {
+                "number": "7902",
+                "iata": "TK7902",
+                "icao": "THY7902",
+                "codeshared": {
+                    "airline_name": "malaysia airlines",
+                    "airline_iata": "mh",
+                    "airline_icao": "mas",
+                    "flight_number": "132",
+                    "flight_iata": "mh132",
+                    "flight_icao": "mas132"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-11-25",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Auckland International",
+                "timezone": "Pacific/Auckland",
+                "iata": "AKL",
+                "icao": "NZAA",
+                "terminal": "I",
+                "gate": "10",
+                "delay": 0,
+                "scheduled": "2026-11-25T01:35:00+00:00",
+                "estimated": "2026-11-25T01:35:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-11-25T01:35:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Kuala Lumpur International Airport (klia)",
+                "timezone": "Asia/Kuala_Lumpur",
+                "iata": "KUL",
+                "icao": "WMKK",
+                "terminal": "1",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-11-25T07:55:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Thai Airways",
+                "iata": "TG",
+                "icao": "THA"
+            },
+            "flight": {
+                "number": "5002",
+                "iata": "TG5002",
+                "icao": "THA5002",
+                "codeshared": {
+                    "airline_name": "malaysia airlines",
+                    "airline_iata": "mh",
+                    "airline_icao": "mas",
+                    "flight_number": "132",
+                    "flight_iata": "mh132",
+                    "flight_icao": "mas132"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-11-25",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Auckland International",
+                "timezone": "Pacific/Auckland",
+                "iata": "AKL",
+                "icao": "NZAA",
+                "terminal": "I",
+                "gate": "10",
+                "delay": 0,
+                "scheduled": "2026-11-25T01:35:00+00:00",
+                "estimated": "2026-11-25T01:35:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-11-25T01:35:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Kuala Lumpur International Airport (klia)",
+                "timezone": "Asia/Kuala_Lumpur",
+                "iata": "KUL",
+                "icao": "WMKK",
+                "terminal": "1",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-11-25T07:55:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Qatar Airways",
+                "iata": "QR",
+                "icao": "QTR"
+            },
+            "flight": {
+                "number": "4970",
+                "iata": "QR4970",
+                "icao": "QTR4970",
+                "codeshared": {
+                    "airline_name": "malaysia airlines",
+                    "airline_iata": "mh",
+                    "airline_icao": "mas",
+                    "flight_number": "132",
+                    "flight_iata": "mh132",
+                    "flight_icao": "mas132"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-11-25",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Auckland International",
+                "timezone": "Pacific/Auckland",
+                "iata": "AKL",
+                "icao": "NZAA",
+                "terminal": "I",
+                "gate": "10",
+                "delay": 0,
+                "scheduled": "2026-11-25T01:35:00+00:00",
+                "estimated": "2026-11-25T01:35:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-11-25T01:35:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Kuala Lumpur International Airport (klia)",
+                "timezone": "Asia/Kuala_Lumpur",
+                "iata": "KUL",
+                "icao": "WMKK",
+                "terminal": "1",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-11-25T07:55:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "KLM",
+                "iata": "KL",
+                "icao": "KLM"
+            },
+            "flight": {
+                "number": "4096",
+                "iata": "KL4096",
+                "icao": "KLM4096",
+                "codeshared": {
+                    "airline_name": "malaysia airlines",
+                    "airline_iata": "mh",
+                    "airline_icao": "mas",
+                    "flight_number": "132",
+                    "flight_iata": "mh132",
+                    "flight_icao": "mas132"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-11-25",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Auckland International",
+                "timezone": "Pacific/Auckland",
+                "iata": "AKL",
+                "icao": "NZAA",
+                "terminal": "I",
+                "gate": "10",
+                "delay": 0,
+                "scheduled": "2026-11-25T01:35:00+00:00",
+                "estimated": "2026-11-25T01:35:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-11-25T01:35:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Kuala Lumpur International Airport (klia)",
+                "timezone": "Asia/Kuala_Lumpur",
+                "iata": "KUL",
+                "icao": "WMKK",
+                "terminal": "1",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-11-25T07:55:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Fly Sky Airlines",
+                "iata": "FY",
+                "icao": "FSQ"
+            },
+            "flight": {
+                "number": "7170",
+                "iata": "FY7170",
+                "icao": "FSQ7170",
+                "codeshared": {
+                    "airline_name": "malaysia airlines",
+                    "airline_iata": "mh",
+                    "airline_icao": "mas",
+                    "flight_number": "132",
+                    "flight_iata": "mh132",
+                    "flight_icao": "mas132"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-11-25",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Auckland International",
+                "timezone": "Pacific/Auckland",
+                "iata": "AKL",
+                "icao": "NZAA",
+                "terminal": "I",
+                "gate": "10",
+                "delay": 0,
+                "scheduled": "2026-11-25T01:35:00+00:00",
+                "estimated": "2026-11-25T01:35:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-11-25T01:35:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Kuala Lumpur International Airport (klia)",
+                "timezone": "Asia/Kuala_Lumpur",
+                "iata": "KUL",
+                "icao": "WMKK",
+                "terminal": "1",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-11-25T07:55:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Myanmar Airways International",
+                "iata": "8M",
+                "icao": "MMA"
+            },
+            "flight": {
+                "number": "9588",
+                "iata": "8M9588",
+                "icao": "MMA9588",
+                "codeshared": {
+                    "airline_name": "malaysia airlines",
+                    "airline_iata": "mh",
+                    "airline_icao": "mas",
+                    "flight_number": "132",
+                    "flight_iata": "mh132",
+                    "flight_icao": "mas132"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-11-25",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Auckland International",
+                "timezone": "Pacific/Auckland",
+                "iata": "AKL",
+                "icao": "NZAA",
+                "terminal": "I",
+                "gate": "8",
+                "delay": 10,
+                "scheduled": "2026-11-25T01:00:00+00:00",
+                "estimated": "2026-11-25T01:00:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-11-25T01:10:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Singapore Changi",
+                "timezone": "Asia/Singapore",
+                "iata": "SIN",
+                "icao": "WSSS",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-11-25T06:50:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "SAS",
+                "iata": "SK",
+                "icao": "SAS"
+            },
+            "flight": {
+                "number": "8003",
+                "iata": "SK8003",
+                "icao": "SAS8003",
+                "codeshared": {
+                    "airline_name": "singapore airlines",
+                    "airline_iata": "sq",
+                    "airline_icao": "sia",
+                    "flight_number": "282",
+                    "flight_iata": "sq282",
+                    "flight_icao": "sia282"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-11-25",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Amata Kabua International",
+                "timezone": "Pacific/Majuro",
+                "iata": "MAJ",
+                "icao": "PKMJ",
+                "terminal": null,
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-11-25T01:00:00+00:00",
+                "estimated": "2026-11-25T01:00:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Honolulu International",
+                "timezone": "Pacific/Honolulu",
+                "iata": "HNL",
+                "icao": "PHNL",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-11-24T07:45:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Asia Pacific Airlines",
+                "iata": "P9",
+                "icao": "MGE"
+            },
+            "flight": {
+                "number": "401",
+                "iata": "P9401",
+                "icao": "MGE401",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-11-25",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Auckland International",
+                "timezone": "Pacific/Auckland",
+                "iata": "AKL",
+                "icao": "NZAA",
+                "terminal": "I",
+                "gate": "10",
+                "delay": 0,
+                "scheduled": "2026-11-25T01:35:00+00:00",
+                "estimated": "2026-11-25T01:35:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-11-25T01:35:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Kuala Lumpur International Airport (klia)",
+                "timezone": "Asia/Kuala_Lumpur",
+                "iata": "KUL",
+                "icao": "WMKK",
+                "terminal": "1",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-11-25T07:55:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Malaysia Airlines",
+                "iata": "MH",
+                "icao": "MAS"
+            },
+            "flight": {
+                "number": "132",
+                "iata": "MH132",
+                "icao": "MAS132",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-11-25",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Auckland International",
+                "timezone": "Pacific/Auckland",
+                "iata": "AKL",
+                "icao": "NZAA",
+                "terminal": "I",
+                "gate": "8",
+                "delay": 10,
+                "scheduled": "2026-11-25T01:00:00+00:00",
+                "estimated": "2026-11-25T01:00:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-11-25T01:10:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Singapore Changi",
+                "timezone": "Asia/Singapore",
+                "iata": "SIN",
+                "icao": "WSSS",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-11-25T06:50:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Air New Zealand",
+                "iata": "NZ",
+                "icao": "ANZ"
+            },
+            "flight": {
+                "number": "3282",
+                "iata": "NZ3282",
+                "icao": "ANZ3282",
+                "codeshared": {
+                    "airline_name": "singapore airlines",
+                    "airline_iata": "sq",
+                    "airline_icao": "sia",
+                    "flight_number": "282",
+                    "flight_iata": "sq282",
+                    "flight_icao": "sia282"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-11-25",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Auckland International",
+                "timezone": "Pacific/Auckland",
+                "iata": "AKL",
+                "icao": "NZAA",
+                "terminal": "I",
+                "gate": "8",
+                "delay": 10,
+                "scheduled": "2026-11-25T01:00:00+00:00",
+                "estimated": "2026-11-25T01:00:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-11-25T01:10:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Singapore Changi",
+                "timezone": "Asia/Singapore",
+                "iata": "SIN",
+                "icao": "WSSS",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-11-25T06:50:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Swiss",
+                "iata": "LX",
+                "icao": "SWR"
+            },
+            "flight": {
+                "number": "9003",
+                "iata": "LX9003",
+                "icao": "SWR9003",
+                "codeshared": {
+                    "airline_name": "singapore airlines",
+                    "airline_iata": "sq",
+                    "airline_icao": "sia",
+                    "flight_number": "282",
+                    "flight_iata": "sq282",
+                    "flight_icao": "sia282"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-11-25",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Auckland International",
+                "timezone": "Pacific/Auckland",
+                "iata": "AKL",
+                "icao": "NZAA",
+                "terminal": "I",
+                "gate": "8",
+                "delay": 10,
+                "scheduled": "2026-11-25T01:00:00+00:00",
+                "estimated": "2026-11-25T01:00:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-11-25T01:10:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Singapore Changi",
+                "timezone": "Asia/Singapore",
+                "iata": "SIN",
+                "icao": "WSSS",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-11-25T06:50:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Lufthansa",
+                "iata": "LH",
+                "icao": "DLH"
+            },
+            "flight": {
+                "number": "9753",
+                "iata": "LH9753",
+                "icao": "DLH9753",
+                "codeshared": {
+                    "airline_name": "singapore airlines",
+                    "airline_iata": "sq",
+                    "airline_icao": "sia",
+                    "flight_number": "282",
+                    "flight_iata": "sq282",
+                    "flight_icao": "sia282"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-11-25",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Auckland International",
+                "timezone": "Pacific/Auckland",
+                "iata": "AKL",
+                "icao": "NZAA",
+                "terminal": "I",
+                "gate": "8",
+                "delay": 10,
+                "scheduled": "2026-11-25T01:00:00+00:00",
+                "estimated": "2026-11-25T01:00:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-11-25T01:10:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Singapore Changi",
+                "timezone": "Asia/Singapore",
+                "iata": "SIN",
+                "icao": "WSSS",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-11-25T06:50:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Air India",
+                "iata": "AI",
+                "icao": "AIC"
+            },
+            "flight": {
+                "number": "8105",
+                "iata": "AI8105",
+                "icao": "AIC8105",
+                "codeshared": {
+                    "airline_name": "singapore airlines",
+                    "airline_iata": "sq",
+                    "airline_icao": "sia",
+                    "flight_number": "282",
+                    "flight_iata": "sq282",
+                    "flight_icao": "sia282"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-11-25",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Auckland International",
+                "timezone": "Pacific/Auckland",
+                "iata": "AKL",
+                "icao": "NZAA",
+                "terminal": "I",
+                "gate": "3",
+                "delay": 10,
+                "scheduled": "2026-11-25T00:10:00+00:00",
+                "estimated": "2026-11-25T00:10:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-11-25T00:20:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Narita International Airport",
+                "timezone": "Asia/Tokyo",
+                "iata": "NRT",
+                "icao": "RJAA",
+                "terminal": "1",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-11-25T07:05:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "All Nippon Airways",
+                "iata": "NH",
+                "icao": "ANA"
+            },
+            "flight": {
+                "number": "7961",
+                "iata": "NH7961",
+                "icao": "ANA7961",
+                "codeshared": {
+                    "airline_name": "air new zealand",
+                    "airline_iata": "nz",
+                    "airline_icao": "anz",
+                    "flight_number": "95",
+                    "flight_iata": "nz95",
+                    "flight_icao": "anz95"
+                }
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "C820D1"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-11-25",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Cairns",
+                "timezone": "Australia/Brisbane",
+                "iata": "CNS",
+                "icao": "YBCS",
+                "terminal": null,
+                "gate": null,
+                "delay": 0,
+                "scheduled": "2026-11-25T01:10:00+00:00",
+                "estimated": "2026-11-25T01:10:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-11-24T15:10:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Cairns",
+                "timezone": "Australia/Brisbane",
+                "iata": "CNS",
+                "icao": "YBCS",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-11-24T16:10:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "empty",
+                "iata": null,
+                "icao": null
+            },
+            "flight": {
+                "number": null,
+                "iata": null,
+                "icao": null,
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "7C48BB"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-11-25",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Auckland International",
+                "timezone": "Pacific/Auckland",
+                "iata": "AKL",
+                "icao": "NZAA",
+                "terminal": "I",
+                "gate": "8",
+                "delay": 10,
+                "scheduled": "2026-11-25T01:00:00+00:00",
+                "estimated": "2026-11-25T01:00:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-11-25T01:10:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Singapore Changi",
+                "timezone": "Asia/Singapore",
+                "iata": "SIN",
+                "icao": "WSSS",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-11-25T06:50:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Singapore Airlines",
+                "iata": "SQ",
+                "icao": "SIA"
+            },
+            "flight": {
+                "number": "282",
+                "iata": "SQ282",
+                "icao": "SIA282",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-11-25",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Auckland International",
+                "timezone": "Pacific/Auckland",
+                "iata": "AKL",
+                "icao": "NZAA",
+                "terminal": "I",
+                "gate": "3",
+                "delay": 10,
+                "scheduled": "2026-11-25T00:10:00+00:00",
+                "estimated": "2026-11-25T00:10:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-11-25T00:20:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Narita International Airport",
+                "timezone": "Asia/Tokyo",
+                "iata": "NRT",
+                "icao": "RJAA",
+                "terminal": "1",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-11-25T07:05:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Air New Zealand",
+                "iata": "NZ",
+                "icao": "ANZ"
+            },
+            "flight": {
+                "number": "95",
+                "iata": "NZ95",
+                "icao": "ANZ95",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "C820D1"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-11-25",
+            "flight_status": "landed",
+            "departure": {
+                "airport": "Maroochydore",
+                "timezone": "Australia/Brisbane",
+                "iata": "MCY",
+                "icao": "YBSU",
+                "terminal": null,
+                "gate": null,
+                "delay": 0,
+                "scheduled": "2026-11-25T10:45:00+00:00",
+                "estimated": "2026-11-25T10:45:00+00:00",
+                "actual": "2026-11-24T10:57:00+00:00",
+                "estimated_runway": "2026-11-24T10:57:00+00:00",
+                "actual_runway": "2026-11-24T10:57:00+00:00"
+            },
+            "arrival": {
+                "airport": "Maroochydore",
+                "timezone": "Australia/Brisbane",
+                "iata": "MCY",
+                "icao": "YBSU",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-11-24T11:20:00+00:00",
+                "delay": 0,
+                "estimated": null,
+                "actual": "2026-11-24T11:20:00+00:00",
+                "estimated_runway": "2026-11-24T11:20:00+00:00",
+                "actual_runway": "2026-11-24T11:20:00+00:00"
+            },
+            "airline": {
+                "name": "empty",
+                "iata": null,
+                "icao": null
+            },
+            "flight": {
+                "number": null,
+                "iata": null,
+                "icao": null,
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "7C4395"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-11-24",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Santa Maria",
+                "timezone": "America/Maceio",
+                "iata": "AJU",
+                "icao": "SBAR",
+                "terminal": "T1",
+                "gate": "4",
+                "delay": 9,
+                "scheduled": "2026-11-24T10:45:00+00:00",
+                "estimated": "2026-11-24T10:45:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-11-24T10:54:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Aeroporto Internacional Guarulhos",
+                "timezone": "America/Sao_Paulo",
+                "iata": "GRU",
+                "icao": "SBGR",
+                "terminal": "2",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-11-24T13:30:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "LATAM Airlines",
+                "iata": "LA",
+                "icao": "LAN"
+            },
+            "flight": {
+                "number": "4703",
+                "iata": "LA4703",
+                "icao": "LAN4703",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "E48AD4"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-11-24",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Santa Maria",
+                "timezone": "America/Maceio",
+                "iata": "AJU",
+                "icao": "SBAR",
+                "terminal": "T1",
+                "gate": "4",
+                "delay": 9,
+                "scheduled": "2026-11-24T10:45:00+00:00",
+                "estimated": "2026-11-24T10:45:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-11-24T10:54:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Aeroporto Internacional Guarulhos",
+                "timezone": "America/Sao_Paulo",
+                "iata": "GRU",
+                "icao": "SBGR",
+                "terminal": "2",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-11-24T13:30:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Qatar Airways",
+                "iata": "QR",
+                "icao": "QTR"
+            },
+            "flight": {
+                "number": "8432",
+                "iata": "QR8432",
+                "icao": "QTR8432",
+                "codeshared": {
+                    "airline_name": "latam airlines",
+                    "airline_iata": "la",
+                    "airline_icao": "lan",
+                    "flight_number": "4703",
+                    "flight_iata": "la4703",
+                    "flight_icao": "lan4703"
+                }
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "E48AD4"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-11-24",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Santa Maria",
+                "timezone": "America/Maceio",
+                "iata": "AJU",
+                "icao": "SBAR",
+                "terminal": "T1",
+                "gate": "4",
+                "delay": 9,
+                "scheduled": "2026-11-24T10:45:00+00:00",
+                "estimated": "2026-11-24T10:45:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-11-24T10:54:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Aeroporto Internacional Guarulhos",
+                "timezone": "America/Sao_Paulo",
+                "iata": "GRU",
+                "icao": "SBGR",
+                "terminal": "2",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-11-24T13:30:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "TAP Air Portugal",
+                "iata": "TP",
+                "icao": "TAP"
+            },
+            "flight": {
+                "number": "5744",
+                "iata": "TP5744",
+                "icao": "TAP5744",
+                "codeshared": {
+                    "airline_name": "latam airlines",
+                    "airline_iata": "la",
+                    "airline_icao": "lan",
+                    "flight_number": "4703",
+                    "flight_iata": "la4703",
+                    "flight_icao": "lan4703"
+                }
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "E48AD4"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-11-24",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Santa Maria",
+                "timezone": "America/Maceio",
+                "iata": "AJU",
+                "icao": "SBAR",
+                "terminal": "T1",
+                "gate": "4",
+                "delay": 9,
+                "scheduled": "2026-11-24T10:45:00+00:00",
+                "estimated": "2026-11-24T10:45:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-11-24T10:54:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Aeroporto Internacional Guarulhos",
+                "timezone": "America/Sao_Paulo",
+                "iata": "GRU",
+                "icao": "SBGR",
+                "terminal": "2",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-11-24T13:30:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Turkish Airlines",
+                "iata": "TK",
+                "icao": "THY"
+            },
+            "flight": {
+                "number": "9126",
+                "iata": "TK9126",
+                "icao": "THY9126",
+                "codeshared": {
+                    "airline_name": "latam airlines",
+                    "airline_iata": "la",
+                    "airline_icao": "lan",
+                    "flight_number": "4703",
+                    "flight_iata": "la4703",
+                    "flight_icao": "lan4703"
+                }
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "E48AD4"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-11-24",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Santa Maria",
+                "timezone": "America/Maceio",
+                "iata": "AJU",
+                "icao": "SBAR",
+                "terminal": "T1",
+                "gate": "4",
+                "delay": 9,
+                "scheduled": "2026-11-24T10:45:00+00:00",
+                "estimated": "2026-11-24T10:45:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-11-24T10:54:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Aeroporto Internacional Guarulhos",
+                "timezone": "America/Sao_Paulo",
+                "iata": "GRU",
+                "icao": "SBGR",
+                "terminal": "2",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-11-24T13:30:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Delta Air Lines",
+                "iata": "DL",
+                "icao": "DAL"
+            },
+            "flight": {
+                "number": "6098",
+                "iata": "DL6098",
+                "icao": "DAL6098",
+                "codeshared": {
+                    "airline_name": "latam airlines",
+                    "airline_iata": "la",
+                    "airline_icao": "lan",
+                    "flight_number": "4703",
+                    "flight_iata": "la4703",
+                    "flight_icao": "lan4703"
+                }
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "E48AD4"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-11-24",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Santa Maria",
+                "timezone": "America/Maceio",
+                "iata": "AJU",
+                "icao": "SBAR",
+                "terminal": "T1",
+                "gate": "4",
+                "delay": 9,
+                "scheduled": "2026-11-24T10:45:00+00:00",
+                "estimated": "2026-11-24T10:45:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-11-24T10:54:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Aeroporto Internacional Guarulhos",
+                "timezone": "America/Sao_Paulo",
+                "iata": "GRU",
+                "icao": "SBGR",
+                "terminal": "2",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-11-24T13:30:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Aerolineas Argentinas",
+                "iata": "AR",
+                "icao": "ARG"
+            },
+            "flight": {
+                "number": "8005",
+                "iata": "AR8005",
+                "icao": "ARG8005",
+                "codeshared": {
+                    "airline_name": "latam airlines",
+                    "airline_iata": "la",
+                    "airline_icao": "lan",
+                    "flight_number": "4703",
+                    "flight_iata": "la4703",
+                    "flight_icao": "lan4703"
+                }
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "E48AD4"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-11-24",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Campo Dell Oro",
+                "timezone": "Europe/Paris",
+                "iata": "AJA",
+                "icao": "LFKJ",
+                "terminal": null,
+                "gate": null,
+                "delay": 5,
+                "scheduled": "2026-11-24T14:25:00+00:00",
+                "estimated": "2026-11-24T14:25:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-11-24T14:30:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Marseille Provence Airport",
+                "timezone": "Europe/Paris",
+                "iata": "MRS",
+                "icao": "LFML",
+                "terminal": "1",
+                "gate": null,
+                "baggage": "9",
+                "scheduled": "2026-11-24T15:15:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Air Corsica",
+                "iata": "XK",
+                "icao": "CCM"
+            },
+            "flight": {
+                "number": "154",
+                "iata": "XK154",
+                "icao": "CCM154",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "398640"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-11-24",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Campo Dell Oro",
+                "timezone": "Europe/Paris",
+                "iata": "AJA",
+                "icao": "LFKJ",
+                "terminal": null,
+                "gate": null,
+                "delay": 5,
+                "scheduled": "2026-11-24T14:25:00+00:00",
+                "estimated": "2026-11-24T14:25:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-11-24T14:30:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Marseille Provence Airport",
+                "timezone": "Europe/Paris",
+                "iata": "MRS",
+                "icao": "LFML",
+                "terminal": "1",
+                "gate": null,
+                "baggage": "9",
+                "scheduled": "2026-11-24T15:15:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Air France",
+                "iata": "AF",
+                "icao": "AFR"
+            },
+            "flight": {
+                "number": "4695",
+                "iata": "AF4695",
+                "icao": "AFR4695",
+                "codeshared": {
+                    "airline_name": "air corsica",
+                    "airline_iata": "xk",
+                    "airline_icao": "ccm",
+                    "flight_number": "154",
+                    "flight_iata": "xk154",
+                    "flight_icao": "ccm154"
+                }
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "398640"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-11-24",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Abha",
+                "timezone": "Asia/Riyadh",
+                "iata": "AHB",
+                "icao": "OEAB",
+                "terminal": "T1",
+                "gate": null,
+                "delay": 10,
+                "scheduled": "2026-11-24T16:55:00+00:00",
+                "estimated": "2026-11-24T16:55:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-11-24T17:05:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "King Fahd International Airport",
+                "timezone": "Asia/Riyadh",
+                "iata": "DMM",
+                "icao": "OEDF",
+                "terminal": "I",
+                "gate": "DACO",
+                "baggage": "B4",
+                "scheduled": "2026-11-24T18:55:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "flynas",
+                "iata": "XY",
+                "icao": "KNE"
+            },
+            "flight": {
+                "number": "738",
+                "iata": "XY738",
+                "icao": "KNE738",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-11-24",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Abha",
+                "timezone": "Asia/Riyadh",
+                "iata": "AHB",
+                "icao": "OEAB",
+                "terminal": "T1",
+                "gate": null,
+                "delay": 10,
+                "scheduled": "2026-11-24T16:55:00+00:00",
+                "estimated": "2026-11-24T16:55:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-11-24T17:05:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "King Fahd International Airport",
+                "timezone": "Asia/Riyadh",
+                "iata": "DMM",
+                "icao": "OEDF",
+                "terminal": "I",
+                "gate": "DACO",
+                "baggage": "B4",
+                "scheduled": "2026-11-24T18:55:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Gulf Air",
+                "iata": "GF",
+                "icao": "GFA"
+            },
+            "flight": {
+                "number": "5853",
+                "iata": "GF5853",
+                "icao": "GFA5853",
+                "codeshared": {
+                    "airline_name": "flynas",
+                    "airline_iata": "xy",
+                    "airline_icao": "kne",
+                    "flight_number": "738",
+                    "flight_iata": "xy738",
+                    "flight_icao": "kne738"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-11-24",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Abha",
+                "timezone": "Asia/Riyadh",
+                "iata": "AHB",
+                "icao": "OEAB",
+                "terminal": "T1",
+                "gate": null,
+                "delay": 10,
+                "scheduled": "2026-11-24T16:55:00+00:00",
+                "estimated": "2026-11-24T16:55:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-11-24T17:05:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "King Fahd International Airport",
+                "timezone": "Asia/Riyadh",
+                "iata": "DMM",
+                "icao": "OEDF",
+                "terminal": "I",
+                "gate": "DACO",
+                "baggage": "B4",
+                "scheduled": "2026-11-24T18:55:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Ethiopian Airlines",
+                "iata": "ET",
+                "icao": "ETH"
+            },
+            "flight": {
+                "number": "4568",
+                "iata": "ET4568",
+                "icao": "ETH4568",
+                "codeshared": {
+                    "airline_name": "flynas",
+                    "airline_iata": "xy",
+                    "airline_icao": "kne",
+                    "flight_number": "738",
+                    "flight_iata": "xy738",
+                    "flight_icao": "kne738"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-11-24",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Abha",
+                "timezone": "Asia/Riyadh",
+                "iata": "AHB",
+                "icao": "OEAB",
+                "terminal": null,
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-11-24T16:50:00+00:00",
+                "estimated": "2026-11-24T16:50:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Gassim Regional Airport",
+                "timezone": "Asia/Riyadh",
+                "iata": "ELQ",
+                "icao": "OEGS",
+                "terminal": "T2",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-11-24T18:45:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "flyadeal",
+                "iata": "F3",
+                "icao": "FAD"
+            },
+            "flight": {
+                "number": "1406",
+                "iata": "F31406",
+                "icao": "FAD1406",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-11-24",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Abha",
+                "timezone": "Asia/Riyadh",
+                "iata": "AHB",
+                "icao": "OEAB",
+                "terminal": "T1",
+                "gate": null,
+                "delay": 0,
+                "scheduled": "2026-11-24T16:35:00+00:00",
+                "estimated": "2026-11-24T16:35:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-11-24T16:35:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "King Abdulaziz International",
+                "timezone": "Asia/Riyadh",
+                "iata": "JED",
+                "icao": "OEJN",
+                "terminal": "1",
+                "gate": null,
+                "baggage": "16",
+                "scheduled": "2026-11-24T17:55:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Saudia",
+                "iata": "SV",
+                "icao": "SVA"
+            },
+            "flight": {
+                "number": "1651",
+                "iata": "SV1651",
+                "icao": "SVA1651",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "710115"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-11-24",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Abha",
+                "timezone": "Asia/Riyadh",
+                "iata": "AHB",
+                "icao": "OEAB",
+                "terminal": "T1",
+                "gate": null,
+                "delay": 0,
+                "scheduled": "2026-11-24T16:35:00+00:00",
+                "estimated": "2026-11-24T16:35:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-11-24T16:35:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "King Abdulaziz International",
+                "timezone": "Asia/Riyadh",
+                "iata": "JED",
+                "icao": "OEJN",
+                "terminal": "1",
+                "gate": null,
+                "baggage": "16",
+                "scheduled": "2026-11-24T17:55:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Air India",
+                "iata": "AI",
+                "icao": "AIC"
+            },
+            "flight": {
+                "number": "6414",
+                "iata": "AI6414",
+                "icao": "AIC6414",
+                "codeshared": {
+                    "airline_name": "saudia",
+                    "airline_iata": "sv",
+                    "airline_icao": "sva",
+                    "flight_number": "1651",
+                    "flight_iata": "sv1651",
+                    "flight_icao": "sva1651"
+                }
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "710115"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-11-24",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Abha",
+                "timezone": "Asia/Riyadh",
+                "iata": "AHB",
+                "icao": "OEAB",
+                "terminal": "T1",
+                "gate": null,
+                "delay": 10,
+                "scheduled": "2026-11-24T16:10:00+00:00",
+                "estimated": "2026-11-24T16:10:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-11-24T16:20:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "King Fahd International Airport",
+                "timezone": "Asia/Riyadh",
+                "iata": "DMM",
+                "icao": "OEDF",
+                "terminal": "I",
+                "gate": "DACO",
+                "baggage": "B7",
+                "scheduled": "2026-11-24T18:05:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "flyadeal",
+                "iata": "F3",
+                "icao": "FAD"
+            },
+            "flight": {
+                "number": "434",
+                "iata": "F3434",
+                "icao": "FAD434",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-11-24",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Abha",
+                "timezone": "Asia/Riyadh",
+                "iata": "AHB",
+                "icao": "OEAB",
+                "terminal": "T1",
+                "gate": null,
+                "delay": 10,
+                "scheduled": "2026-11-24T16:10:00+00:00",
+                "estimated": "2026-11-24T16:10:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-11-24T16:20:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "King Fahd International Airport",
+                "timezone": "Asia/Riyadh",
+                "iata": "DMM",
+                "icao": "OEDF",
+                "terminal": "I",
+                "gate": "DACO",
+                "baggage": "B7",
+                "scheduled": "2026-11-24T18:05:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Saudia",
+                "iata": "SV",
+                "icao": "SVA"
+            },
+            "flight": {
+                "number": "6482",
+                "iata": "SV6482",
+                "icao": "SVA6482",
+                "codeshared": {
+                    "airline_name": "flyadeal",
+                    "airline_iata": "f3",
+                    "airline_icao": "fad",
+                    "flight_number": "434",
+                    "flight_iata": "f3434",
+                    "flight_icao": "fad434"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-11-24",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Bush Field",
+                "timezone": "America/New_York",
+                "iata": "AGS",
+                "icao": "KAGS",
+                "terminal": null,
+                "gate": null,
+                "delay": 21,
+                "scheduled": "2026-11-24T08:59:00+00:00",
+                "estimated": "2026-11-24T08:59:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-11-24T09:20:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Charlotte Douglas",
+                "timezone": "America/New_York",
+                "iata": "CLT",
+                "icao": "KCLT",
+                "terminal": null,
+                "gate": "E12",
+                "baggage": "8",
+                "scheduled": "2026-11-24T10:19:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "American Airlines",
+                "iata": "PT",
+                "icao": "PDT"
+            },
+            "flight": {
+                "number": "6016",
+                "iata": "PT6016",
+                "icao": "PDT6016",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "A8C6E8"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-11-24",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Pablo Ruiz Picasso",
+                "timezone": "Europe/Madrid",
+                "iata": "AGP",
+                "icao": "LEMG",
+                "terminal": "PAX",
+                "gate": null,
+                "delay": 11,
+                "scheduled": "2026-11-24T15:00:00+00:00",
+                "estimated": "2026-11-24T15:00:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-11-24T15:11:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Lisbon Portela",
+                "timezone": "Europe/Lisbon",
+                "iata": "LIS",
+                "icao": "LPPT",
+                "terminal": "1",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-11-24T15:25:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "TAP Air Portugal",
+                "iata": "TP",
+                "icao": "TAP"
+            },
+            "flight": {
+                "number": "1137",
+                "iata": "TP1137",
+                "icao": "TAP1137",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "495217"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-11-24",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Pablo Ruiz Picasso",
+                "timezone": "Europe/Madrid",
+                "iata": "AGP",
+                "icao": "LEMG",
+                "terminal": "PAX",
+                "gate": null,
+                "delay": 11,
+                "scheduled": "2026-11-24T15:00:00+00:00",
+                "estimated": "2026-11-24T15:00:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-11-24T15:11:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Lisbon Portela",
+                "timezone": "Europe/Lisbon",
+                "iata": "LIS",
+                "icao": "LPPT",
+                "terminal": "1",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-11-24T15:25:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Azores Airlines",
+                "iata": "S4",
+                "icao": "RZO"
+            },
+            "flight": {
+                "number": "8747",
+                "iata": "S48747",
+                "icao": "RZO8747",
+                "codeshared": {
+                    "airline_name": "tap air portugal",
+                    "airline_iata": "tp",
+                    "airline_icao": "tap",
+                    "flight_number": "1137",
+                    "flight_iata": "tp1137",
+                    "flight_icao": "tap1137"
+                }
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "495217"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-11-24",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Pablo Ruiz Picasso",
+                "timezone": "Europe/Madrid",
+                "iata": "AGP",
+                "icao": "LEMG",
+                "terminal": "PAX",
+                "gate": null,
+                "delay": 11,
+                "scheduled": "2026-11-24T15:00:00+00:00",
+                "estimated": "2026-11-24T15:00:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-11-24T15:11:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Lisbon Portela",
+                "timezone": "Europe/Lisbon",
+                "iata": "LIS",
+                "icao": "LPPT",
+                "terminal": "1",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-11-24T15:25:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Azul",
+                "iata": "AD",
+                "icao": "AZU"
+            },
+            "flight": {
+                "number": "7210",
+                "iata": "AD7210",
+                "icao": "AZU7210",
+                "codeshared": {
+                    "airline_name": "tap air portugal",
+                    "airline_iata": "tp",
+                    "airline_icao": "tap",
+                    "flight_number": "1137",
+                    "flight_iata": "tp1137",
+                    "flight_icao": "tap1137"
+                }
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "495217"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-11-24",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Pablo Ruiz Picasso",
+                "timezone": "Europe/Madrid",
+                "iata": "AGP",
+                "icao": "LEMG",
+                "terminal": "PAX",
+                "gate": null,
+                "delay": 0,
+                "scheduled": "2026-11-24T15:00:00+00:00",
+                "estimated": "2026-11-24T15:00:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-11-24T15:00:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Prague Vaclav Havel Airport",
+                "timezone": "Europe/Prague",
+                "iata": "PRG",
+                "icao": "LKPR",
+                "terminal": "2",
+                "gate": null,
+                "baggage": "22",
+                "scheduled": "2026-11-24T18:20:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Ryanair",
+                "iata": "FR",
+                "icao": "RYR"
+            },
+            "flight": {
+                "number": "9745",
+                "iata": "FR9745",
+                "icao": "RYR9745",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-11-24",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Pablo Ruiz Picasso",
+                "timezone": "Europe/Madrid",
+                "iata": "AGP",
+                "icao": "LEMG",
+                "terminal": "PAX",
+                "gate": null,
+                "delay": 10,
+                "scheduled": "2026-11-24T14:40:00+00:00",
+                "estimated": "2026-11-24T14:40:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-11-24T14:50:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Eindhoven",
+                "timezone": "Europe/Amsterdam",
+                "iata": "EIN",
+                "icao": "EHEH",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-11-24T17:40:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Ryanair",
+                "iata": "FR",
+                "icao": "RYR"
+            },
+            "flight": {
+                "number": "2575",
+                "iata": "FR2575",
+                "icao": "RYR2575",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "4D2259"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-11-24",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Pablo Ruiz Picasso",
+                "timezone": "Europe/Madrid",
+                "iata": "AGP",
+                "icao": "LEMG",
+                "terminal": "AX",
+                "gate": "D65",
+                "delay": 15,
+                "scheduled": "2026-11-24T14:30:00+00:00",
+                "estimated": "2026-11-24T14:30:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-11-24T14:45:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Barajas",
+                "timezone": "Europe/Madrid",
+                "iata": "MAD",
+                "icao": "LEMD",
+                "terminal": "2",
+                "gate": null,
+                "baggage": "N618",
+                "scheduled": "2026-11-24T15:40:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Iberojet",
+                "iata": "UX",
+                "icao": "AEA"
+            },
+            "flight": {
+                "number": "5434",
+                "iata": "UX5434",
+                "icao": "AEA5434",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "344445"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-11-24",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Pablo Ruiz Picasso",
+                "timezone": "Europe/Madrid",
+                "iata": "AGP",
+                "icao": "LEMG",
+                "terminal": "AX",
+                "gate": "D65",
+                "delay": 15,
+                "scheduled": "2026-11-24T14:30:00+00:00",
+                "estimated": "2026-11-24T14:30:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-11-24T14:45:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Barajas",
+                "timezone": "Europe/Madrid",
+                "iata": "MAD",
+                "icao": "LEMD",
+                "terminal": "2",
+                "gate": null,
+                "baggage": "N618",
+                "scheduled": "2026-11-24T15:40:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Etihad Airways",
+                "iata": "EY",
+                "icao": "ETD"
+            },
+            "flight": {
+                "number": "4341",
+                "iata": "EY4341",
+                "icao": "ETD4341",
+                "codeshared": {
+                    "airline_name": "iberojet",
+                    "airline_iata": "ux",
+                    "airline_icao": "aea",
+                    "flight_number": "5434",
+                    "flight_iata": "ux5434",
+                    "flight_icao": "aea5434"
+                }
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "344445"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-11-24",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Pablo Ruiz Picasso",
+                "timezone": "Europe/Madrid",
+                "iata": "AGP",
+                "icao": "LEMG",
+                "terminal": "AX",
+                "gate": "D65",
+                "delay": 15,
+                "scheduled": "2026-11-24T14:30:00+00:00",
+                "estimated": "2026-11-24T14:30:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-11-24T14:45:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Barajas",
+                "timezone": "Europe/Madrid",
+                "iata": "MAD",
+                "icao": "LEMD",
+                "terminal": "2",
+                "gate": null,
+                "baggage": "N618",
+                "scheduled": "2026-11-24T15:40:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Azul",
+                "iata": "AD",
+                "icao": "AZU"
+            },
+            "flight": {
+                "number": "6917",
+                "iata": "AD6917",
+                "icao": "AZU6917",
+                "codeshared": {
+                    "airline_name": "iberojet",
+                    "airline_iata": "ux",
+                    "airline_icao": "aea",
+                    "flight_number": "5434",
+                    "flight_iata": "ux5434",
+                    "flight_icao": "aea5434"
+                }
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "344445"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-11-24",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Pablo Ruiz Picasso",
+                "timezone": "Europe/Madrid",
+                "iata": "AGP",
+                "icao": "LEMG",
+                "terminal": null,
+                "gate": null,
+                "delay": 13,
+                "scheduled": "2026-11-24T14:25:00+00:00",
+                "estimated": "2026-11-24T14:25:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-11-24T14:38:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Gran Canaria",
+                "timezone": "Atlantic/Canary",
+                "iata": "LPA",
+                "icao": "GCLP",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-11-24T15:52:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Luminair",
+                "iata": null,
+                "icao": "LUA"
+            },
+            "flight": {
+                "number": null,
+                "iata": null,
+                "icao": "LUA",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "3CEEC4"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-11-24",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Ireland West Airport Knock",
+                "timezone": "Europe/Dublin",
+                "iata": "NOC",
+                "icao": "EIKN",
+                "terminal": null,
+                "gate": null,
+                "delay": 10,
+                "scheduled": "2026-11-24T11:05:00+00:00",
+                "estimated": "2026-11-24T11:05:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-11-24T11:15:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Pablo Ruiz Picasso",
+                "timezone": "Europe/Madrid",
+                "iata": "AGP",
+                "icao": "LEMG",
+                "terminal": "3",
+                "gate": null,
+                "baggage": "30",
+                "scheduled": "2026-11-24T15:05:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Ryanair",
+                "iata": "FR",
+                "icao": "RYR"
+            },
+            "flight": {
+                "number": "8748",
+                "iata": "FR8748",
+                "icao": "RYR8748",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "4CAF29"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-11-24",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Brussels Airport",
+                "timezone": "Europe/Brussels",
+                "iata": "BRU",
+                "icao": "EBBR",
+                "terminal": null,
+                "gate": null,
+                "delay": 12,
+                "scheduled": "2026-11-24T10:50:00+00:00",
+                "estimated": "2026-11-24T10:50:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-11-24T11:02:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Pablo Ruiz Picasso",
+                "timezone": "Europe/Madrid",
+                "iata": "AGP",
+                "icao": "LEMG",
+                "terminal": "PAX",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-11-24T14:40:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Vueling",
+                "iata": "VY",
+                "icao": "VLG"
+            },
+            "flight": {
+                "number": "1552",
+                "iata": "VY1552",
+                "icao": "VLG1552",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "34768C"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-11-24",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Brussels Airport",
+                "timezone": "Europe/Brussels",
+                "iata": "BRU",
+                "icao": "EBBR",
+                "terminal": null,
+                "gate": null,
+                "delay": 12,
+                "scheduled": "2026-11-24T10:50:00+00:00",
+                "estimated": "2026-11-24T10:50:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-11-24T11:02:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Pablo Ruiz Picasso",
+                "timezone": "Europe/Madrid",
+                "iata": "AGP",
+                "icao": "LEMG",
+                "terminal": "PAX",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-11-24T14:40:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Qatar Airways",
+                "iata": "QR",
+                "icao": "QTR"
+            },
+            "flight": {
+                "number": "3514",
+                "iata": "QR3514",
+                "icao": "QTR3514",
+                "codeshared": {
+                    "airline_name": "vueling",
+                    "airline_iata": "vy",
+                    "airline_icao": "vlg",
+                    "flight_number": "1552",
+                    "flight_iata": "vy1552",
+                    "flight_icao": "vlg1552"
+                }
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "34768C"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-11-24",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Brussels Airport",
+                "timezone": "Europe/Brussels",
+                "iata": "BRU",
+                "icao": "EBBR",
+                "terminal": null,
+                "gate": null,
+                "delay": 12,
+                "scheduled": "2026-11-24T10:50:00+00:00",
+                "estimated": "2026-11-24T10:50:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-11-24T11:02:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Pablo Ruiz Picasso",
+                "timezone": "Europe/Madrid",
+                "iata": "AGP",
+                "icao": "LEMG",
+                "terminal": "PAX",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-11-24T14:40:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Miami Air International",
+                "iata": "LL",
+                "icao": "BSK"
+            },
+            "flight": {
+                "number": "5510",
+                "iata": "LL5510",
+                "icao": "BSK5510",
+                "codeshared": {
+                    "airline_name": "vueling",
+                    "airline_iata": "vy",
+                    "airline_icao": "vlg",
+                    "flight_number": "1552",
+                    "flight_iata": "vy1552",
+                    "flight_icao": "vlg1552"
+                }
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "34768C"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-11-24",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Brussels Airport",
+                "timezone": "Europe/Brussels",
+                "iata": "BRU",
+                "icao": "EBBR",
+                "terminal": null,
+                "gate": null,
+                "delay": 12,
+                "scheduled": "2026-11-24T10:50:00+00:00",
+                "estimated": "2026-11-24T10:50:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-11-24T11:02:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Pablo Ruiz Picasso",
+                "timezone": "Europe/Madrid",
+                "iata": "AGP",
+                "icao": "LEMG",
+                "terminal": "PAX",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-11-24T14:40:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "LATAM Airlines",
+                "iata": "LA",
+                "icao": "LAN"
+            },
+            "flight": {
+                "number": "5743",
+                "iata": "LA5743",
+                "icao": "LAN5743",
+                "codeshared": {
+                    "airline_name": "vueling",
+                    "airline_iata": "vy",
+                    "airline_icao": "vlg",
+                    "flight_number": "1552",
+                    "flight_iata": "vy1552",
+                    "flight_icao": "vlg1552"
+                }
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "34768C"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-11-24",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Brussels Airport",
+                "timezone": "Europe/Brussels",
+                "iata": "BRU",
+                "icao": "EBBR",
+                "terminal": null,
+                "gate": null,
+                "delay": 12,
+                "scheduled": "2026-11-24T10:50:00+00:00",
+                "estimated": "2026-11-24T10:50:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-11-24T11:02:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Pablo Ruiz Picasso",
+                "timezone": "Europe/Madrid",
+                "iata": "AGP",
+                "icao": "LEMG",
+                "terminal": "PAX",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-11-24T14:40:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Iberia",
+                "iata": "IB",
+                "icao": "IBE"
+            },
+            "flight": {
+                "number": "5510",
+                "iata": "IB5510",
+                "icao": "IBE5510",
+                "codeshared": {
+                    "airline_name": "vueling",
+                    "airline_iata": "vy",
+                    "airline_icao": "vlg",
+                    "flight_number": "1552",
+                    "flight_iata": "vy1552",
+                    "flight_icao": "vlg1552"
+                }
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "34768C"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-11-24",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "El Prat De Llobregat",
+                "timezone": "Europe/Madrid",
+                "iata": "BCN",
+                "icao": "LEBL",
+                "terminal": "1",
+                "gate": "A12",
+                "delay": 0,
+                "scheduled": "2026-11-24T13:00:00+00:00",
+                "estimated": "2026-11-24T13:00:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-11-24T13:00:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Pablo Ruiz Picasso",
+                "timezone": "Europe/Madrid",
+                "iata": "AGP",
+                "icao": "LEMG",
+                "terminal": "PAX",
+                "gate": null,
+                "baggage": "35",
+                "scheduled": "2026-11-24T14:40:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Qatar Airways",
+                "iata": "QR",
+                "icao": "QTR"
+            },
+            "flight": {
+                "number": "3514",
+                "iata": "QR3514",
+                "icao": "QTR3514",
+                "codeshared": {
+                    "airline_name": "vueling",
+                    "airline_iata": "vy",
+                    "airline_icao": "vlg",
+                    "flight_number": "1552",
+                    "flight_iata": "vy1552",
+                    "flight_icao": "vlg1552"
+                }
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "346692"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-11-24",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "El Prat De Llobregat",
+                "timezone": "Europe/Madrid",
+                "iata": "BCN",
+                "icao": "LEBL",
+                "terminal": "1",
+                "gate": "A12",
+                "delay": 0,
+                "scheduled": "2026-11-24T13:00:00+00:00",
+                "estimated": "2026-11-24T13:00:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-11-24T13:00:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Pablo Ruiz Picasso",
+                "timezone": "Europe/Madrid",
+                "iata": "AGP",
+                "icao": "LEMG",
+                "terminal": "PAX",
+                "gate": null,
+                "baggage": "35",
+                "scheduled": "2026-11-24T14:40:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Miami Air International",
+                "iata": "LL",
+                "icao": "BSK"
+            },
+            "flight": {
+                "number": "5510",
+                "iata": "LL5510",
+                "icao": "BSK5510",
+                "codeshared": {
+                    "airline_name": "vueling",
+                    "airline_iata": "vy",
+                    "airline_icao": "vlg",
+                    "flight_number": "1552",
+                    "flight_iata": "vy1552",
+                    "flight_icao": "vlg1552"
+                }
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "346692"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-11-24",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "El Prat De Llobregat",
+                "timezone": "Europe/Madrid",
+                "iata": "BCN",
+                "icao": "LEBL",
+                "terminal": "1",
+                "gate": "A12",
+                "delay": 0,
+                "scheduled": "2026-11-24T13:00:00+00:00",
+                "estimated": "2026-11-24T13:00:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-11-24T13:00:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Pablo Ruiz Picasso",
+                "timezone": "Europe/Madrid",
+                "iata": "AGP",
+                "icao": "LEMG",
+                "terminal": "PAX",
+                "gate": null,
+                "baggage": "35",
+                "scheduled": "2026-11-24T14:40:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "LATAM Airlines",
+                "iata": "LA",
+                "icao": "LAN"
+            },
+            "flight": {
+                "number": "5743",
+                "iata": "LA5743",
+                "icao": "LAN5743",
+                "codeshared": {
+                    "airline_name": "vueling",
+                    "airline_iata": "vy",
+                    "airline_icao": "vlg",
+                    "flight_number": "1552",
+                    "flight_iata": "vy1552",
+                    "flight_icao": "vlg1552"
+                }
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "346692"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-11-24",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "El Prat De Llobregat",
+                "timezone": "Europe/Madrid",
+                "iata": "BCN",
+                "icao": "LEBL",
+                "terminal": "1",
+                "gate": "A12",
+                "delay": 0,
+                "scheduled": "2026-11-24T13:00:00+00:00",
+                "estimated": "2026-11-24T13:00:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-11-24T13:00:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Pablo Ruiz Picasso",
+                "timezone": "Europe/Madrid",
+                "iata": "AGP",
+                "icao": "LEMG",
+                "terminal": "PAX",
+                "gate": null,
+                "baggage": "35",
+                "scheduled": "2026-11-24T14:40:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Iberia",
+                "iata": "IB",
+                "icao": "IBE"
+            },
+            "flight": {
+                "number": "5510",
+                "iata": "IB5510",
+                "icao": "IBE5510",
+                "codeshared": {
+                    "airline_name": "vueling",
+                    "airline_iata": "vy",
+                    "airline_icao": "vlg",
+                    "flight_number": "1552",
+                    "flight_iata": "vy1552",
+                    "flight_icao": "vlg1552"
+                }
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "346692"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-11-24",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Brussels Airport",
+                "timezone": "Europe/Brussels",
+                "iata": "BRU",
+                "icao": "EBBR",
+                "terminal": null,
+                "gate": "A46",
+                "delay": 12,
+                "scheduled": "2026-11-24T11:40:00+00:00",
+                "estimated": "2026-11-24T11:40:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-11-24T11:52:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Pablo Ruiz Picasso",
+                "timezone": "Europe/Madrid",
+                "iata": "AGP",
+                "icao": "LEMG",
+                "terminal": "PAX",
+                "gate": null,
+                "baggage": "38",
+                "scheduled": "2026-11-24T14:30:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Etihad Airways",
+                "iata": "EY",
+                "icao": "ETD"
+            },
+            "flight": {
+                "number": "7224",
+                "iata": "EY7224",
+                "icao": "ETD7224",
+                "codeshared": {
+                    "airline_name": "brussels airlines",
+                    "airline_iata": "sn",
+                    "airline_icao": "bel",
+                    "flight_number": "3735",
+                    "flight_iata": "sn3735",
+                    "flight_icao": "bel3735"
+                }
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "44D071"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-11-24",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Brussels Airport",
+                "timezone": "Europe/Brussels",
+                "iata": "BRU",
+                "icao": "EBBR",
+                "terminal": null,
+                "gate": "A46",
+                "delay": 12,
+                "scheduled": "2026-11-24T11:40:00+00:00",
+                "estimated": "2026-11-24T11:40:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-11-24T11:52:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Pablo Ruiz Picasso",
+                "timezone": "Europe/Madrid",
+                "iata": "AGP",
+                "icao": "LEMG",
+                "terminal": "PAX",
+                "gate": null,
+                "baggage": "38",
+                "scheduled": "2026-11-24T14:30:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Air Canada",
+                "iata": "AC",
+                "icao": "ACA"
+            },
+            "flight": {
+                "number": "6350",
+                "iata": "AC6350",
+                "icao": "ACA6350",
+                "codeshared": {
+                    "airline_name": "brussels airlines",
+                    "airline_iata": "sn",
+                    "airline_icao": "bel",
+                    "flight_number": "3735",
+                    "flight_iata": "sn3735",
+                    "flight_icao": "bel3735"
+                }
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "44D071"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-11-24",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Lisbon Portela",
+                "timezone": "Europe/Lisbon",
+                "iata": "LIS",
+                "icao": "LPPT",
+                "terminal": "1",
+                "gate": null,
+                "delay": 10,
+                "scheduled": "2026-11-24T11:55:00+00:00",
+                "estimated": "2026-11-24T11:55:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-11-24T12:05:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Pablo Ruiz Picasso",
+                "timezone": "Europe/Madrid",
+                "iata": "AGP",
+                "icao": "LEMG",
+                "terminal": "PAX",
+                "gate": null,
+                "baggage": "37",
+                "scheduled": "2026-11-24T14:10:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Azores Airlines",
+                "iata": "S4",
+                "icao": "RZO"
+            },
+            "flight": {
+                "number": "8722",
+                "iata": "S48722",
+                "icao": "RZO8722",
+                "codeshared": {
+                    "airline_name": "tap air portugal",
+                    "airline_iata": "tp",
+                    "airline_icao": "tap",
+                    "flight_number": "1136",
+                    "flight_iata": "tp1136",
+                    "flight_icao": "tap1136"
+                }
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "495217"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-11-24",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Lisbon Portela",
+                "timezone": "Europe/Lisbon",
+                "iata": "LIS",
+                "icao": "LPPT",
+                "terminal": "1",
+                "gate": null,
+                "delay": 10,
+                "scheduled": "2026-11-24T11:55:00+00:00",
+                "estimated": "2026-11-24T11:55:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-11-24T12:05:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Pablo Ruiz Picasso",
+                "timezone": "Europe/Madrid",
+                "iata": "AGP",
+                "icao": "LEMG",
+                "terminal": "PAX",
+                "gate": null,
+                "baggage": "37",
+                "scheduled": "2026-11-24T14:10:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "LATAM Airlines",
+                "iata": "LA",
+                "icao": "LAN"
+            },
+            "flight": {
+                "number": "6903",
+                "iata": "LA6903",
+                "icao": "LAN6903",
+                "codeshared": {
+                    "airline_name": "tap air portugal",
+                    "airline_iata": "tp",
+                    "airline_icao": "tap",
+                    "flight_number": "1136",
+                    "flight_iata": "tp1136",
+                    "flight_icao": "tap1136"
+                }
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "495217"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-11-24",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Lisbon Portela",
+                "timezone": "Europe/Lisbon",
+                "iata": "LIS",
+                "icao": "LPPT",
+                "terminal": "1",
+                "gate": null,
+                "delay": 10,
+                "scheduled": "2026-11-24T11:55:00+00:00",
+                "estimated": "2026-11-24T11:55:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-11-24T12:05:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Pablo Ruiz Picasso",
+                "timezone": "Europe/Madrid",
+                "iata": "AGP",
+                "icao": "LEMG",
+                "terminal": "PAX",
+                "gate": null,
+                "baggage": "37",
+                "scheduled": "2026-11-24T14:10:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Etihad Airways",
+                "iata": "EY",
+                "icao": "ETD"
+            },
+            "flight": {
+                "number": "2702",
+                "iata": "EY2702",
+                "icao": "ETD2702",
+                "codeshared": {
+                    "airline_name": "tap air portugal",
+                    "airline_iata": "tp",
+                    "airline_icao": "tap",
+                    "flight_number": "1136",
+                    "flight_iata": "tp1136",
+                    "flight_icao": "tap1136"
+                }
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "495217"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-11-24",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Lisbon Portela",
+                "timezone": "Europe/Lisbon",
+                "iata": "LIS",
+                "icao": "LPPT",
+                "terminal": "1",
+                "gate": null,
+                "delay": 10,
+                "scheduled": "2026-11-24T11:55:00+00:00",
+                "estimated": "2026-11-24T11:55:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-11-24T12:05:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Pablo Ruiz Picasso",
+                "timezone": "Europe/Madrid",
+                "iata": "AGP",
+                "icao": "LEMG",
+                "terminal": "PAX",
+                "gate": null,
+                "baggage": "37",
+                "scheduled": "2026-11-24T14:10:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Azul",
+                "iata": "AD",
+                "icao": "AZU"
+            },
+            "flight": {
+                "number": "7228",
+                "iata": "AD7228",
+                "icao": "AZU7228",
+                "codeshared": {
+                    "airline_name": "tap air portugal",
+                    "airline_iata": "tp",
+                    "airline_icao": "tap",
+                    "flight_number": "1136",
+                    "flight_iata": "tp1136",
+                    "flight_icao": "tap1136"
+                }
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "495217"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-11-24",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Lisbon Portela",
+                "timezone": "Europe/Lisbon",
+                "iata": "LIS",
+                "icao": "LPPT",
+                "terminal": "1",
+                "gate": null,
+                "delay": 10,
+                "scheduled": "2026-11-24T11:55:00+00:00",
+                "estimated": "2026-11-24T11:55:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-11-24T12:05:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Pablo Ruiz Picasso",
+                "timezone": "Europe/Madrid",
+                "iata": "AGP",
+                "icao": "LEMG",
+                "terminal": "PAX",
+                "gate": null,
+                "baggage": "37",
+                "scheduled": "2026-11-24T14:10:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Air Canada",
+                "iata": "AC",
+                "icao": "ACA"
+            },
+            "flight": {
+                "number": "2684",
+                "iata": "AC2684",
+                "icao": "ACA2684",
+                "codeshared": {
+                    "airline_name": "tap air portugal",
+                    "airline_iata": "tp",
+                    "airline_icao": "tap",
+                    "flight_number": "1136",
+                    "flight_iata": "tp1136",
+                    "flight_icao": "tap1136"
+                }
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "495217"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-11-24",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Outagamie County",
+                "timezone": "America/Chicago",
+                "iata": "ATW",
+                "icao": "KATW",
+                "terminal": null,
+                "gate": null,
+                "delay": 18,
+                "scheduled": "2026-11-24T08:00:00+00:00",
+                "estimated": "2026-11-24T08:00:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-11-24T08:18:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Teterboro",
+                "timezone": "America/New_York",
+                "iata": "TEB",
+                "icao": "KTEB",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-11-24T10:51:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "empty",
+                "iata": null,
+                "icao": null
+            },
+            "flight": {
+                "number": null,
+                "iata": null,
+                "icao": null,
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "A9AF61"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-11-24",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Outagamie County",
+                "timezone": "America/Chicago",
+                "iata": "ATW",
+                "icao": "KATW",
+                "terminal": null,
+                "gate": "5",
+                "delay": 0,
+                "scheduled": "2026-11-24T08:00:00+00:00",
+                "estimated": "2026-11-24T08:00:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-11-24T08:00:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Chicago O'hare International",
+                "timezone": "America/Chicago",
+                "iata": "ORD",
+                "icao": "KORD",
+                "terminal": "2",
+                "gate": "E2",
+                "baggage": "4",
+                "scheduled": "2026-11-24T09:36:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "United Airlines",
+                "iata": "OO",
+                "icao": "SKW"
+            },
+            "flight": {
+                "number": "5260",
+                "iata": "OO5260",
+                "icao": "SKW5260",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "AA4A90"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-11-24",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Outagamie County",
+                "timezone": "America/Chicago",
+                "iata": "ATW",
+                "icao": "KATW",
+                "terminal": null,
+                "gate": "5",
+                "delay": 0,
+                "scheduled": "2026-11-24T08:00:00+00:00",
+                "estimated": "2026-11-24T08:00:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-11-24T08:00:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Chicago O'hare International",
+                "timezone": "America/Chicago",
+                "iata": "ORD",
+                "icao": "KORD",
+                "terminal": "2",
+                "gate": "E2",
+                "baggage": "4",
+                "scheduled": "2026-11-24T09:36:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Air New Zealand",
+                "iata": "NZ",
+                "icao": "ANZ"
+            },
+            "flight": {
+                "number": "2032",
+                "iata": "NZ2032",
+                "icao": "ANZ2032",
+                "codeshared": {
+                    "airline_name": "united airlines",
+                    "airline_iata": "oo",
+                    "airline_icao": "skw",
+                    "flight_number": "5260",
+                    "flight_iata": "oo5260",
+                    "flight_icao": "skw5260"
+                }
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "AA4A90"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-11-24",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Outagamie County",
+                "timezone": "America/Chicago",
+                "iata": "ATW",
+                "icao": "KATW",
+                "terminal": null,
+                "gate": null,
+                "delay": 0,
+                "scheduled": "2026-11-24T07:30:00+00:00",
+                "estimated": "2026-11-24T07:30:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-11-24T07:30:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "St. Petersburg-Clearwater International",
+                "timezone": "America/New_York",
+                "iata": "PIE",
+                "icao": "KPIE",
+                "terminal": null,
+                "gate": "4",
+                "baggage": null,
+                "scheduled": "2026-11-24T11:23:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Allegiant Air",
+                "iata": "G4",
+                "icao": "AAY"
+            },
+            "flight": {
+                "number": "3209",
+                "iata": "G43209",
+                "icao": "AAY3209",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "A252AE"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-11-24",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Viedma",
+                "timezone": "America/Argentina/Salta",
+                "iata": "VDM",
+                "icao": "SAVV",
+                "terminal": "P",
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-11-24T09:25:00+00:00",
+                "estimated": "2026-11-24T09:25:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Aeroparque Jorge Newbery",
+                "timezone": "America/Argentina/Buenos_Aires",
+                "iata": "AEP",
+                "icao": "SABE",
+                "terminal": "AN",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-11-24T11:00:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Aerolineas Argentinas",
+                "iata": "AR",
+                "icao": "ARG"
+            },
+            "flight": {
+                "number": "1627",
+                "iata": "AR1627",
+                "icao": "ARG1627",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "E032DA"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-11-24",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Viedma",
+                "timezone": "America/Argentina/Salta",
+                "iata": "VDM",
+                "icao": "SAVV",
+                "terminal": "P",
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-11-24T09:25:00+00:00",
+                "estimated": "2026-11-24T09:25:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Aeroparque Jorge Newbery",
+                "timezone": "America/Argentina/Buenos_Aires",
+                "iata": "AEP",
+                "icao": "SABE",
+                "terminal": "AN",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-11-24T11:00:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "GOL",
+                "iata": "G3",
+                "icao": "GLO"
+            },
+            "flight": {
+                "number": "3277",
+                "iata": "G33277",
+                "icao": "GLO3277",
+                "codeshared": {
+                    "airline_name": "aerolineas argentinas",
+                    "airline_iata": "ar",
+                    "airline_icao": "arg",
+                    "flight_number": "1627",
+                    "flight_iata": "ar1627",
+                    "flight_icao": "arg1627"
+                }
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "E032DA"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-11-24",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Aeroporto Internacional Guarulhos",
+                "timezone": "America/Sao_Paulo",
+                "iata": "GRU",
+                "icao": "SBGR",
+                "terminal": "3",
+                "gate": null,
+                "delay": 22,
+                "scheduled": "2026-11-24T07:35:00+00:00",
+                "estimated": "2026-11-24T07:35:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-11-24T07:57:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Aeroparque Jorge Newbery",
+                "timezone": "America/Argentina/Buenos_Aires",
+                "iata": "AEP",
+                "icao": "SABE",
+                "terminal": "AI",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-11-24T10:30:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Qatar Airways",
+                "iata": "QR",
+                "icao": "QTR"
+            },
+            "flight": {
+                "number": "8430",
+                "iata": "QR8430",
+                "icao": "QTR8430",
+                "codeshared": {
+                    "airline_name": "latam airlines",
+                    "airline_iata": "la",
+                    "airline_icao": "lan",
+                    "flight_number": "8192",
+                    "flight_iata": "la8192",
+                    "flight_icao": "lan8192"
+                }
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "E4944F"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-11-24",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Aeroporto Internacional Guarulhos",
+                "timezone": "America/Sao_Paulo",
+                "iata": "GRU",
+                "icao": "SBGR",
+                "terminal": "3",
+                "gate": null,
+                "delay": 22,
+                "scheduled": "2026-11-24T07:35:00+00:00",
+                "estimated": "2026-11-24T07:35:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-11-24T07:57:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Aeroparque Jorge Newbery",
+                "timezone": "America/Argentina/Buenos_Aires",
+                "iata": "AEP",
+                "icao": "SABE",
+                "terminal": "AI",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-11-24T10:30:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "British Airways",
+                "iata": "BA",
+                "icao": "BAW"
+            },
+            "flight": {
+                "number": "7630",
+                "iata": "BA7630",
+                "icao": "BAW7630",
+                "codeshared": {
+                    "airline_name": "latam airlines",
+                    "airline_iata": "la",
+                    "airline_icao": "lan",
+                    "flight_number": "8192",
+                    "flight_iata": "la8192",
+                    "flight_icao": "lan8192"
+                }
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "E4944F"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-11-24",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Providencia",
+                "timezone": "America/Bogota",
+                "iata": "PVA",
+                "icao": "SKPV",
+                "terminal": null,
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-11-24T08:20:00+00:00",
+                "estimated": "2026-11-24T08:20:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "San Andres Island",
+                "timezone": "America/Bogota",
+                "iata": "ADZ",
+                "icao": "SKSP",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-11-24T09:02:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "SATENA",
+                "iata": "9R",
+                "icao": "NSE"
+            },
+            "flight": {
+                "number": "8807",
+                "iata": "9R8807",
+                "icao": "NSE8807",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-11-24",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Sochi/Adler International Airport",
+                "timezone": "Europe/Moscow",
+                "iata": "AER",
+                "icao": "URSS",
+                "terminal": null,
+                "gate": null,
+                "delay": null,
+                "scheduled": "2026-11-24T17:05:00+00:00",
+                "estimated": "2026-11-24T17:05:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Sheremetyevo International",
+                "timezone": "Europe/Moscow",
+                "iata": "SVO",
+                "icao": "UUEE",
+                "terminal": "B",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-11-24T20:55:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Aeroflot",
+                "iata": "SU",
+                "icao": "AFL"
+            },
+            "flight": {
+                "number": "1125",
+                "iata": "SU1125",
+                "icao": "AFL1125",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-11-24",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Sochi/Adler International Airport",
+                "timezone": "Europe/Moscow",
+                "iata": "AER",
+                "icao": "URSS",
+                "terminal": null,
+                "gate": null,
+                "delay": 10,
+                "scheduled": "2026-11-24T13:00:00+00:00",
+                "estimated": "2026-11-24T13:00:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-11-24T13:10:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Istanbul Airport",
+                "timezone": "Europe/Istanbul",
+                "iata": "IST",
+                "icao": "LTFM",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-11-24T15:05:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Rossiya",
+                "iata": "FV",
+                "icao": "SDM"
+            },
+            "flight": {
+                "number": "6729",
+                "iata": "FV6729",
+                "icao": "SDM6729",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "151DF6"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-11-24",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Aeroparque Jorge Newbery",
+                "timezone": "America/Argentina/Buenos_Aires",
+                "iata": "AEP",
+                "icao": "SABE",
+                "terminal": "AA",
+                "gate": null,
+                "delay": 10,
+                "scheduled": "2026-11-24T11:05:00+00:00",
+                "estimated": "2026-11-24T11:05:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-11-24T11:15:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Cataratas",
+                "timezone": "America/Argentina/Cordoba",
+                "iata": "IGR",
+                "icao": "SARI",
+                "terminal": "A",
+                "gate": null,
+                "baggage": "3",
+                "scheduled": "2026-11-24T13:00:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Aerolineas Argentinas",
+                "iata": "AR",
+                "icao": "ARG"
+            },
+            "flight": {
+                "number": "1782",
+                "iata": "AR1782",
+                "icao": "ARG1782",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "E071D1"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-11-24",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Aeroparque Jorge Newbery",
+                "timezone": "America/Argentina/Buenos_Aires",
+                "iata": "AEP",
+                "icao": "SABE",
+                "terminal": "AA",
+                "gate": null,
+                "delay": 10,
+                "scheduled": "2026-11-24T11:05:00+00:00",
+                "estimated": "2026-11-24T11:05:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-11-24T11:15:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Cataratas",
+                "timezone": "America/Argentina/Cordoba",
+                "iata": "IGR",
+                "icao": "SARI",
+                "terminal": "A",
+                "gate": null,
+                "baggage": "3",
+                "scheduled": "2026-11-24T13:00:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "LATAM Airlines",
+                "iata": "LA",
+                "icao": "LAN"
+            },
+            "flight": {
+                "number": "5241",
+                "iata": "LA5241",
+                "icao": "LAN5241",
+                "codeshared": {
+                    "airline_name": "aerolineas argentinas",
+                    "airline_iata": "ar",
+                    "airline_icao": "arg",
+                    "flight_number": "1782",
+                    "flight_iata": "ar1782",
+                    "flight_icao": "arg1782"
+                }
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "E071D1"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-11-24",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Aeroparque Jorge Newbery",
+                "timezone": "America/Argentina/Buenos_Aires",
+                "iata": "AEP",
+                "icao": "SABE",
+                "terminal": "AA",
+                "gate": null,
+                "delay": 10,
+                "scheduled": "2026-11-24T11:05:00+00:00",
+                "estimated": "2026-11-24T11:05:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-11-24T11:15:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Cataratas",
+                "timezone": "America/Argentina/Cordoba",
+                "iata": "IGR",
+                "icao": "SARI",
+                "terminal": "A",
+                "gate": null,
+                "baggage": "3",
+                "scheduled": "2026-11-24T13:00:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "GOL",
+                "iata": "G3",
+                "icao": "GLO"
+            },
+            "flight": {
+                "number": "3152",
+                "iata": "G33152",
+                "icao": "GLO3152",
+                "codeshared": {
+                    "airline_name": "aerolineas argentinas",
+                    "airline_iata": "ar",
+                    "airline_icao": "arg",
+                    "flight_number": "1782",
+                    "flight_iata": "ar1782",
+                    "flight_icao": "arg1782"
+                }
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "E071D1"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-11-24",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Aeroparque Jorge Newbery",
+                "timezone": "America/Argentina/Buenos_Aires",
+                "iata": "AEP",
+                "icao": "SABE",
+                "terminal": "AA",
+                "gate": null,
+                "delay": 11,
+                "scheduled": "2026-11-24T10:35:00+00:00",
+                "estimated": "2026-11-24T10:35:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-11-24T10:46:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Aeroporto Internacional Guarulhos",
+                "timezone": "America/Sao_Paulo",
+                "iata": "GRU",
+                "icao": "SBGR",
+                "terminal": "3",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-11-24T13:20:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "LATAM Airlines",
+                "iata": "LA",
+                "icao": "LAN"
+            },
+            "flight": {
+                "number": "8139",
+                "iata": "LA8139",
+                "icao": "LAN8139",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "E47EBC"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-11-24",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Aeroparque Jorge Newbery",
+                "timezone": "America/Argentina/Buenos_Aires",
+                "iata": "AEP",
+                "icao": "SABE",
+                "terminal": "AA",
+                "gate": null,
+                "delay": 11,
+                "scheduled": "2026-11-24T10:35:00+00:00",
+                "estimated": "2026-11-24T10:35:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-11-24T10:46:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Aeroporto Internacional Guarulhos",
+                "timezone": "America/Sao_Paulo",
+                "iata": "GRU",
+                "icao": "SBGR",
+                "terminal": "3",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-11-24T13:20:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Qatar Airways",
+                "iata": "QR",
+                "icao": "QTR"
+            },
+            "flight": {
+                "number": "5120",
+                "iata": "QR5120",
+                "icao": "QTR5120",
+                "codeshared": {
+                    "airline_name": "latam airlines",
+                    "airline_iata": "la",
+                    "airline_icao": "lan",
+                    "flight_number": "8139",
+                    "flight_iata": "la8139",
+                    "flight_icao": "lan8139"
+                }
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "E47EBC"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-11-24",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Aeroparque Jorge Newbery",
+                "timezone": "America/Argentina/Buenos_Aires",
+                "iata": "AEP",
+                "icao": "SABE",
+                "terminal": "AA",
+                "gate": null,
+                "delay": 50,
+                "scheduled": "2026-11-24T10:35:00+00:00",
+                "estimated": "2026-11-24T10:35:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-11-24T11:25:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Pajas Blancas",
+                "timezone": "America/Argentina/Cordoba",
+                "iata": "COR",
+                "icao": "SACO",
+                "terminal": null,
+                "gate": "1",
+                "baggage": null,
+                "scheduled": "2026-11-24T12:05:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Aerolineas Argentinas",
+                "iata": "AR",
+                "icao": "ARG"
+            },
+            "flight": {
+                "number": "1530",
+                "iata": "AR1530",
+                "icao": "ARG1530",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "E06543"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-11-24",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Aeroparque Jorge Newbery",
+                "timezone": "America/Argentina/Buenos_Aires",
+                "iata": "AEP",
+                "icao": "SABE",
+                "terminal": "AA",
+                "gate": null,
+                "delay": 50,
+                "scheduled": "2026-11-24T10:35:00+00:00",
+                "estimated": "2026-11-24T10:35:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-11-24T11:25:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Pajas Blancas",
+                "timezone": "America/Argentina/Cordoba",
+                "iata": "COR",
+                "icao": "SACO",
+                "terminal": null,
+                "gate": "1",
+                "baggage": null,
+                "scheduled": "2026-11-24T12:05:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "LATAM Airlines",
+                "iata": "LA",
+                "icao": "LAN"
+            },
+            "flight": {
+                "number": "8411",
+                "iata": "LA8411",
+                "icao": "LAN8411",
+                "codeshared": {
+                    "airline_name": "aerolineas argentinas",
+                    "airline_iata": "ar",
+                    "airline_icao": "arg",
+                    "flight_number": "1530",
+                    "flight_iata": "ar1530",
+                    "flight_icao": "arg1530"
+                }
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "E06543"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-11-24",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Aeroparque Jorge Newbery",
+                "timezone": "America/Argentina/Buenos_Aires",
+                "iata": "AEP",
+                "icao": "SABE",
+                "terminal": "AA",
+                "gate": null,
+                "delay": 50,
+                "scheduled": "2026-11-24T10:35:00+00:00",
+                "estimated": "2026-11-24T10:35:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-11-24T11:25:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Pajas Blancas",
+                "timezone": "America/Argentina/Cordoba",
+                "iata": "COR",
+                "icao": "SACO",
+                "terminal": null,
+                "gate": "1",
+                "baggage": null,
+                "scheduled": "2026-11-24T12:05:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "GOL",
+                "iata": "G3",
+                "icao": "GLO"
+            },
+            "flight": {
+                "number": "3328",
+                "iata": "G33328",
+                "icao": "GLO3328",
+                "codeshared": {
+                    "airline_name": "aerolineas argentinas",
+                    "airline_iata": "ar",
+                    "airline_icao": "arg",
+                    "flight_number": "1530",
+                    "flight_iata": "ar1530",
+                    "flight_icao": "arg1530"
+                }
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "E06543"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-11-24",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Aeroparque Jorge Newbery",
+                "timezone": "America/Argentina/Buenos_Aires",
+                "iata": "AEP",
+                "icao": "SABE",
+                "terminal": "AA",
+                "gate": null,
+                "delay": 0,
+                "scheduled": "2026-11-24T10:30:00+00:00",
+                "estimated": "2026-11-24T10:30:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-11-24T10:30:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Santa Rosa",
+                "timezone": "America/Argentina/Salta",
+                "iata": "RSA",
+                "icao": "SAZR",
+                "terminal": "A",
+                "gate": null,
+                "baggage": "1",
+                "scheduled": "2026-11-24T12:00:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Aerolineas Argentinas",
+                "iata": "AR",
+                "icao": "ARG"
+            },
+            "flight": {
+                "number": "1634",
+                "iata": "AR1634",
+                "icao": "ARG1634",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "E03341"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-11-24",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Aeroparque Jorge Newbery",
+                "timezone": "America/Argentina/Buenos_Aires",
+                "iata": "AEP",
+                "icao": "SABE",
+                "terminal": "AA",
+                "gate": null,
+                "delay": 0,
+                "scheduled": "2026-11-24T10:30:00+00:00",
+                "estimated": "2026-11-24T10:30:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-11-24T10:30:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Santa Rosa",
+                "timezone": "America/Argentina/Salta",
+                "iata": "RSA",
+                "icao": "SAZR",
+                "terminal": "A",
+                "gate": null,
+                "baggage": "1",
+                "scheduled": "2026-11-24T12:00:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "GOL",
+                "iata": "G3",
+                "icao": "GLO"
+            },
+            "flight": {
+                "number": "3139",
+                "iata": "G33139",
+                "icao": "GLO3139",
+                "codeshared": {
+                    "airline_name": "aerolineas argentinas",
+                    "airline_iata": "ar",
+                    "airline_icao": "arg",
+                    "flight_number": "1634",
+                    "flight_iata": "ar1634",
+                    "flight_icao": "arg1634"
+                }
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "E03341"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-11-24",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Aeroparque Jorge Newbery",
+                "timezone": "America/Argentina/Buenos_Aires",
+                "iata": "AEP",
+                "icao": "SABE",
+                "terminal": "AA",
+                "gate": null,
+                "delay": 0,
+                "scheduled": "2026-11-24T10:30:00+00:00",
+                "estimated": "2026-11-24T10:30:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-11-24T10:30:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Santa Rosa",
+                "timezone": "America/Argentina/Salta",
+                "iata": "RSA",
+                "icao": "SAZR",
+                "terminal": "A",
+                "gate": null,
+                "baggage": "1",
+                "scheduled": "2026-11-24T12:00:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "LATAM Airlines",
+                "iata": "LA",
+                "icao": "LAN"
+            },
+            "flight": {
+                "number": "8410",
+                "iata": "LA8410",
+                "icao": "LAN8410",
+                "codeshared": {
+                    "airline_name": "aerolineas argentinas",
+                    "airline_iata": "ar",
+                    "airline_icao": "arg",
+                    "flight_number": "1634",
+                    "flight_iata": "ar1634",
+                    "flight_icao": "arg1634"
+                }
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "E03341"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-11-24",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Aeroparque Jorge Newbery",
+                "timezone": "America/Argentina/Buenos_Aires",
+                "iata": "AEP",
+                "icao": "SABE",
+                "terminal": "1",
+                "gate": null,
+                "delay": 0,
+                "scheduled": "2026-11-24T10:20:00+00:00",
+                "estimated": "2026-11-24T10:20:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-11-24T10:20:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Galeao Antonio Carlos Jobim",
+                "timezone": "America/Sao_Paulo",
+                "iata": "GIG",
+                "icao": "SBGL",
+                "terminal": "2",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-11-24T13:15:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "GOL",
+                "iata": "G3",
+                "icao": "GLO"
+            },
+            "flight": {
+                "number": "7609",
+                "iata": "G37609",
+                "icao": "GLO7609",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-11-24",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Aeroparque Jorge Newbery",
+                "timezone": "America/Argentina/Buenos_Aires",
+                "iata": "AEP",
+                "icao": "SABE",
+                "terminal": "1",
+                "gate": null,
+                "delay": 0,
+                "scheduled": "2026-11-24T10:20:00+00:00",
+                "estimated": "2026-11-24T10:20:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-11-24T10:20:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Galeao Antonio Carlos Jobim",
+                "timezone": "America/Sao_Paulo",
+                "iata": "GIG",
+                "icao": "SBGL",
+                "terminal": "2",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-11-24T13:15:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "TAP Air Portugal",
+                "iata": "TP",
+                "icao": "TAP"
+            },
+            "flight": {
+                "number": "5904",
+                "iata": "TP5904",
+                "icao": "TAP5904",
+                "codeshared": {
+                    "airline_name": "gol",
+                    "airline_iata": "g3",
+                    "airline_icao": "glo",
+                    "flight_number": "7609",
+                    "flight_iata": "g37609",
+                    "flight_icao": "glo7609"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-11-24",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Aeroparque Jorge Newbery",
+                "timezone": "America/Argentina/Buenos_Aires",
+                "iata": "AEP",
+                "icao": "SABE",
+                "terminal": "1",
+                "gate": null,
+                "delay": 0,
+                "scheduled": "2026-11-24T10:20:00+00:00",
+                "estimated": "2026-11-24T10:20:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-11-24T10:20:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Galeao Antonio Carlos Jobim",
+                "timezone": "America/Sao_Paulo",
+                "iata": "GIG",
+                "icao": "SBGL",
+                "terminal": "2",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-11-24T13:15:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "KLM",
+                "iata": "KL",
+                "icao": "KLM"
+            },
+            "flight": {
+                "number": "9347",
+                "iata": "KL9347",
+                "icao": "KLM9347",
+                "codeshared": {
+                    "airline_name": "gol",
+                    "airline_iata": "g3",
+                    "airline_icao": "glo",
+                    "flight_number": "7609",
+                    "flight_iata": "g37609",
+                    "flight_icao": "glo7609"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-11-24",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Aeroparque Jorge Newbery",
+                "timezone": "America/Argentina/Buenos_Aires",
+                "iata": "AEP",
+                "icao": "SABE",
+                "terminal": "1",
+                "gate": null,
+                "delay": 0,
+                "scheduled": "2026-11-24T10:20:00+00:00",
+                "estimated": "2026-11-24T10:20:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-11-24T10:20:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Galeao Antonio Carlos Jobim",
+                "timezone": "America/Sao_Paulo",
+                "iata": "GIG",
+                "icao": "SBGL",
+                "terminal": "2",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-11-24T13:15:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "avianca",
+                "iata": "AV",
+                "icao": "AVA"
+            },
+            "flight": {
+                "number": "6417",
+                "iata": "AV6417",
+                "icao": "AVA6417",
+                "codeshared": {
+                    "airline_name": "gol",
+                    "airline_iata": "g3",
+                    "airline_icao": "glo",
+                    "flight_number": "7609",
+                    "flight_iata": "g37609",
+                    "flight_icao": "glo7609"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-11-24",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Aeroparque Jorge Newbery",
+                "timezone": "America/Argentina/Buenos_Aires",
+                "iata": "AEP",
+                "icao": "SABE",
+                "terminal": "AA",
+                "gate": null,
+                "delay": 0,
+                "scheduled": "2026-11-24T10:15:00+00:00",
+                "estimated": "2026-11-24T10:15:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-11-24T10:15:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "El Plumerillo",
+                "timezone": "America/Argentina/Mendoza",
+                "iata": "MDZ",
+                "icao": "SAME",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-11-24T12:10:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "JetSMART",
+                "iata": "JA",
+                "icao": "JAT"
+            },
+            "flight": {
+                "number": "3080",
+                "iata": "JA3080",
+                "icao": "JAT3080",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-11-24",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Aeroparque Jorge Newbery",
+                "timezone": "America/Argentina/Buenos_Aires",
+                "iata": "AEP",
+                "icao": "SABE",
+                "terminal": "AA",
+                "gate": null,
+                "delay": 10,
+                "scheduled": "2026-11-24T10:15:00+00:00",
+                "estimated": "2026-11-24T10:15:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-11-24T10:25:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "El Plumerillo",
+                "timezone": "America/Argentina/Mendoza",
+                "iata": "MDZ",
+                "icao": "SAME",
+                "terminal": "C",
+                "gate": "1",
+                "baggage": null,
+                "scheduled": "2026-11-24T12:15:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Aerolineas Argentinas",
+                "iata": "AR",
+                "icao": "ARG"
+            },
+            "flight": {
+                "number": "1410",
+                "iata": "AR1410",
+                "icao": "ARG1410",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "E07583"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-11-24",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Aeroparque Jorge Newbery",
+                "timezone": "America/Argentina/Buenos_Aires",
+                "iata": "AEP",
+                "icao": "SABE",
+                "terminal": "AA",
+                "gate": null,
+                "delay": 10,
+                "scheduled": "2026-11-24T10:15:00+00:00",
+                "estimated": "2026-11-24T10:15:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-11-24T10:25:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "El Plumerillo",
+                "timezone": "America/Argentina/Mendoza",
+                "iata": "MDZ",
+                "icao": "SAME",
+                "terminal": "C",
+                "gate": "1",
+                "baggage": null,
+                "scheduled": "2026-11-24T12:15:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "LATAM Airlines",
+                "iata": "LA",
+                "icao": "LAN"
+            },
+            "flight": {
+                "number": "8371",
+                "iata": "LA8371",
+                "icao": "LAN8371",
+                "codeshared": {
+                    "airline_name": "aerolineas argentinas",
+                    "airline_iata": "ar",
+                    "airline_icao": "arg",
+                    "flight_number": "1410",
+                    "flight_iata": "ar1410",
+                    "flight_icao": "arg1410"
+                }
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "E07583"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-11-24",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Aeroparque Jorge Newbery",
+                "timezone": "America/Argentina/Buenos_Aires",
+                "iata": "AEP",
+                "icao": "SABE",
+                "terminal": "AA",
+                "gate": null,
+                "delay": 10,
+                "scheduled": "2026-11-24T10:15:00+00:00",
+                "estimated": "2026-11-24T10:15:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-11-24T10:25:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "El Plumerillo",
+                "timezone": "America/Argentina/Mendoza",
+                "iata": "MDZ",
+                "icao": "SAME",
+                "terminal": "C",
+                "gate": "1",
+                "baggage": null,
+                "scheduled": "2026-11-24T12:15:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "GOL",
+                "iata": "G3",
+                "icao": "GLO"
+            },
+            "flight": {
+                "number": "3090",
+                "iata": "G33090",
+                "icao": "GLO3090",
+                "codeshared": {
+                    "airline_name": "aerolineas argentinas",
+                    "airline_iata": "ar",
+                    "airline_icao": "arg",
+                    "flight_number": "1410",
+                    "flight_iata": "ar1410",
+                    "flight_icao": "arg1410"
+                }
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "E07583"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-11-24",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "San Andres Island",
+                "timezone": "America/Bogota",
+                "iata": "ADZ",
+                "icao": "SKSP",
+                "terminal": null,
+                "gate": null,
+                "delay": 11,
+                "scheduled": "2026-11-24T08:40:00+00:00",
+                "estimated": "2026-11-24T08:40:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-11-24T08:51:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Jose Maria Cordova",
+                "timezone": "America/Bogota",
+                "iata": "MDE",
+                "icao": "SKRG",
+                "terminal": null,
+                "gate": "3A",
+                "baggage": null,
+                "scheduled": "2026-11-24T10:25:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "LATAM Airlines",
+                "iata": "LA",
+                "icao": "LAN"
+            },
+            "flight": {
+                "number": "4317",
+                "iata": "LA4317",
+                "icao": "LAN4317",
+                "codeshared": null
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "E80435"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-11-24",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "San Andres Island",
+                "timezone": "America/Bogota",
+                "iata": "ADZ",
+                "icao": "SKSP",
+                "terminal": null,
+                "gate": null,
+                "delay": 11,
+                "scheduled": "2026-11-24T08:40:00+00:00",
+                "estimated": "2026-11-24T08:40:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-11-24T08:51:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Jose Maria Cordova",
+                "timezone": "America/Bogota",
+                "iata": "MDE",
+                "icao": "SKRG",
+                "terminal": null,
+                "gate": "3A",
+                "baggage": null,
+                "scheduled": "2026-11-24T10:25:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Aeromexico",
+                "iata": "AM",
+                "icao": "AMX"
+            },
+            "flight": {
+                "number": "8754",
+                "iata": "AM8754",
+                "icao": "AMX8754",
+                "codeshared": {
+                    "airline_name": "latam airlines",
+                    "airline_iata": "la",
+                    "airline_icao": "lan",
+                    "flight_number": "4317",
+                    "flight_iata": "la4317",
+                    "flight_icao": "lan4317"
+                }
+            },
+            "aircraft": {
+                "registration": null,
+                "iata": null,
+                "icao": null,
+                "icao24": "E80435"
+            },
+            "live": null
+        },
+        {
+            "flight_date": "2026-11-24",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "San Andres Island",
+                "timezone": "America/Bogota",
+                "iata": "ADZ",
+                "icao": "SKSP",
+                "terminal": null,
+                "gate": null,
+                "delay": 0,
+                "scheduled": "2026-11-24T08:40:00+00:00",
+                "estimated": "2026-11-24T08:40:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-11-24T08:40:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "El Nuevo Dorado International",
+                "timezone": "America/Bogota",
+                "iata": "BOG",
+                "icao": "SKBO",
+                "terminal": "1",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-11-24T10:45:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "avianca",
+                "iata": "AV",
+                "icao": "AVA"
+            },
+            "flight": {
+                "number": "9445",
+                "iata": "AV9445",
+                "icao": "AVA9445",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-11-24",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "San Andres Island",
+                "timezone": "America/Bogota",
+                "iata": "ADZ",
+                "icao": "SKSP",
+                "terminal": null,
+                "gate": null,
+                "delay": 0,
+                "scheduled": "2026-11-24T08:40:00+00:00",
+                "estimated": "2026-11-24T08:40:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-11-24T08:40:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "El Nuevo Dorado International",
+                "timezone": "America/Bogota",
+                "iata": "BOG",
+                "icao": "SKBO",
+                "terminal": "1",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-11-24T10:45:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "GOL",
+                "iata": "G3",
+                "icao": "GLO"
+            },
+            "flight": {
+                "number": "6678",
+                "iata": "G36678",
+                "icao": "GLO6678",
+                "codeshared": {
+                    "airline_name": "avianca",
+                    "airline_iata": "av",
+                    "airline_icao": "ava",
+                    "flight_number": "9445",
+                    "flight_iata": "av9445",
+                    "flight_icao": "ava9445"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2026-11-24",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Aden International Airport",
+                "timezone": "Asia/Aden",
+                "iata": "ADE",
+                "icao": "OYAA",
+                "terminal": null,
+                "gate": null,
+                "delay": 0,
+                "scheduled": "2026-11-24T16:30:00+00:00",
+                "estimated": "2026-11-24T16:30:00+00:00",
+                "actual": null,
+                "estimated_runway": "2026-11-24T06:10:00+00:00",
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Cairo International Airport",
+                "timezone": "Africa/Cairo",
+                "iata": "CAI",
+                "icao": "HECA",
+                "terminal": "1",
+                "gate": null,
+                "baggage": null,
+                "scheduled": "2026-11-24T19:00:00+00:00",
+                "delay": null,
+                "estimated": null,
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Yemenia",
+                "iata": "IY",
+                "icao": "IYE"
+            },
+            "flight": {
+                "number": "602",
+                "iata": "IY602",
+                "icao": "IYE602",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        }
+    ]
+}
